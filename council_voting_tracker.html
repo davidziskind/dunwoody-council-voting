@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunwoody City Council - Voting Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .disclaimer {
+            background: rgba(255, 243, 205, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid #f6ad55;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #744210;
+        }
+
+        .disclaimer a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .disclaimer a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #4a5568;
+            margin-bottom: 1rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border-radius: 12px;
+            min-width: 120px;
+            box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .attendance-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .attendance-section h2 {
+            font-size: 1.8rem;
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .attendance-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            overflow-x: auto;
+            display: block;
+            white-space: nowrap;
+        }
+
+        .attendance-table thead,
+        .attendance-table tbody {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .attendance-table th,
+        .attendance-table td {
+            padding: 0.8rem;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+            width: calc(100% / 8);
+        }
+
+        .attendance-table th {
+            background: #f7fafc;
+            font-weight: 600;
+            color: #2d3748;
+            position: sticky;
+            top: 0;
+        }
+
+        .attendance-table th:first-child,
+        .attendance-table td:first-child {
+            width: 120px;
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .attendance-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .present {
+            background: #48bb78;
+        }
+
+        .zoom {
+            background: #4299e1;
+        }
+
+        .absent {
+            background: #f56565;
+        }
+
+        .attendance-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .summary-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .summary-name {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary-stats {
+            font-size: 0.9rem;
+            color: #4a5568;
+        }
+
+        .attendance-rate {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        .rate-excellent {
+            color: #48bb78;
+        }
+
+        .rate-good {
+            color: #4299e1;
+        }
+
+        .rate-poor {
+            color: #f56565;
+        }
+
+        .meeting-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .meeting-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .meeting-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .meeting-date {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .meeting-status {
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .status-completed {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+        }
+
+        .status-upcoming {
+            background: linear-gradient(135deg, #ed8936, #dd6b20);
+            color: white;
+        }
+
+        .meeting-attendance {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .attendance-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+
+        .attendance-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .attendance-member {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.3rem 0.6rem;
+            background: white;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .motion-item {
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .motion-item:hover {
+            background: #edf2f7;
+            transform: translateX(5px);
+        }
+
+        .motion-item.passed {
+            border-left-color: #48bb78;
+        }
+
+        .motion-item.failed {
+            border-left-color: #f56565;
+        }
+
+        .motion-item.tabled {
+            border-left-color: #ed8936;
+        }
+
+        .motion-meta {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .motion-description {
+            color: #4a5568;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .voting-results {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .vote-summary {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .vote-count {
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .vote-yes {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .vote-no {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .vote-abstain {
+            background: #feebc8;
+            color: #744210;
+        }
+
+        .motion-result {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .result-passed {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .result-failed {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .result-tabled {
+            background: #feebc8;
+            color: #744210;
+        }
+
+        .council-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .member-vote {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0.8rem;
+            background: white;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .member-name {
+            font-weight: 500;
+            color: #2d3748;
+        }
+
+        .vote-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .vote-yes-indicator {
+            background: #48bb78;
+        }
+
+        .vote-no-indicator {
+            background: #f56565;
+        }
+
+        .vote-abstain-indicator {
+            background: #ed8936;
+        }
+
+        .search-filter {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-input, .filter-select {
+            padding: 0.8rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+        .search-input:focus, .filter-select:focus {
+            outline: none;
+            border-color: #4facfe;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .stats-bar {
+                gap: 1rem;
+            }
+
+            .stat-item {
+                min-width: 100px;
+                padding: 0.8rem;
+            }
+
+            .meeting-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .voting-results {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .vote-summary {
+                width: 100%;
+            }
+
+            .attendance-table {
+                font-size: 0.8rem;
+            }
+
+            .attendance-summary {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: #4a5568;
+            font-style: italic;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This site is a personal project of David Ziskind and is not affiliated with the City of Dunwoody. The data is aggregated from city council meeting minutes. Due to factors including revised minutes and human error, this data is not guaranteed, and you should verify it by viewing the official meeting minutes available <a href="https://www.dunwoodyga.gov/government/agendas-and-minutes" target="_blank">here</a>. Please bring any errors to my attention to be addressed promptly.</p>
+        </div>
+
+        <header>
+            <div class="header-content">
+                <h1>Dunwoody City Council</h1>
+                <p class="subtitle">Voting Transparency Dashboard</p>
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Meetings</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">13</span>
+                        <span class="stat-label">Motions</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="attendance-section">
+            <h2>Attendance Summary</h2>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="attendance-indicator present">P</div>
+                    <span>Present</span>
+                </div>
+                <div class="legend-item">
+                    <div class="attendance-indicator zoom">Z</div>
+                    <span>Zoom</span>
+                </div>
+                <div class="legend-item">
+                    <div class="attendance-indicator absent">A</div>
+                    <span>Absent</span>
+                </div>
+            </div>
+            
+            <div style="overflow-x: auto;">
+                <table class="attendance-table" id="attendanceTable">
+                    <thead>
+                        <tr>
+                            <th>Member</th>
+                            <!-- Meeting dates will be auto-generated -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Attendance data will be auto-generated -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="attendance-summary" id="attendanceSummary">
+                <!-- Summary cards will be auto-generated -->
+            </div>
+        </div>
+
+        <div class="search-filter">
+            <div class="filter-controls">
+                <input type="text" class="search-input" placeholder="Search motions, descriptions, or council members..." id="searchInput">
+                <select class="filter-select" id="statusFilter">
+                    <option value="">All Results</option>
+                    <option value="passed">Passed</option>
+                    <option value="failed">Failed</option>
+                    <option value="tabled">Tabled</option>
+                </select>
+                <select class="filter-select" id="memberFilter">
+                    <option value="">All Members</option>
+                </select>
+                <select class="filter-select" id="dateFilter">
+                    <option value="">All Dates</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="meetingsContainer">
+            <!-- Content will be auto-generated from the data below -->
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // EASY UPDATE SECTION - EDIT THIS DATA ONLY!
+        // ============================================
+        
+        const councilMembers = [
+            "Mayor Deutsch",
+            "Harris", 
+            "Heneghan",
+            "Lambert", 
+            "Lautenbacher",
+            "Price",
+            "Seconder"
+        ];
+
+        const meetingsData = [
+            {
+                date: "July 28, 2025",
+                status: "completed",
+                attendance: {
+                    "Mayor Deutsch": "present",
+                    "Harris": "present", 
+                    "Heneghan": "present",
+                    "Lambert": "present", 
+                    "Lautenbacher": "present",
+                    "Price": "present",
+                    "Seconder": "present"
+                },
+                motions: [
+                    {
+                        title: "Motion to Remove Language on Neighborhood Transition Opportunities (Heneghan Amendment)",
+                        description: "Motion to remove all language on neighborhood transition opportunities listed on page 80 mentioned as opportunities in the community agenda and all other sections from the Comprehensive Plan.",
+                        votes: ["yes", "no", "yes", "no", "no", "no", "no"],
+                        result: "failed"
+                    },
+                    {
+                        title: "Motion to Remove North Peachtree Road from Neighborhood Transition Opportunities",
+                        description: "Amendment to pull and strike North Peachtree Road from page 80 with all regards to the neighborhood transition opportunities in the Comprehensive Plan.",
+                        votes: ["yes", "no", "yes", "no", "no", "no", "no"],
+                        result: "failed"
+                    },
+                    {
+                        title: "Perimeter Character Area Amendment - Move Uses to Yellow Category",
+                        description: "Amendment to move senior/assisted living, multi-unit, mixed use, and regional commercial to the yellow category and move small lot residential to yellow with appropriate consideration.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Perimeter Character Area - MARTA TOD Language Amendment",
+                        description: "Amendment to rewrite the first bullet under projects and initiatives to read 'Work with PCID and MARTA to implement appropriate transit-oriented development on Dunwoody MARTA Station property.'",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Motion to Remove Brook Run Character Area from Document",
+                        description: "Amendment to remove the Brook Run character area section from the Comprehensive Plan document.",
+                        votes: ["yes", "no", "no", "yes", "no", "yes", "no"],
+                        result: "failed"
+                    },
+                    {
+                        title: "Final Motion to Submit Comprehensive Plan as Amended",
+                        description: "Motion to submit the Comprehensive Plan as amended to the Atlanta Regional Commission and the Georgia Department of Community Affairs for review.",
+                        votes: ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Consent Agenda Approval",
+                        description: "Approval of July 14, 2025 meeting minutes, construction contract for Old Springhouse Lane Path, and Municipal Court Probation Services Contract Renewal.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Holiday HQ Proposal",
+                        description: "Approval of Holiday HQ proposal with a financial commitment from the city of $25,000 for a collaborative project with Discover Dunwoody and the PCIDs.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    }
+                ]
+            },
+            {
+                date: "July 14, 2025",
+                status: "completed",
+                attendance: {
+                    "Mayor Deutsch": "present",
+                    "Harris": "present", 
+                    "Heneghan": "present",
+                    "Lambert": "zoom", 
+                    "Lautenbacher": "present",
+                    "Price": "present",
+                    "Seconder": "present"
+                },
+                motions: [
+                    {
+                        title: "Consent Agenda Approval (as amended)",
+                        description: "Approval of June 16 and June 30, 2025 meeting minutes, Resolution for Amicus Brief in Chang v. City Milton Appeal, Resolution for DeKalb County Board to conduct elections, and Resolution appointing Planning Commission members.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Contract Extension with Triscapes for Road and Stormwater Maintenance",
+                        description: "Approval of contract extension with Triscapes for road and stormwater maintenance services.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Dunwoody Cultural Arts Center HVAC Replacement",
+                        description: "Award contract to Addison Smith Mechanical Contractors in the amount of $233,101 for HVAC roof top unit replacement at the Dunwoody Cultural Arts Center, using General Capital Project Fund as funding source.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Resolution for Shared Police SWAT Equipment Vehicle MOU",
+                        description: "Authorization of Memorandum of Understanding for a police SWAT equipment vehicle to be shared with the cities of Brookhaven, Chamblee, and Doraville.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    },
+                    {
+                        title: "Approval of Purchase for Axon Equipment",
+                        description: "Purchase of four additional Axon fleet cameras, ten body worn cameras, and ten extra Taser 7s for the Police Department.",
+                        votes: ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+                        result: "passed"
+                    }
+                ]
+            },
+            {
+                date: "August 25, 2025",
+                status: "upcoming",
+                attendance: {},
+                motions: []
+            },
+            {
+                date: "September 8, 2025",
+                status: "upcoming",
+                attendance: {},
+                motions: []
+            }
+        ];
+
+        // ============================================
+        // END EASY UPDATE SECTION
+        // ============================================
+
+        // Calculate attendance statistics
+        function calculateAttendanceStats() {
+            const completedMeetings = meetingsData.filter(m => m.status === "completed");
+            const memberStats = {};
+            
+            councilMembers.forEach(member => {
+                memberStats[member] = {
+                    present: 0,
+                    zoom: 0,
+                    absent: 0,
+                    total: completedMeetings.length
+                };
+            });
+
+            completedMeetings.forEach(meeting => {
+                councilMembers.forEach(member => {
+                    const status = meeting.attendance[member] || "absent";
+                    memberStats[member][status]++;
+                });
+            });
+
+            return memberStats;
+        }
+
+        // Calculate overall attendance rate
+        function calculateOverallAttendanceRate() {
+            const completedMeetings = meetingsData.filter(m => m.status === "completed");
+            if (completedMeetings.length === 0) return 0;
+            
+            let totalAttended = 0;
+            let totalPossible = 0;
+            
+            completedMeetings.forEach(meeting => {
+                councilMembers.forEach(member => {
+                    const status = meeting.attendance[member] || "absent";
+                    if (status === "present" || status === "zoom") {
+                        totalAttended++;
+                    }
+                    totalPossible++;
+                });
+            });
+            
+            return Math.round((totalAttended / totalPossible) * 100);
+        }
+
+        // Generate attendance table
+        function generateAttendanceTable() {
+            const table = document.getElementById('attendanceTable');
+            const completedMeetings = meetingsData.filter(m => m.status === "completed");
+            
+            // Generate header
+            const header = table.querySelector('thead tr');
+            header.innerHTML = '<th>Member</th>';
+            completedMeetings.forEach(meeting => {
+                const th = document.createElement('th');
+                th.textContent = meeting.date.split(',')[0]; // Just the date part
+                header.appendChild(th);
+            });
+
+            // Generate body
+            const tbody = table.querySelector('tbody');
+            tbody.innerHTML = '';
+            
+            councilMembers.forEach(member => {
+                const row = document.createElement('tr');
+                const nameCell = document.createElement('td');
+                nameCell.textContent = member;
+                row.appendChild(nameCell);
+                
+                completedMeetings.forEach(meeting => {
+                    const cell = document.createElement('td');
+                    const status = meeting.attendance[member] || "absent";
+                    const indicator = document.createElement('div');
+                    indicator.className = `attendance-indicator ${status}`;
+                    indicator.textContent = status === "present" ? "P" : status === "zoom" ? "Z" : "A";
+                    cell.appendChild(indicator);
+                    row.appendChild(cell);
+                });
+                
+                tbody.appendChild(row);
+            });
+        }
+
+        // Generate attendance summary
+        function generateAttendanceSummary() {
+            const memberStats = calculateAttendanceStats();
+            const summaryContainer = document.getElementById('attendanceSummary');
+            summaryContainer.innerHTML = '';
+            
+            councilMembers.forEach(member => {
+                const stats = memberStats[member];
+                const attendanceRate = stats.total > 0 ? 
+                    Math.round(((stats.present + stats.zoom) / stats.total) * 100) : 0;
+                
+                const card = document.createElement('div');
+                card.className = 'summary-card';
+                
+                let rateClass = 'rate-excellent';
+                if (attendanceRate < 90) rateClass = 'rate-good';
+                if (attendanceRate < 75) rateClass = 'rate-poor';
+                
+                card.innerHTML = `
+                    <div class="summary-name">${member}</div>
+                    <div class="summary-stats">
+                        Present: ${stats.present} | Zoom: ${stats.zoom} | Absent: ${stats.absent}
+                    </div>
+                    <div class="attendance-rate ${rateClass}">
+                        ${attendanceRate}%
+                    </div>
+                `;
+                
+                summaryContainer.appendChild(card);
+            });
+        }
+
+        // Auto-generate statistics
+        function calculateStats() {
+            const completedMeetings = meetingsData.filter(m => m.status === "completed").length;
+            const totalMotions = meetingsData.reduce((sum, meeting) => sum + meeting.motions.length, 0);
+            
+            return {
+                meetings: meetingsData.length,
+                motions: totalMotions
+            };
+        }
+
+        // Auto-generate the HTML content
+        function generateMeetingsHTML() {
+            const stats = calculateStats();
+            
+            // Update stats
+            document.querySelector('.stat-item:nth-child(1) .stat-number').textContent = stats.meetings;
+            document.querySelector('.stat-item:nth-child(2) .stat-number').textContent = stats.motions;
+            
+            // Generate attendance components
+            generateAttendanceTable();
+            generateAttendanceSummary();
+            
+            // Populate member filter dropdown
+            const memberFilter = document.getElementById('memberFilter');
+            memberFilter.innerHTML = '<option value="">All Members</option>';
+            councilMembers.forEach(member => {
+                const option = document.createElement('option');
+                option.value = member.toLowerCase();
+                option.textContent = member;
+                memberFilter.appendChild(option);
+            });
+            
+            // Generate meetings HTML
+            const meetingsContainer = document.getElementById('meetingsContainer');
+            meetingsContainer.innerHTML = '';
+            
+            meetingsData.forEach(meeting => {
+                const meetingDiv = document.createElement('div');
+                meetingDiv.className = 'meeting-section';
+                
+                const statusClass = meeting.status === 'completed' ? 'status-completed' : 'status-upcoming';
+                const statusText = meeting.status === 'completed' ? 'Completed' : 'Upcoming';
+                
+                // Generate attendance display for completed meetings
+                let attendanceHTML = '';
+                if (meeting.status === 'completed' && Object.keys(meeting.attendance).length > 0) {
+                    const attendanceList = councilMembers.map(member => {
+                        const status = meeting.attendance[member] || "absent";
+                        const indicator = `<div class="attendance-indicator ${status}">${status === "present" ? "P" : status === "zoom" ? "Z" : "A"}</div>`;
+                        return `<div class="attendance-member">${indicator} ${member}</div>`;
+                    }).join('');
+                    
+                    attendanceHTML = `
+                        <div class="meeting-attendance">
+                            <div class="attendance-title">Attendance</div>
+                            <div class="attendance-list">
+                                ${attendanceList}
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                let motionsHTML = '';
+                
+                if (meeting.status === 'upcoming' || meeting.motions.length === 0) {
+                    motionsHTML = `
+                        <div style="text-align: center; padding: 2rem; color: #4a5568; font-style: italic;">
+                            Voting results will generally be updated within a few days of when the meeting minutes are posted on the City of Dunwoody website.
+                        </div>
+                    `;
+                } else {
+                    meeting.motions.forEach(motion => {
+                        const voteCount = {
+                            yes: motion.votes.filter(v => v === 'yes').length,
+                            no: motion.votes.filter(v => v === 'no').length,
+                            abstain: motion.votes.filter(v => v === 'abstain').length
+                        };
+                        
+                        let resultText = motion.result.toUpperCase();
+                        if (voteCount.yes === councilMembers.length) resultText = 'UNANIMOUS';
+                        
+                        const membersHTML = councilMembers.map((member, index) => {
+                            const vote = motion.votes[index];
+                            const indicatorClass = `vote-${vote}-indicator`;
+                            return `
+                                <div class="member-vote" data-member="${member.toLowerCase()}" data-vote="${vote}">
+                                    <span class="member-name">${member}</span>
+                                    <span class="vote-indicator ${indicatorClass}"></span>
+                                </div>
+                            `;
+                        }).join('');
+                        
+                        motionsHTML += `
+                            <div class="motion-item ${motion.result}" data-motion-members="${councilMembers.map((member, index) => `${member.toLowerCase()}:${motion.votes[index]}`).join(',')}">
+                                <div class="motion-title">${motion.title}</div>
+                                ${motion.introducedBy ? `<div class="motion-meta">Introduced by: ${motion.introducedBy}${motion.secondedBy ? ` • Seconded by: ${motion.secondedBy}` : ''}</div>` : ''}
+                                <div class="motion-description">${motion.description}</div>
+                                <div class="voting-results">
+                                    <div class="vote-summary">
+                                        <div class="vote-count vote-yes">Yes: ${voteCount.yes}</div>
+                                        <div class="vote-count vote-no">No: ${voteCount.no}</div>
+                                        <div class="vote-count vote-abstain">Abstain: ${voteCount.abstain}</div>
+                                    </div>
+                                    <div class="motion-result result-${motion.result}">${resultText}</div>
+                                </div>
+                                <div class="council-members">
+                                    ${membersHTML}
+                                </div>
+                            </div>
+                        `;
+                    });
+                }
+                
+                meetingDiv.innerHTML = `
+                    <div class="meeting-header">
+                        <div class="meeting-date">${meeting.date}</div>
+                        <div class="meeting-status ${statusClass}">${statusText}</div>
+                    </div>
+                    ${attendanceHTML}
+                    ${motionsHTML}
+                `;
+                
+                meetingsContainer.appendChild(meetingDiv);
+            });
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            generateMeetingsHTML();
+        });
+
+        // Search and filter functionality
+        const searchInput = document.getElementById('searchInput');
+        const statusFilter = document.getElementById('statusFilter');
+        const memberFilter = document.getElementById('memberFilter');
+        const dateFilter = document.getElementById('dateFilter');
+        const meetingsContainer = document.getElementById('meetingsContainer');
+
+        function filterMeetings() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const statusValue = statusFilter.value;
+            const memberValue = memberFilter.value;
+            const dateValue = dateFilter.value;
+            
+            const meetings = meetingsContainer.querySelectorAll('.meeting-section');
+            let visibleCount = 0;
+
+            meetings.forEach(meeting => {
+                const meetingDate = meeting.querySelector('.meeting-date').textContent;
+                const motions = meeting.querySelectorAll('.motion-item');
+                let meetingHasVisibleMotions = false;
+
+                // Check if meeting date matches filter
+                const dateMatch = !dateValue || meetingDate.includes(dateValue);
+                
+                if (!dateMatch) {
+                    meeting.style.display = 'none';
+                    return;
+                }
+
+                motions.forEach(motion => {
+                    const title = motion.querySelector('.motion-title').textContent.toLowerCase();
+                    const description = motion.querySelector('.motion-description').textContent.toLowerCase();
+                    const members = Array.from(motion.querySelectorAll('.member-name')).map(m => m.textContent.toLowerCase());
+                    
+                    // Get motion status
+                    let motionStatus = '';
+                    if (motion.classList.contains('passed')) motionStatus = 'passed';
+                    else if (motion.classList.contains('failed')) motionStatus = 'failed';
+                    else if (motion.classList.contains('tabled')) motionStatus = 'tabled';
+
+                    // Check member filter - if a specific member is selected, only show motions where that member voted
+                    let memberMatch = true;
+                    if (memberValue) {
+                        const motionMembers = motion.getAttribute('data-motion-members');
+                        memberMatch = motionMembers && motionMembers.includes(memberValue + ':');
+                    }
+
+                    // Check other filters
+                    const searchMatch = !searchTerm || 
+                        title.includes(searchTerm) || 
+                        description.includes(searchTerm) || 
+                        members.some(member => member.includes(searchTerm));
+                    
+                    const statusMatch = !statusValue || motionStatus === statusValue;
+
+                    if (searchMatch && statusMatch && memberMatch) {
+                        motion.style.display = 'block';
+                        meetingHasVisibleMotions = true;
+                        
+                        // Highlight the filtered member if applicable
+                        if (memberValue) {
+                            const memberVotes = motion.querySelectorAll('.member-vote');
+                            memberVotes.forEach(memberVote => {
+                                const memberName = memberVote.getAttribute('data-member');
+                                if (memberName === memberValue) {
+                                    memberVote.style.background = '#e6fffa';
+                                    memberVote.style.borderRadius = '8px';
+                                    memberVote.style.border = '2px solid #38b2ac';
+                                } else {
+                                    memberVote.style.background = 'white';
+                                    memberVote.style.border = 'none';
+                                }
+                            });
+                        } else {
+                            // Reset highlighting when no member filter
+                            const memberVotes = motion.querySelectorAll('.member-vote');
+                            memberVotes.forEach(memberVote => {
+                                memberVote.style.background = 'white';
+                                memberVote.style.border = 'none';
+                            });
+                        }
+                    } else {
+                        motion.style.display = 'none';
+                    }
+                });
+
+                // Show/hide meeting based on whether it has visible motions
+                if (meetingHasVisibleMotions || meeting.querySelector('.status-upcoming')) {
+                    meeting.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    meeting.style.display = 'none';
+                }
+            });
+
+            // Show "no results" message if no meetings are visible
+            let noResultsMsg = document.querySelector('.no-results');
+            if (visibleCount === 0 && (searchTerm || statusValue || memberValue || dateValue)) {
+                if (!noResultsMsg) {
+                    noResultsMsg = document.createElement('div');
+                    noResultsMsg.className = 'no-results';
+                    noResultsMsg.innerHTML = '<h3>No results found</h3><p>Try adjusting your search terms or filters.</p>';
+                    meetingsContainer.appendChild(noResultsMsg);
+                }
+            } else if (noResultsMsg) {
+                noResultsMsg.remove();
+            }
+        }
+
+        // Add event listeners
+        searchInput.addEventListener('input', filterMeetings);
+        statusFilter.addEventListener('change', filterMeetings);
+        memberFilter.addEventListener('change', filterMeetings);
+        dateFilter.addEventListener('change', filterMeetings);
+
+        // Add smooth scrolling and hover effects
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                document.querySelectorAll('.motion-item').forEach(item => {
+                    item.addEventListener('mouseenter', function() {
+                        this.style.transform = 'translateX(5px) scale(1.01)';
+                    });
+                    
+                    item.addEventListener('mouseleave', function() {
+                        this.style.transform = 'translateX(0) scale(1)';
+                    });
+                });
+            }, 500);
+        });
+
+        // Animate stats on page load
+        window.addEventListener('load', () => {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                const finalValue = stat.textContent.includes('%') ? 
+                    parseInt(stat.textContent.replace('%', '')) : 
+                    parseInt(stat.textContent);
+                let currentValue = 0;
+                const increment = finalValue / 50;
+                const hasPercent = stat.textContent.includes('%');
+                
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        stat.textContent = finalValue + (hasPercent ? '%' : '');
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(currentValue) + (hasPercent ? '%' : '');
+                    }
+                }, 20);
+            });
+        });
+    </script>
+</body>
+</html>
