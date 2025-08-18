@@ -1,0 +1,88 @@
+{
+    "date": "June 16, 2025",
+    "status": "completed", 
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present", 
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Item #11 to Business Items",
+            "description": "Motion to move item #11 (Funding Authorization for Stormwater Construction for Wildcat Learning Center) from consent agenda to business items.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended", 
+            "description": "Approval of consent agenda including May meeting minutes, board appointments, Donaldson-Bannister Farm renovations, streambank stabilization project, and elevator maintenance services.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Stormwater Construction for Wildcat Learning Center",
+            "description": "Authorization for stormwater construction project at Wildcat Learning Center.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorization to Submit Safe Streets for All Grant",
+            "description": "Authorization to submit Safe Streets for All Grant for safety assessments on High Injury Network with local match of $50,000.",
+            "introducedBy": "Price", 
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Make Brook Run Park Veterans Memorial Discussion Item an Action Item",
+            "description": "Motion to convert discussion item #15 (Brook Run Park Veterans Memorial) to a business/action item.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["no", "yes", "no", "yes", "yes", "no", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Brook Run Park Veterans Memorial Project Approval",
+            "description": "Approval of Option 2 with budget amendment for Brook Run Park Veterans Memorial project, subject to final legal review.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher", 
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for purpose of real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher", 
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2025 Millage Rate",
+            "description": "Second of three required public hearings for proposed 2025 millage rate of 3.040 mills. One speaker in favor (Zacharey Humphries), one in opposition (Bob Hickey) who urged reducing rate to 2.08 mills.",
+            "presenter": "Delisha Robinson",
+            "proposedRate": "3.040 mills", 
+            "recommendation": "Staff recommends adoption of rate of 3.040 mills at June 30 public hearing"
+        }
+    ]
+}
