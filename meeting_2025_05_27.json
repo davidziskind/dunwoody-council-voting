@@ -1,0 +1,47 @@
+{
+    "date": "May 27, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "absent",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of May 12, 2025 meeting minutes and allocation of additional Local Maintenance and Improvement Grant (LMIG) funds.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Sunbelt Traffic Signal Pole Replacement",
+            "description": "Authorization of funding for Sunbelt Traffic to replace the signal pole on the southeast corner of Perimeter Center Parkway and Hammond Drive in the amount of $90,950 plus 10% contingency.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for personnel and legal discussion.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

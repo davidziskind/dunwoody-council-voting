@@ -1,0 +1,47 @@
+{
+    "date": "May 12, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "absent",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of April 28, 2025 meeting minutes, second read ordinance to amend Chapter 6 to promote adoption of rescue animals, and funding authorization for stormwater repairs at 4836 Summerford Dr.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment of City Position Allocation and Compensation Chart",
+            "description": "Approval of amendment to increase all City salary ranges by 4.9% effective July 1, 2025 to avoid compression issues with market adjustment implementation.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorization of Permanent Easement to Lake Ridge, LLC",
+            "description": "Authorization of a permanent easement to Lake Ridge, LLC for pond maintenance.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lautenbacher",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "date": "April 28, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of April 14, 2025 meeting minutes and consideration of additional services to be rendered by TSW for Direction Dunwoody Comprehensive Plan.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment for Final Design Winters Chapel Path Phase 2",
+            "description": "Approval of contract amendment with Practical Design Partners for final design in amount not to exceed $782,094.11.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Project Framework Agreement with Georgia Department of Transportation",
+            "description": "Approval of project framework agreement with GDOT for Winters Chapel Path Phase 2 to receive federal funding for design.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Path between Eidson Road and Cherry Hill Lane",
+            "description": "Award contract to Hasbun Construction, LLC in amount of $216,436 plus 10% contingency to construct 10-foot wide shared-use path.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Guaranteed Maximum Price Contract for Brook Run Park Maintenance Facility",
+            "description": "Approval of guaranteed maximum price contract with Moeller Purcell to construct new maintenance facility at Brook Run Park in amount of $3,787,000 including $335,000 contingency.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["no", "yes", "no", "yes", "yes", "yes", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "Renewal of Property & Liability Insurance with GIRMA",
+            "description": "Approval of property and liability insurance renewal with GIRMA in amount of $757,019 (8.4% increase from 2024).",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "6-month Trial Agreement with Flock Safety",
+            "description": "Approval of 6-month trial agreement with Flock Safety in amount of $100,000 with opt-out policy included in contract.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "HB92 Option 2 - Non-certification of Estimated Roll-back Rate",
+            "description": "Approval of Option 2 to take no action (non-certification of an estimated roll-back rate) as most transparent approach.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for legal and personnel discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}
