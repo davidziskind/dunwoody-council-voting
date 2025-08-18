@@ -1,0 +1,79 @@
+{
+    "date": "July 28, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present", 
+        "Heneghan": "present",
+        "Lambert": "present", 
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Motion to Remove Language on Neighborhood Transition Opportunities (Heneghan Amendment)",
+            "description": "Motion to remove all language on neighborhood transition opportunities listed on page 80 mentioned as opportunities in the community agenda and all other sections from the Comprehensive Plan.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Mayor Deutsch",
+            "votes": ["yes", "no", "yes", "no", "no", "no", "no"],
+            "result": "failed"
+        },
+        {
+            "title": "Motion to Remove North Peachtree Road from Neighborhood Transition Opportunities",
+            "description": "Amendment to pull and strike North Peachtree Road from page 80 with all regards to the neighborhood transition opportunities in the Comprehensive Plan.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Mayor Deutsch",
+            "votes": ["yes", "no", "yes", "no", "no", "no", "no"],
+            "result": "failed"
+        },
+        {
+            "title": "Perimeter Character Area Amendment - Move Uses to Yellow Category",
+            "description": "Amendment to move senior/assisted living, multi-unit, mixed use, and regional commercial to the yellow category and move small lot residential to yellow with appropriate consideration.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Perimeter Character Area - MARTA TOD Language Amendment",
+            "description": "Amendment to rewrite the first bullet under projects and initiatives to read 'Work with PCID and MARTA to implement appropriate transit-oriented development on Dunwoody MARTA Station property.'",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Remove Brook Run Character Area from Document",
+            "description": "Amendment to remove the Brook Run character area section from the Comprehensive Plan document.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Mayor Deutsch",
+            "votes": ["yes", "no", "no", "yes", "no", "yes", "no"],
+            "result": "failed"
+        },
+        {
+            "title": "Final Motion to Submit Comprehensive Plan as Amended",
+            "description": "Motion to submit the Comprehensive Plan as amended to the Atlanta Regional Commission and the Georgia Department of Community Affairs for review.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of July 14, 2025 meeting minutes, construction contract for Old Springhouse Lane Path, and Municipal Court Probation Services Contract Renewal.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Holiday HQ Proposal",
+            "description": "Approval of Holiday HQ proposal with a financial commitment from the city of $25,000 for a collaborative project with Discover Dunwoody and the PCIDs.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

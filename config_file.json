@@ -1,0 +1,20 @@
+{
+    "councilMembers": [
+        "Mayor Deutsch",
+        "Harris", 
+        "Heneghan",
+        "Lambert", 
+        "Lautenbacher",
+        "Price",
+        "Seconder"
+    ],
+    "meetingFiles": [
+        "meetings/2025-07-28.json",
+        "meetings/2025-08-25.json", 
+        "meetings/2025-09-08.json"
+    ],
+    "siteName": "Dunwoody City Council",
+    "siteSubtitle": "Voting Transparency Dashboard",
+    "disclaimerText": "This site is a personal project of David Ziskind and is not affiliated with the City of Dunwoody. The data is aggregated from city council meeting minutes. Due to factors including revised minutes and human error, this data is not guaranteed, and you should verify it by viewing the official meeting minutes available",
+    "officialMinutesUrl": "https://www.dunwoodyga.gov/government/agendas-and-minutes"
+}
