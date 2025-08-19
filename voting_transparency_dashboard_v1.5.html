@@ -915,3 +915,306 @@
                 
                 let statusClass, statusText;
                 if (meeting.status === 'completed') {
+                    statusClass = 'status-completed';
+                    statusText = 'Completed';
+                } else if (meeting.status === 'missing' || meeting._isPlaceholder) {
+                    statusClass = 'status-missing';
+                    statusText = 'Data Missing';
+                } else {
+                    statusClass = 'status-upcoming';
+                    statusText = 'Upcoming';
+                }
+                
+                let attendanceHTML = '';
+                if (meeting.status === 'completed' && meeting.attendance && Object.keys(meeting.attendance).length > 0) {
+                    const attendanceList = this.councilMembers.map(member => {
+                        const status = meeting.attendance[member] || "absent";
+                        let indicatorClass = 'absent';
+                        let indicatorText = 'A';
+                        
+                        if (status.includes('present')) {
+                            if (status.includes('Zoom') || status.includes('via Zoom')) {
+                                indicatorClass = 'zoom';
+                                indicatorText = 'Z';
+                            } else {
+                                indicatorClass = 'present';
+                                indicatorText = 'P';
+                            }
+                        }
+                        
+                        const indicator = `<div class="attendance-indicator ${indicatorClass}">${indicatorText}</div>`;
+                        return `<div class="attendance-member">${indicator} ${member}</div>`;
+                    }).join('');
+                    
+                    attendanceHTML = `
+                        <div class="meeting-attendance">
+                            <div class="attendance-title">Attendance</div>
+                            <div class="attendance-list">${attendanceList}</div>
+                        </div>
+                    `;
+                }
+                
+                // Add public hearings if they exist
+                let publicHearingsHTML = '';
+                if (meeting.publicHearings && meeting.publicHearings.length > 0) {
+                    const hearingsHTML = meeting.publicHearings.map(hearing => `
+                        <div class="public-hearing-section">
+                            <div class="public-hearing-title">${hearing.title}</div>
+                            <div class="public-hearing-content">
+                                ${hearing.description}
+                                ${hearing.proposedRate ? `<br><strong>Proposed Rate:</strong> ${hearing.proposedRate}` : ''}
+                                ${hearing.recommendation ? `<br><strong>Recommendation:</strong> ${hearing.recommendation}` : ''}
+                            </div>
+                        </div>
+                    `).join('');
+                    
+                    publicHearingsHTML = `
+                        <div style="margin-bottom: 1rem;">
+                            <h3 style="margin-bottom: 1rem; color: #2d3748;">Public Hearings</h3>
+                            ${hearingsHTML}
+                        </div>
+                    `;
+                }
+                
+                let motionsHTML = '';
+                if (meeting.status === 'missing' || meeting._isPlaceholder) {
+                    motionsHTML = `
+                        <div style="text-align: center; padding: 2rem; color: #4a5568; font-style: italic; background: #f7fafc; border-radius: 8px; border: 2px dashed #cbd5e0;">
+                            <h3 style="margin-bottom: 1rem; color: #2d3748;">Meeting Data Not Available</h3>
+                            <p>This meeting's data file (${meeting._filename || 'unknown'}) was not found.</p>
+                            <p>Voting results will be updated when the meeting minutes are processed and the data file is created.</p>
+                        </div>
+                    `;
+                } else if (meeting.status === 'upcoming' || !meeting.motions || meeting.motions.length === 0) {
+                    motionsHTML = `
+                        <div style="text-align: center; padding: 2rem; color: #4a5568; font-style: italic;">
+                            ${meeting.status === 'upcoming' 
+                                ? 'Voting results will generally be updated within a few days of when the meeting minutes are posted on the City of Dunwoody website.' 
+                                : 'No motions recorded for this meeting.'}
+                        </div>
+                    `;
+                } else {
+                    motionsHTML = meeting.motions.map((motion, index) => this.createMotionHTML(motion, meeting, index)).join('');
+                }
+                
+                meetingDiv.innerHTML = `
+                    <div class="meeting-header">
+                        <div class="meeting-date">${meeting.date}</div>
+                        <div class="meeting-status ${statusClass}">${statusText}</div>
+                    </div>
+                    ${attendanceHTML}
+                    ${publicHearingsHTML}
+                    ${motionsHTML}
+                `;
+                
+                return meetingDiv;
+            }
+
+            createMotionHTML(motion, meeting, motionIndex) {
+                const voteCount = {
+                    yes: motion.votes.filter(v => v === 'yes').length,
+                    no: motion.votes.filter(v => v === 'no').length,
+                    abstain: motion.votes.filter(v => v === 'abstain').length,
+                    absent: motion.votes.filter(v => v === 'absent').length
+                };
+                
+                let resultText = motion.result.toUpperCase();
+                if (voteCount.yes === this.councilMembers.length) resultText = 'UNANIMOUS';
+                
+                const membersHTML = this.councilMembers.map((member, index) => {
+                    const vote = motion.votes[index] || 'absent';
+                    const indicatorClass = `vote-${vote}-indicator`;
+                    return `
+                        <div class="member-vote" data-member="${member.toLowerCase()}" data-vote="${vote}">
+                            <span class="member-name">${member}</span>
+                            <span class="vote-indicator ${indicatorClass}"></span>
+                        </div>
+                    `;
+                }).join('');
+                
+                let motionMetaHTML = '';
+                if (motion.introducedBy || motion.secondedBy) {
+                    let metaText = '';
+                    if (motion.introducedBy) {
+                        metaText += `Introduced by: ${motion.introducedBy}`;
+                    }
+                    if (motion.secondedBy) {
+                        if (metaText) metaText += ' • ';
+                        metaText += `Seconded by: ${motion.secondedBy}`;
+                    }
+                    motionMetaHTML = `<div class="motion-meta">${metaText}</div>`;
+                }
+                
+                // Generate unique ID for this motion
+                const motionId = `motion-${meeting.date.replace(/[^a-zA-Z0-9]/g, '-')}-${motionIndex}`;
+                
+                return `
+                    <div class="motion-item ${motion.result}" id="${motionId}" data-motion-members="${this.councilMembers.map((member, index) => `${member.toLowerCase()}:${motion.votes[index] || 'absent'}`).join(',')}">
+                        <div class="motion-title">${motion.title}</div>
+                        ${motionMetaHTML}
+                        <div class="motion-description">${motion.description}</div>
+                        <div class="voting-results">
+                            <div class="vote-summary">
+                                <div class="vote-count vote-yes">Yes: ${voteCount.yes}</div>
+                                <div class="vote-count vote-no">No: ${voteCount.no}</div>
+                                ${voteCount.abstain > 0 ? `<div class="vote-count vote-abstain">Abstain: ${voteCount.abstain}</div>` : ''}
+                                ${voteCount.absent > 0 ? `<div class="vote-count vote-abstain">Absent: ${voteCount.absent}</div>` : ''}
+                            </div>
+                            <div class="motion-result result-${motion.result}">${resultText}</div>
+                        </div>
+                        <div class="council-members">
+                            ${membersHTML}
+                        </div>
+                    </div>
+                `;
+            }
+
+            populateFilters() {
+                const memberFilter = document.getElementById('memberFilter');
+                memberFilter.innerHTML = '<option value="">All Members</option>';
+                this.councilMembers.forEach(member => {
+                    const option = document.createElement('option');
+                    option.value = member.toLowerCase();
+                    option.textContent = member;
+                    memberFilter.appendChild(option);
+                });
+                
+                document.getElementById('searchFilter').style.display = 'block';
+            }
+
+            setupEventListeners() {
+                const searchInput = document.getElementById('searchInput');
+                const statusFilter = document.getElementById('statusFilter');
+                const memberFilter = document.getElementById('memberFilter');
+                const dateFilter = document.getElementById('dateFilter');
+
+                const filterFn = () => this.filterMeetings();
+                searchInput.addEventListener('input', filterFn);
+                statusFilter.addEventListener('change', filterFn);
+                memberFilter.addEventListener('change', filterFn);
+                dateFilter.addEventListener('change', filterFn);
+
+                this.addHoverEffects();
+            }
+
+            filterMeetings() {
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                const statusValue = document.getElementById('statusFilter').value;
+                const memberValue = document.getElementById('memberFilter').value;
+                const dateValue = document.getElementById('dateFilter').value;
+                
+                const meetings = document.querySelectorAll('.meeting-section');
+                let visibleCount = 0;
+
+                meetings.forEach(meeting => {
+                    const meetingDate = meeting.querySelector('.meeting-date').textContent;
+                    const motions = meeting.querySelectorAll('.motion-item');
+                    let meetingHasVisibleMotions = false;
+
+                    const dateMatch = !dateValue || meetingDate.includes(dateValue);
+                    
+                    if (!dateMatch) {
+                        meeting.style.display = 'none';
+                        return;
+                    }
+
+                    motions.forEach(motion => {
+                        const title = motion.querySelector('.motion-title').textContent.toLowerCase();
+                        const description = motion.querySelector('.motion-description').textContent.toLowerCase();
+                        const metaElement = motion.querySelector('.motion-meta');
+                        const metaText = metaElement ? metaElement.textContent.toLowerCase() : '';
+                        
+                        let motionStatus = '';
+                        if (motion.classList.contains('passed')) motionStatus = 'passed';
+                        else if (motion.classList.contains('failed')) motionStatus = 'failed';
+                        else if (motion.classList.contains('tabled')) motionStatus = 'tabled';
+
+                        let memberMatch = true;
+                        if (memberValue) {
+                            const motionMembers = motion.getAttribute('data-motion-members');
+                            memberMatch = motionMembers && motionMembers.includes(memberValue + ':');
+                        }
+
+                        const searchMatch = !searchTerm || 
+                            title.includes(searchTerm) || 
+                            description.includes(searchTerm) || 
+                            metaText.includes(searchTerm);
+                        
+                        const statusMatch = !statusValue || motionStatus === statusValue;
+
+                        if (searchMatch && statusMatch && memberMatch) {
+                            motion.style.display = 'block';
+                            meetingHasVisibleMotions = true;
+                        } else {
+                            motion.style.display = 'none';
+                        }
+                    });
+
+                    if (meetingHasVisibleMotions || meeting.querySelector('.status-upcoming') || meeting.querySelector('.status-missing')) {
+                        meeting.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        meeting.style.display = 'none';
+                    }
+                });
+            }
+
+            addHoverEffects() {
+                setTimeout(() => {
+                    document.querySelectorAll('.motion-item').forEach(item => {
+                        item.addEventListener('mouseenter', function() {
+                            this.style.transform = 'translateX(5px) scale(1.01)';
+                        });
+                        
+                        item.addEventListener('mouseleave', function() {
+                            this.style.transform = 'translateX(0) scale(1)';
+                        });
+                    });
+                }, 500);
+            }
+
+            hideLoading() {
+                document.getElementById('loadingIndicator').style.display = 'none';
+            }
+
+            showError(message) {
+                const container = document.querySelector('.container');
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error';
+                errorDiv.innerHTML = `<h3>Error</h3><p>${message}</p>`;
+                
+                const loadingEl = document.getElementById('loadingIndicator');
+                container.insertBefore(errorDiv, loadingEl.nextSibling);
+                loadingEl.style.display = 'none';
+            }
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', () => {
+            new DunwoodyVotingTracker();
+        });
+
+        // Animate stats on page load
+        window.addEventListener('load', () => {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                const finalValue = parseInt(stat.textContent);
+                if (finalValue === 0) return;
+                
+                let currentValue = 0;
+                const increment = finalValue / 50;
+                
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        stat.textContent = finalValue;
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(currentValue);
+                    }
+                }, 20);
+            });
+        });
+    </script>
+</body>
+</html>
