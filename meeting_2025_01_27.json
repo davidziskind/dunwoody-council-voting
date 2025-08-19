@@ -1,0 +1,63 @@
+{
+    "date": "January 27, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "absent",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of January 13, 2025 meeting minutes, City Hall HVAC roof top unit system replacement, supplemental project agreement with GDOT for North Shallowford Road Path Project, Georgia Power streetlight agreement, and resolution appointing members to Sustainability Committee.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Project Agreement with Perimeter CID for Ashford Dunwoody Path Phase 2",
+            "description": "Approval of project agreement with the Perimeter CID for Ashford Dunwoody Path Phase 2, funded by Hotel/Motel tax.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Georgetown Gateway Sculpture Approval",
+            "description": "Approval of budget not to exceed $65,000 for installation of 'Human Interfusion' sculpture along Chamblee Dunwoody Road as part of Georgetown Gateway project.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["absent", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution to Surplus Nine Vehicles",
+            "description": "Approval of resolution to surplus nine vehicles.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Elite Radiology Lease Agreement",
+            "description": "Approval of lease agreement with Elite Radiology with move out date of August 31, 2025, paying market rate rent until then.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

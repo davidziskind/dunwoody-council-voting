@@ -1,0 +1,60 @@
+{
+    "date": "March 10, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "absent",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of February 24, 2025 meeting minutes, funding authorization for 1421 Mockwell Court storm repairs, and resolution for budget amendment for fiscal year 2024.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Table Policy on Green Buildings",
+            "description": "Motion to table the Policy on Green Buildings item until the next council meeting to allow for Sustainability Committee review.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicComments": {
+        "fieldTurfSupport": [
+            "Emory Lucero",
+            "Laurie Smith",
+            "Giuliana Seazzero", 
+            "Ana Lemos",
+            "Hela Sheth",
+            "Carlos Lemos",
+            "Corey Hendrix",
+            "Mike Hendrix"
+        ],
+        "fieldTurfOpposition": [
+            "Kai Fuller",
+            "Zack Humphries"
+        ],
+        "other": [
+            "Laurie Smith (multi-use trail connection)",
+            "Joe Hirsch (open records lawsuit)",
+            "Zack Humphries (affordable housing)"
+        ]
+    }
+}

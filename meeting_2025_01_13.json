@@ -1,0 +1,55 @@
+{
+    "date": "January 13, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "absent",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Item #2 from Consent Agenda",
+            "description": "Motion to move item #2 (Truist Lighthouse Project presentation) from consent agenda to immediately following police officers swearing in.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of December 09, 2024 meeting minutes and contract with Georgia Environmental Protection Division for Dunwoody Nature Center Wetland Improvements funding.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "American Rescue Plan Grant Remaining Funding",
+            "description": "Allocation of remaining $25,000 ARPA funding to Community Assistance Center for general assistance and Summit Counseling for direct counseling services.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "RZ 24-02 Rezoning Approval (Second Read)",
+            "description": "Second read approval of RZ 24-02 to rezone 2480, 2526 Mount Vernon Road & 2495 Jett Ferry Road from NS to C-1 with two additional conditions.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
+            "result": "passed"
+        }
+    ]
+}
