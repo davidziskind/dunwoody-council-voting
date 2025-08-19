@@ -102,6 +102,29 @@
             opacity: 0.9;
         }
 
+        .debug-controls {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .debug-toggle {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .debug-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
         .loading {
             text-align: center;
             padding: 3rem;
@@ -129,6 +152,7 @@
             font-size: 0.8rem;
             color: #2d3748;
             white-space: pre-wrap;
+            display: none;
         }
 
         .attendance-section {
@@ -596,16 +620,8 @@
                 <p class="subtitle">Voting Transparency Dashboard</p>
                 <div class="stats-bar">
                     <div class="stat-item">
-                        <span class="stat-number" id="totalMeetings">0</span>
-                        <span class="stat-label">Meetings</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="totalMotions">0</span>
-                        <span class="stat-label">Motions</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" id="loadedFiles">0</span>
-                        <span class="stat-label">Files Loaded</span>
+                        <span class="stat-number" id="closevotes">0</span>
+                        <span class="stat-label">4-3 Votes</span>
                     </div>
                 </div>
             </div>
@@ -613,7 +629,11 @@
 
         <div class="loading" id="loadingIndicator">Loading meeting data...</div>
         
-        <div class="debug-info" id="debugInfo" style="display: none;"></div>
+        <div class="debug-controls">
+            <button class="debug-toggle" id="debugToggle" onclick="toggleDebug()">Show Debug Display</button>
+        </div>
+        
+        <div class="debug-info" id="debugInfo"></div>
 
         <div class="attendance-section" id="attendanceSection" style="display: none;">
             <h2>Attendance Summary</h2>
@@ -670,6 +690,23 @@
     </div>
 
     <script>
+        let debugVisible = false;
+
+        function toggleDebug() {
+            const debugInfo = document.getElementById('debugInfo');
+            const debugToggle = document.getElementById('debugToggle');
+            
+            debugVisible = !debugVisible;
+            
+            if (debugVisible) {
+                debugInfo.style.display = 'block';
+                debugToggle.textContent = 'Hide Debug Display';
+            } else {
+                debugInfo.style.display = 'none';
+                debugToggle.textContent = 'Show Debug Display';
+            }
+        }
+
         class DunwoodyVotingTracker {
             constructor() {
                 this.councilMembers = [
@@ -684,6 +721,7 @@
                 
                 this.meetings = [];
                 this.debugMessages = [];
+                this.closeVotesCount = 0;
                 
                 // Complete list meeting files
                 this.meetingFiles = [
@@ -711,13 +749,13 @@
             updateDebugDisplay() {
                 const debugEl = document.getElementById('debugInfo');
                 debugEl.textContent = this.debugMessages.join('\n');
-                debugEl.style.display = 'block';
             }
 
             async init() {
                 this.addDebugMessage('Starting initialization...');
                 try {
                     await this.loadAllMeetings();
+                    this.calculateCloseVotes();
                     this.generateUI();
                     this.setupEventListeners();
                     this.hideLoading();
@@ -758,7 +796,6 @@
                 this.meetings.sort((a, b) => new Date(b.date) - new Date(a.date));
                 
                 this.addDebugMessage(`Loading complete: ${successCount} successful, ${failCount} failed`);
-                document.getElementById('loadedFiles').textContent = successCount;
             }
 
             async loadMeetingFile(filename) {
@@ -817,6 +854,29 @@
                 }
             }
 
+            calculateCloseVotes() {
+                this.closeVotesCount = 0;
+                
+                this.meetings.forEach(meeting => {
+                    if (meeting.motions && meeting.motions.length > 0) {
+                        meeting.motions.forEach(motion => {
+                            const voteCount = {
+                                yes: motion.votes.filter(v => v === 'yes').length,
+                                no: motion.votes.filter(v => v === 'no').length
+                            };
+                            
+                            // Check if it's a 4-3 vote (or 3-4)
+                            if ((voteCount.yes === 4 && voteCount.no === 3) || 
+                                (voteCount.yes === 3 && voteCount.no === 4)) {
+                                this.closeVotesCount++;
+                            }
+                        });
+                    }
+                });
+                
+                this.addDebugMessage(`Found ${this.closeVotesCount} close votes (4-3 or 3-4)`);
+            }
+
             generateUI() {
                 this.updateStats();
                 this.generateAttendanceSection();
@@ -825,12 +885,7 @@
             }
 
             updateStats() {
-                const totalMeetings = this.meetings.length;
-                const totalMotions = this.meetings.reduce((sum, meeting) => 
-                    sum + (meeting.motions ? meeting.motions.length : 0), 0);
-                
-                document.getElementById('totalMeetings').textContent = totalMeetings;
-                document.getElementById('totalMotions').textContent = totalMotions;
+                document.getElementById('closevotes').textContent = this.closeVotesCount;
             }
 
             generateAttendanceSection() {
