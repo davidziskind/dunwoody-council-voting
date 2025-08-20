@@ -1,0 +1,63 @@
+{
+    "date": "August 26, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present (via Zoom)",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of August 12, 2024 meeting minutes, backup and recovery services agreement, holiday lights contract award, and stormwater master model funding authorization.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 16 for Streetscape Design Standards (Second Read)",
+            "description": "Second read approval of text amendment to provide streetscape design standards for certain areas of the city (primarily Jett Ferry area).",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["no", "yes", "no", "yes", "no", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment for Happy Hollow Sidewalk Design",
+            "description": "Approval of contract amendment with Practical Design Partners for final design of Happy Hollow sidewalk from Kingsland Court to Peeler Road not to exceed $146,050.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment for Mount Vernon Corridor Improvements",
+            "description": "Approval of contract amendment with NV5 for preliminary and final design of Mount Vernon Corridor improvements to total contract price of $137,170.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["no", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "EEOC Conciliation Agreement Approval",
+            "description": "Approval of EEOC Conciliation Agreement regarding No. 410-2021-00565.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

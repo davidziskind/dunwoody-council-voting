@@ -1,0 +1,31 @@
+{
+    "date": "June 10, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "absent",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of May 28, 2024 meeting minutes and resolution to surplus twelve vehicles and one trailer.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "absent", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "absent", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

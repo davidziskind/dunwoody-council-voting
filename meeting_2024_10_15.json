@@ -1,0 +1,63 @@
+{
+    "date": "October 15, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present (electronically)",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Remove Item #9 from Consent Agenda",
+            "description": "Motion to remove item #9 (Mount Vernon Road at Tilly Road Contract Amendment) from Consent Agenda and place under Business Items.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of September meeting minutes, 2025 meeting schedules, and playground resurfacing repairs at Brook Run Park.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Mount Vernon Road at Tilly Road Contract Amendment",
+            "description": "Approval of the Mount Vernon Road at Tilly Mill Road contract amendment.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 26 Pole Banners (Second Read)",
+            "description": "Second read approval of text amendment to update pole banners regulations.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Dunwoody Nature Center Stream and Wetland Improvements",
+            "description": "Approval of construction of the Dunwoody Nature Center Stream and Wetland Improvements.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
+            "result": "passed"
+        }
+    ]
+}

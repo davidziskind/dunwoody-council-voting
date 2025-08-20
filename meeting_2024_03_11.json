@@ -1,0 +1,55 @@
+{
+    "date": "March 11, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of February 26, 2024 meeting minutes, second read text amendments to Chapter 2 (Board of Ethics) and Chapter 4 (Alcohol License Review Board), and funding authorization for storm repairs at two locations.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2023",
+            "description": "Approval of resolution for budget amendment cleanup for fiscal year 2023, with revenue expected to exceed expenditures and close to ten month reserve in general fund.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Purchase Signal Poles for Pedestrian Hybrid Beacon Installations",
+            "description": "Approval to purchase signal poles for pedestrian hybrid beacon installations on Perimeter Center West and North Peachtree Road, purchased ahead of contract award due to lead time.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to adjourn for executive session to discuss real estate.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

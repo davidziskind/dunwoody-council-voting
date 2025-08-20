@@ -1,0 +1,47 @@
+{
+    "date": "February 12, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of January 22, 2024 special called meeting minutes, on-call skilled trade vendors, and resolution appointing member to Board of Ethics.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution to Return Text Amendment to Planning Commission",
+            "description": "Resolution to return text amendment to define community residences and recovery communities and create use regulations to the Planning Commission.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Extending Moratorium on Drug Rehabilitation Centers",
+            "description": "Resolution extending moratorium on drug rehabilitation centers and other facilities for treatment of drug dependency.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "no", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

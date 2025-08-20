@@ -1,0 +1,39 @@
+{
+    "date": "May 28, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "absent",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (Mayor Pro Tem)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of May 13, 2024 meeting minutes and contract award for Waterford Park playground equipment.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Lighting Services Agreement with Georgia Power for Vermack Path",
+            "description": "Approval of lighting services agreement with Georgia Power for the Vermack Path with revised spacing (18 lights instead of 21, reducing costs by 10-15%). Vote challenged due to Charter quorum requirements.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["absent", "yes", "no", "yes", "yes", "no", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ]
+}

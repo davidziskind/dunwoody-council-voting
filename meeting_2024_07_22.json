@@ -1,0 +1,39 @@
+{
+    "date": "July 22, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of July 8, 2024 meeting minutes and resolution appointing a member of the Sustainability Committee.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Ordinance Defining Community Residences and Recovery Communities (Second Read)",
+            "description": "Second read approval of ordinance to define Community Residences and Recovery Communities with revised distance requirements - 1 mile between recovery communities and 2,000 feet from schools.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

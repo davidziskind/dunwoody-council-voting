@@ -1,0 +1,79 @@
+{
+    "date": "May 13, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of April 29, 2024 meeting minutes and intergovernmental agreement with City of Peachtree Corners for Winters Chapel Path Phase 2 Project.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with TSW for Comprehensive Plan and Unified Development Code",
+            "description": "Award contract to TSW for Comprehensive Plan and Unified Development Code in amount of $499,990, subject to final legal review.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "RZ 23-03 Rezoning Approval (Second Read)",
+            "description": "Second read approval of RZ 23-03 for 245 Perimeter Center Parkway to amend zoning conditions for mixed use project including office, hotel, multifamily residential with retail and restaurant space.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Public Safety Ambassadors Personnel Request",
+            "description": "Approval of additional personnel request for Public Safety Ambassadors with adjusted salary grade to Grade 104.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract for Phase II Vermack Path at Dunwoody High School",
+            "description": "Award contract to Sol Construction, LLC for $108,251 plus 10% contingency for Phase II of Vermack Road path, plus funding authorization for stormwater improvements up to $296,015 plus 20% contingency.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Postpone Lighting Services Agreement with Georgia Power",
+            "description": "Motion to postpone approval of lighting services agreement with Georgia Power for Vermack path to May 28, 2024 meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SS4A Implementation Grant Application for North Peachtree Road",
+            "description": "Approval of Safe Streets and Roads For All (SS4A) implementation grant application for North Peachtree Road project ($19.75M total, $15.8M federal share, $3.95M city match).",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

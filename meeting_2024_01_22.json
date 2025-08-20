@@ -1,0 +1,88 @@
+{
+    "date": "January 22, 2024",
+    "status": "completed",
+    "meeting_location": "Dunwoody High School Auditorium",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Item #2 from Consent Agenda to Business Items",
+            "description": "Motion to move item #2 (Capital Project Closeout and Reallocate Funding) from Consent Agenda to first item under Business Items.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of January 8, 2024 meeting minutes and five-year contract for license plate readers with Flock Safety.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Capital Project Closeout and Reallocate Funding",
+            "description": "Approval of capital project closeout and funding reallocation.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Award for Brook Run Skate Park Concessionaire",
+            "description": "Approval of contract award for Brook Run Skate Park concessionaire.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract for Shade Structures at Two Bridges Park",
+            "description": "Approval of contract for shade structures at Two Bridges Park.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment for Animated Signs (Second Read)",
+            "description": "Second read approval of text amendment to amend sign code regulations and procedures for animated signs, Chapter 20.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SPLOST Bond Results Declaration",
+            "description": "Approval of SPLOST (Special Purpose Local Option Sales Tax) Bond Results Declaration.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for legal and real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

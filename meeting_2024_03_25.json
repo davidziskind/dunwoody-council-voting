@@ -1,0 +1,71 @@
+{
+    "date": "March 25, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of March 11, 12, and 13, 2024 meeting minutes and second read of MMSP 24-01 for Kingswood Church major master sign plan.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to MMSP 24-02 Lighting Condition",
+            "description": "Amendment to add condition that lighting for building wall sign #3 facing Pernoshal Court will be turned off at 10:30 pm and turned back on at 5:30 am.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "MMSP 24-02 Emory Healthcare Sign Plan (Second Read)",
+            "description": "Second read approval of Major Master Sign Plan for 4553 N Shallowford Road - Emory Healthcare as amended with lighting condition.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Additional LMIG Funds for 2024 Paving Contract",
+            "description": "Approval to apply additional Local Maintenance and Improvement Grant funds of $604,408.60 to the 2024 paving contract.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Flock Safety Two Year Contract for PCID Area",
+            "description": "Approval of Flock Safety two year contract for license plate readers, surveillance cameras, and gunshot detection in PCID area, fully funded by PCIDs with no city obligation after two years.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with Sunbelt for Pedestrian Hybrid Beacons",
+            "description": "Award contract to Sunbelt Traffic, LLC for installation of pedestrian hybrid beacons on Perimeter Center West and North Peachtree Road in amount of $419,924 plus 10% contingency.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "date": "October 28, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "absent",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Treetop Quest Item to Business Items",
+            "description": "Motion to move item 6 (Treetop Quest Dunwoody Renewal) from Consent Agenda to Business Items.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Fiscal Year 2025 Budget Adoption",
+            "description": "Adoption of the proposed Fiscal Year 2025 budget after public hearing.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of October 15, 2024 meeting minutes and contract amendment with Triscapes for road and stormwater maintenance.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Table Treetop Quest Renewal Agreement",
+            "description": "Motion to table the Treetop Quest Dunwoody renewal agreement until the November 12, 2024 meeting due to recent safety incident.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

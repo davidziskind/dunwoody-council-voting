@@ -1,0 +1,87 @@
+{
+    "date": "December 9, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Dunwoody Nature Center Item to Consent Agenda",
+            "description": "Motion to move item #15 (Dunwoody Nature Center Matching Funding Agreement Extension) to the consent agenda.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of November 25, 2024 meeting minutes, stormwater repairs funding, athletic agreements, ESRI renewal, police applications migration, and Dunwoody Nature Center agreement extension.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Discover Dunwoody 2025 Budget Approval",
+            "description": "Approval of the Discover Dunwoody 2025 proposed budget.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment for Peeler Road Path Design",
+            "description": "Approval of contract amendment with Practical Design Partners for the Peeler Road path design.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["no", "yes", "no", "yes", "yes", "yes", "abstain"],
+            "result": "passed"
+        },
+        {
+            "title": "Capital Project Closeout and Funding Reallocation",
+            "description": "Approval of capital project closeout and reallocation of funding.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 6 (Second Read)",
+            "description": "Second read approval of text amendment to Chapter 6 to restrict unlicensed sale of dogs, cats, or domestic rabbits.",
+            "introducedBy": "Deutsch",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "City of Civility Resolution",
+            "description": "Approval of City of Civility resolution.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "2025 Athletic Agreements for Senior Baseball and Softball",
+            "description": "Approval of 2025 Athletic Agreements for Dunwoody Senior Baseball and Dunwoody High School Softball Booster Club.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

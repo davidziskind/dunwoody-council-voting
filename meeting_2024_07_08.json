@@ -1,0 +1,63 @@
+{
+    "date": "July 8, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Amend Agenda to Move Recognition Item",
+            "description": "Motion to amend the agenda to move item number 3 (Special Recognition of Bill McCahan) to immediately follow item number 1.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "2024 Millage Rate Adoption",
+            "description": "Approval of resolution establishing the 2024 millage rate of 3.04 mills after third public hearing.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of June 10, 26, and 27, 2024 meeting minutes.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "American Rescue Plan Timeline Extension",
+            "description": "Approval of timeline extension for American Rescue Plan grants to December 31, 2024.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for real estate and legal discussion.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

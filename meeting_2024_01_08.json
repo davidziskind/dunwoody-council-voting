@@ -1,0 +1,51 @@
+{
+    "date": "January 8, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of December 11, 2023 City Council meeting minutes.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Election of Mayor Pro-Tempore",
+            "description": "Election of Council Member Lambert as Mayor Pro-Tempore.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Elected Officials",
+            "description": "Judge Stacey Hydrick administered oath of office to Mayor-Elect Lynn Deutsch, Council Member-Elect Stacey Harris, Council Member-Elect Joe Seconder, and Council Member-Elect John Heneghan.",
+            "officiant": "The Honorable Judge Stacey K. Hydrick"
+        },
+        {
+            "title": "Administration of Oath of Office - Police Officer",
+            "description": "Mayor Deutsch administered oath of office to Officer DeMario Tinsley.",
+            "officiant": "Mayor Deutsch"
+        }
+    ]
+}

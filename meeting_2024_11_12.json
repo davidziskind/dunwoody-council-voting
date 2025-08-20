@@ -1,0 +1,63 @@
+{
+    "date": "November 12, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of October 28, 2024 meeting minutes, Stage Door Players legal entity change, skate park mural surplus, and materials testing contract.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Remove Treetop Quest Item from Table",
+            "description": "Motion to remove the Treetop Quest Dunwoody Renewal Agreement from the table (previously tabled at 10.28.24 meeting).",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Treetop Quest Dunwoody Renewal Agreement",
+            "description": "Approval of Treetop Quest renewal agreement after addressing safety incident concerns.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SLUP 24-01 Starbucks Drive-Through (Second Read)",
+            "description": "Second read approval of Special Land Use Permit for Starbucks drive-through facility at 140 Perimeter Center West.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation and real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconded",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

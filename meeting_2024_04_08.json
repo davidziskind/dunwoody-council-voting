@@ -1,0 +1,63 @@
+{
+    "date": "April 8, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present (via Zoom)",
+        "Lambert": "present",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Discussion Item #14 to Business Items",
+            "description": "Motion to amend the agenda to move item #14 (Request for Pre-Construction Funding for Real Time Crime Center) to the last item under Business Items.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of March 25, 2024 meeting minutes, technology department position conversions, employee compensation chart amendment and market adjustment, managed networking service agreement, and storm repairs funding.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Parks and Recreation Sign Package Contract Award",
+            "description": "Award contract to Signarama Roswell for Parks and Recreation sign package in amount of $138,200 including 10% contingency.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "North Shallowford Annex Maintenance Repairs Contract Award",
+            "description": "Award contract to Southern Preservation Systems for North Shallowford Annex maintenance repairs in amount of $198,800 including 10% contingency.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Real Time Crime Center Pre-Construction Funding",
+            "description": "Approval of pre-construction funding for Real Time Crime Center modifications in amount of $53,670.69 funded with SPLOST funds.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

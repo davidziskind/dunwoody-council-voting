@@ -1,0 +1,47 @@
+{
+    "date": "September 9, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (via Zoom)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Recognition Item to #2",
+            "description": "Motion to amend the agenda to move item #3 (Recognition of Chief Judge Rick Powell) up to #2.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of August 26, 2024 meeting minutes, second quarter 2024 budget amendment, sanitary sewer easement agreement, and multiple stormwater repair funding authorizations.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Blount Construction",
+            "description": "Approval of contract amendment with Blount Construction for additional paving on Perimeter Center Parkway including $50,000 worth of additional paving near Hammond.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

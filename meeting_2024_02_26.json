@@ -1,0 +1,55 @@
+{
+    "date": "February 26, 2024",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of February 12, 2024 meeting minutes, contract extension with Blount Construction for 2024 pavement resurfacing, purchase of two surveillance video trailers, contract amendment with Jacobs for finance services, and funding authorization for Donaldson Bannister Park engineering analysis.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Request for Five Additional Personnel for Police Department",
+            "description": "Approval of request for five additional personnel for the Dunwoody Police Department.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "2024 Budget Amendment for Additional Police Personnel and EMS Funding",
+            "description": "Approval of 2024 budget amendment for additional police personnel and EMS funding.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for legal discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}
