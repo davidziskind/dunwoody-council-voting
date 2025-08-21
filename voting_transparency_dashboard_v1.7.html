@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunwoody City Council - Voting Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .disclaimer {
+            background: rgba(255, 243, 205, 0.95);
+            backdrop-filter: blur(10px);
+            border: 2px solid #f6ad55;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #744210;
+        }
+
+        .disclaimer a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .disclaimer a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #4a5568;
+            margin-bottom: 1rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border-radius: 12px;
+            min-width: 120px;
+            box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .debug-controls {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .debug-toggle {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .debug-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #4a5568;
+            font-size: 1.1rem;
+        }
+
+        .error {
+            background: rgba(255, 255, 255, 0.95);
+            border: 2px solid #f56565;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            color: #742a2a;
+        }
+
+        .debug-info {
+            background: rgba(255, 255, 255, 0.95);
+            border: 2px solid #4299e1;
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: #2d3748;
+            white-space: pre-wrap;
+            display: none;
+        }
+
+        .meeting-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .meeting-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .meeting-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .meeting-date {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .meeting-status {
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .status-completed {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+        }
+
+        .status-upcoming {
+            background: linear-gradient(135deg, #ed8936, #dd6b20);
+            color: white;
+        }
+
+        .status-missing {
+            background: linear-gradient(135deg, #a0aec0, #718096);
+            color: white;
+        }
+
+        .meeting-attendance {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .attendance-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+
+        .attendance-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .attendance-member {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.3rem 0.6rem;
+            background: white;
+            border-radius: 6px;
+            font-size: 0.9rem;
+        }
+
+        .attendance-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .present {
+            background: #48bb78;
+        }
+
+        .zoom {
+            background: #4299e1;
+        }
+
+        .absent {
+            background: #f56565;
+        }
+
+        .motion-item {
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .motion-item:hover {
+            background: #edf2f7;
+            transform: translateX(5px);
+        }
+
+        .motion-item.passed {
+            border-left-color: #48bb78;
+        }
+
+        .motion-item.failed {
+            border-left-color: #f56565;
+        }
+
+        .motion-item.tabled {
+            border-left-color: #ed8936;
+        }
+
+        .motion-meta {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+            background: rgba(102, 126, 234, 0.1);
+            padding: 0.5rem;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+        }
+
+        .motion-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .motion-description {
+            color: #4a5568;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .voting-results {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .vote-summary {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .vote-count {
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .vote-yes {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .vote-no {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .vote-abstain {
+            background: #feebc8;
+            color: #744210;
+        }
+
+        .motion-result {
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .result-passed {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .result-failed {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .result-tabled {
+            background: #feebc8;
+            color: #744210;
+        }
+
+        .council-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .member-vote {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0.8rem;
+            background: white;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .member-name {
+            font-weight: 500;
+            color: #2d3748;
+        }
+
+        .vote-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .vote-yes-indicator {
+            background: #48bb78;
+        }
+
+        .vote-no-indicator {
+            background: #f56565;
+        }
+
+        .vote-abstain-indicator {
+            background: #ed8936;
+        }
+
+        .vote-absent-indicator {
+            background: #a0aec0;
+        }
+
+        .search-filter {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-input, .filter-select {
+            padding: 0.8rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            background: white;
+        }
+
+        .search-input:focus, .filter-select:focus {
+            outline: none;
+            border-color: #4facfe;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .public-hearing-section {
+            background: #e6fffa;
+            border-left: 4px solid #38b2ac;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .public-hearing-title {
+            font-weight: 600;
+            color: #234e52;
+            margin-bottom: 0.5rem;
+        }
+
+        .public-hearing-content {
+            color: #2d3748;
+            font-size: 0.9rem;
+        }
+
+        .close-votes-summary {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #ed8936;
+        }
+
+        .close-vote-item {
+            background: #fff5f5;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            border-left: 3px solid #f56565;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .close-vote-item:hover {
+            background: #fed7d7;
+            transform: translateX(3px);
+            box-shadow: 0 4px 15px rgba(245, 101, 101, 0.2);
+        }
+
+        .close-vote-title {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .close-vote-meta {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .close-vote-description {
+            font-size: 0.9rem;
+            color: #4a5568;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+        }
+
+        .close-vote-result {
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            display: inline-block;
+        }
+
+        .close-vote-passed {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .close-vote-failed {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .stats-bar {
+                gap: 1rem;
+            }
+
+            .stat-item {
+                min-width: 100px;
+                padding: 0.8rem;
+            }
+
+            .meeting-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .voting-results {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .vote-summary {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> This site is a personal project of David Ziskind and is not affiliated with the City of Dunwoody. The data is aggregated from city council meeting minutes. Due to factors including revised minutes and human error, this data is not guaranteed, and you should verify it by viewing the official meeting minutes available <a href="https://www.dunwoodyga.gov/government/agendas-and-minutes" target="_blank">here</a>. Please bring any errors to my attention to be addressed promptly.</p>
+        </div>
+
+        <header>
+            <div class="header-content">
+                <h1>Dunwoody City Council</h1>
+                <p class="subtitle">Voting Transparency Dashboard</p>
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number" id="closevotes">0</span>
+                        <span class="stat-label">4-3 Votes</span>
+                    </div>
+                </div>
+                <div class="close-votes-summary" id="closeVotesSummary" style="display: none;">
+                    <h3 style="color: #2d3748; margin-bottom: 1rem; font-size: 1.2rem;">Close Vote Details</h3>
+                    <div id="closeVotesList"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="loading" id="loadingIndicator">Loading meeting data...</div>
+        
+        <div class="debug-controls">
+            <button class="debug-toggle" id="debugToggle" onclick="toggleDebug()">Show Debug Display</button>
+        </div>
+        
+        <div class="debug-info" id="debugInfo"></div>
+
+        <div class="search-filter" id="searchFilter" style="display: none;">
+            <div class="filter-controls">
+                <input type="text" class="search-input" placeholder="Search motions, descriptions, or council members..." id="searchInput">
+                <select class="filter-select" id="statusFilter">
+                    <option value="">All Results</option>
+                    <option value="passed">Passed</option>
+                    <option value="failed">Failed</option>
+                    <option value="tabled">Tabled</option>
+                </select>
+                <select class="filter-select" id="memberFilter">
+                    <option value="">All Members</option>
+                </select>
+                <select class="filter-select" id="dateFilter">
+                    <option value="">All Dates</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="meetingsContainer"></div>
+    </div>
+
+    <script>
+        let debugVisible = false;
+
+        function toggleDebug() {
+            const debugInfo = document.getElementById('debugInfo');
+            const debugToggle = document.getElementById('debugToggle');
+            
+            debugVisible = !debugVisible;
+            
+            if (debugVisible) {
+                debugInfo.style.display = 'block';
+                debugToggle.textContent = 'Hide Debug Display';
+            } else {
+                debugInfo.style.display = 'none';
+                debugToggle.textContent = 'Show Debug Display';
+            }
+        }
+
+        class DunwoodyVotingTracker {
+            constructor() {
+                this.councilMembers = [
+                    "Mayor Deutsch",
+                    "Harris", 
+                    "Heneghan",
+                    "Lambert", 
+                    "Lautenbacher",
+                    "Price",
+                    "Seconder"
+                ];
+                
+                this.meetings = [];
+                this.debugMessages = [];
+                this.closeVotesCount = 0;
+                
+                // Complete list meeting files
+                this.meetingFiles = [
+                    'meeting_2024_01_08.json',  
+					'meeting_2024_01_22.json',  
+					'meeting_2024_02_12.json',  
+					'meeting_2024_02_26.json',  
+					'meeting_2024_03_11.json',  
+					'meeting_2024_03_25.json',  
+					'meeting_2024_04_08.json',  
+					'meeting_2024_04_29.json',  
+					'meeting_2024_05_13.json',  
+					'meeting_2024_05_28.json',  
+					'meeting_2024_06_10.json',  
+					'meeting_2024_06_26.json',  
+					'meeting_2024_06_27.json',  
+					'meeting_2024_07_08.json',  
+					'meeting_2024_07_22.json',  
+					'meeting_2024_08_12.json',  
+					'meeting_2024_08_26.json',  
+					'meeting_2024_09_09.json',  
+					'meeting_2024_09_23.json',  
+					'meeting_2024_10_15.json',  
+					'meeting_2024_10_28.json',  
+					'meeting_2024_11_12.json',  
+					'meeting_2024_11_25.json',  
+					'meeting_2024_12_09.json',  
+					'meeting_2025_01_13.json',  
+					'meeting_2025_01_27.json',  
+					'meeting_2025_02_10.json',  
+					'meeting_2025_02_24.json',  
+					'meeting_2025_03_10.json',  
+					'meeting_2025_03_24.json',  
+                    'meeting_2025_04_14.json',  
+                    'meeting_2025_04_28.json',  
+                    'meeting_2025_05_12.json',  
+                    'meeting_2025_05_27.json',  
+                    'meeting_2025_06_16.json', 
+                    'meeting_2025_06_30.json', 
+                    'meeting_2025_07_14.json',  
+                    'meeting_2025_07_28.json',  
+                    'meeting_2025_08_11_upcoming.json',  
+					'meeting_2025_08_25_upcoming.json',  
+                    'meeting_2025_09_08_upcoming.json'  
+                ];
+                
+                this.init();
+            }
+
+            addDebugMessage(message) {
+                this.debugMessages.push(`${new Date().toLocaleTimeString()}: ${message}`);
+                this.updateDebugDisplay();
+            }
+
+            updateDebugDisplay() {
+                const debugEl = document.getElementById('debugInfo');
+                debugEl.textContent = this.debugMessages.join('\n');
+            }
+
+            async init() {
+                this.addDebugMessage('Starting initialization...');
+                try {
+                    await this.loadAllMeetings();
+                    this.calculateCloseVotes();
+                    this.generateUI();
+                    this.setupEventListeners();
+                    this.hideLoading();
+                    this.addDebugMessage('Initialization completed successfully');
+                } catch (error) {
+                    this.showError('Failed to load meeting data. Check the debug information below for details.');
+                    this.addDebugMessage(`Initialization failed: ${error.message}`);
+                    console.error('Initialization error:', error);
+                }
+            }
+
+            async loadAllMeetings() {
+                this.addDebugMessage(`Attempting to load ${this.meetingFiles.length} meeting files...`);
+                
+                const loadingPromises = this.meetingFiles.map(file => 
+                    this.loadMeetingFile(file).catch(error => {
+                        this.addDebugMessage(`Failed to load ${file}: ${error.message}`);
+                        return null;
+                    })
+                );
+                
+                const results = await Promise.allSettled(loadingPromises);
+                let successCount = 0;
+                let failCount = 0;
+                
+                results.forEach((result, index) => {
+                    if (result.status === 'fulfilled' && result.value !== null) {
+                        this.meetings.push(result.value);
+                        successCount++;
+                        this.addDebugMessage(`✓ Successfully loaded: ${this.meetingFiles[index]}`);
+                    } else {
+                        failCount++;
+                        this.addDebugMessage(`✗ Failed to load: ${this.meetingFiles[index]}`);
+                    }
+                });
+                
+                // Sort meetings by date (newest first)
+                this.meetings.sort((a, b) => new Date(b.date) - new Date(a.date));
+                
+                this.addDebugMessage(`Loading complete: ${successCount} successful, ${failCount} failed`);
+            }
+
+            async loadMeetingFile(filename) {
+                try {
+                    const response = await fetch(filename);
+                    if (!response.ok) {
+                        if (response.status === 404) {
+                            // Create placeholder for missing files
+                            return this.createPlaceholderMeeting(filename);
+                        }
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    
+                    const meetingData = await response.json();
+                    this.validateMeetingData(meetingData, filename);
+                    return meetingData;
+                } catch (error) {
+                    // For missing files, create placeholders
+                    if (error.message.includes('404') || error.message.includes('Failed to fetch')) {
+                        return this.createPlaceholderMeeting(filename);
+                    }
+                    throw error;
+                }
+            }
+
+            createPlaceholderMeeting(filename) {
+                // Extract date from filename
+                const dateMatch = filename.match(/2025_(\d{2})_(\d{2})/);
+                if (!dateMatch) return null;
+                
+                const month = parseInt(dateMatch[1]);
+                const day = parseInt(dateMatch[2]);
+                const monthNames = ['', 'January', 'February', 'March', 'April', 'May', 'June', 
+                                  'July', 'August', 'September', 'October', 'November', 'December'];
+                
+                const dateString = `${monthNames[month]} ${day}, 2025`;
+                
+                return {
+                    date: dateString,
+                    status: "missing",
+                    attendance: {},
+                    motions: [],
+                    publicHearings: [],
+                    _isPlaceholder: true,
+                    _filename: filename
+                };
+            }
+
+            validateMeetingData(data, filename) {
+                const requiredFields = ['date', 'status', 'attendance', 'motions'];
+                
+                for (const field of requiredFields) {
+                    if (!(field in data)) {
+                        this.addDebugMessage(`Warning: Missing field '${field}' in ${filename}`);
+                    }
+                }
+            }
+
+            calculateCloseVotes() {
+                this.closeVotesCount = 0;
+                this.closeVotesDetails = [];
+                
+                this.meetings.forEach(meeting => {
+                    if (meeting.motions && meeting.motions.length > 0) {
+                        meeting.motions.forEach((motion, motionIndex) => {
+                            const voteCount = {
+                                yes: motion.votes.filter(v => v === 'yes').length,
+                                no: motion.votes.filter(v => v === 'no').length
+                            };
+                            
+                            // Check if it's a 4-3 vote (or 3-4)
+                            if ((voteCount.yes === 4 && voteCount.no === 3) || 
+                                (voteCount.yes === 3 && voteCount.no === 4)) {
+                                this.closeVotesCount++;
+                                
+                                // Generate unique ID for this motion
+                                const motionId = `motion-${meeting.date.replace(/[^a-zA-Z0-9]/g, '-')}-${motionIndex}`;
+                                
+                                this.closeVotesDetails.push({
+                                    id: motionId,
+                                    title: motion.title,
+                                    description: motion.description.length > 120 ? 
+                                        motion.description.substring(0, 120) + '...' : 
+                                        motion.description,
+                                    date: meeting.date,
+                                    result: motion.result,
+                                    voteCount: voteCount,
+                                    introducedBy: motion.introducedBy,
+                                    secondedBy: motion.secondedBy
+                                });
+                            }
+                        });
+                    }
+                });
+                
+                this.addDebugMessage(`Found ${this.closeVotesCount} close votes (4-3 or 3-4)`);
+            }
+
+            generateUI() {
+                this.updateStats();
+                this.generateMeetingSections();
+                this.populateFilters();
+            }
+
+            updateStats() {
+                document.getElementById('closevotes').textContent = this.closeVotesCount;
+                this.generateCloseVotesSummary();
+            }
+
+            generateCloseVotesSummary() {
+                const summarySection = document.getElementById('closeVotesSummary');
+                const listContainer = document.getElementById('closeVotesList');
+                
+                if (this.closeVotesDetails.length === 0) {
+                    summarySection.style.display = 'none';
+                    return;
+                }
+                
+                summarySection.style.display = 'block';
+                listContainer.innerHTML = '';
+                
+                this.closeVotesDetails.forEach(vote => {
+                    const voteItem = document.createElement('div');
+                    voteItem.className = 'close-vote-item';
+                    voteItem.onclick = () => this.scrollToMotion(vote.id);
+                    
+                    let metaText = vote.date;
+                    if (vote.introducedBy) {
+                        metaText += ` • Introduced by ${vote.introducedBy}`;
+                    }
+                    if (vote.secondedBy) {
+                        metaText += ` • Seconded by ${vote.secondedBy}`;
+                    }
+                    
+                    const resultClass = vote.result === 'passed' ? 'close-vote-passed' : 'close-vote-failed';
+                    const resultText = `${vote.result.toUpperCase()} (${vote.voteCount.yes}-${vote.voteCount.no})`;
+                    
+                    voteItem.innerHTML = `
+                        <div class="close-vote-title">${vote.title}</div>
+                        <div class="close-vote-meta">${metaText}</div>
+                        <div class="close-vote-description">${vote.description}</div>
+                        <div class="close-vote-result ${resultClass}">${resultText}</div>
+                    `;
+                    
+                    listContainer.appendChild(voteItem);
+                });
+            }
+
+            scrollToMotion(motionId) {
+                const motionElement = document.getElementById(motionId);
+                if (motionElement) {
+                    motionElement.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'center' 
+                    });
+                    
+                    // Add a brief highlight effect
+                    motionElement.style.backgroundColor = '#fff5f5';
+                    motionElement.style.transform = 'scale(1.02)';
+                    motionElement.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        motionElement.style.backgroundColor = '';
+                        motionElement.style.transform = '';
+                    }, 2000);
+                }
+            }
+
+            generateMeetingSections() {
+                const meetingsContainer = document.getElementById('meetingsContainer');
+                meetingsContainer.innerHTML = '';
+                
+                this.meetings.forEach(meeting => {
+                    const meetingElement = this.createMeetingElement(meeting);
+                    meetingsContainer.appendChild(meetingElement);
+                });
+            }
+
+            createMeetingElement(meeting) {
+                const meetingDiv = document.createElement('div');
+                meetingDiv.className = 'meeting-section';
+                
+                let statusClass, statusText;
+                if (meeting.status === 'completed') {
+                    statusClass = 'status-completed';
+                    statusText = 'Completed';
+                } else if (meeting.status === 'missing' || meeting._isPlaceholder) {
+                    statusClass = 'status-missing';
+                    statusText = 'Data Missing';
+                } else {
+                    statusClass = 'status-upcoming';
+                    statusText = 'Upcoming';
+                }
+                
+                let attendanceHTML = '';
+                if (meeting.status === 'completed' && meeting.attendance && Object.keys(meeting.attendance).length > 0) {
+                    const attendanceList = this.councilMembers.map(member => {
+                        const status = meeting.attendance[member] || "absent";
+                        let indicatorClass = 'absent';
+                        let indicatorText = 'A';
+                        
+                        if (status.includes('present')) {
+                            if (status.includes('Zoom') || status.includes('via Zoom')) {
+                                indicatorClass = 'zoom';
+                                indicatorText = 'Z';
+                            } else {
+                                indicatorClass = 'present';
+                                indicatorText = 'P';
+                            }
+                        }
+                        
+                        const indicator = `<div class="attendance-indicator ${indicatorClass}">${indicatorText}</div>`;
+                        return `<div class="attendance-member">${indicator} ${member}</div>`;
+                    }).join('');
+                    
+                    attendanceHTML = `
+                        <div class="meeting-attendance">
+                            <div class="attendance-title">Attendance</div>
+                            <div class="attendance-list">${attendanceList}</div>
+                        </div>
+                    `;
+                }
+                
+                // Add public hearings if they exist
+                let publicHearingsHTML = '';
+                if (meeting.publicHearings && meeting.publicHearings.length > 0) {
+                    const hearingsHTML = meeting.publicHearings.map(hearing => `
+                        <div class="public-hearing-section">
+                            <div class="public-hearing-title">${hearing.title}</div>
+                            <div class="public-hearing-content">
+                                ${hearing.description}
+                                ${hearing.proposedRate ? `<br><strong>Proposed Rate:</strong> ${hearing.proposedRate}` : ''}
+                                ${hearing.recommendation ? `<br><strong>Recommendation:</strong> ${hearing.recommendation}` : ''}
+                            </div>
+                        </div>
+                    `).join('');
+                    
+                    publicHearingsHTML = `
+                        <div style="margin-bottom: 1rem;">
+                            <h3 style="margin-bottom: 1rem; color: #2d3748;">Public Hearings</h3>
+                            ${hearingsHTML}
+                        </div>
+                    `;
+                }
+                
+                let motionsHTML = '';
+                if (meeting.status === 'missing' || meeting._isPlaceholder) {
+                    motionsHTML = `
+                        <div style="text-align: center; padding: 2rem; color: #4a5568; font-style: italic; background: #f7fafc; border-radius: 8px; border: 2px dashed #cbd5e0;">
+                            <h3 style="margin-bottom: 1rem; color: #2d3748;">Meeting Data Not Available</h3>
+                            <p>This meeting's data file (${meeting._filename || 'unknown'}) was not found.</p>
+                            <p>Voting results will be updated when the meeting minutes are processed and the data file is created.</p>
+                        </div>
+                    `;
+                } else if (meeting.status === 'upcoming' || !meeting.motions || meeting.motions.length === 0) {
+                    motionsHTML = `
+                        <div style="text-align: center; padding: 2rem; color: #4a5568; font-style: italic;">
+                            ${meeting.status === 'upcoming' 
+                                ? 'Voting results will generally be updated within a few days of when the meeting minutes are posted on the City of Dunwoody website.' 
+                                : 'No motions recorded for this meeting.'}
+                        </div>
+                    `;
+                } else {
+                    motionsHTML = meeting.motions.map((motion, index) => this.createMotionHTML(motion, meeting, index)).join('');
+                }
+                
+                meetingDiv.innerHTML = `
+                    <div class="meeting-header">
+                        <div class="meeting-date">${meeting.date}</div>
+                        <div class="meeting-status ${statusClass}">${statusText}</div>
+                    </div>
+                    ${attendanceHTML}
+                    ${publicHearingsHTML}
+                    ${motionsHTML}
+                `;
+                
+                return meetingDiv;
+            }
+
+            createMotionHTML(motion, meeting, motionIndex) {
+                const voteCount = {
+                    yes: motion.votes.filter(v => v === 'yes').length,
+                    no: motion.votes.filter(v => v === 'no').length,
+                    abstain: motion.votes.filter(v => v === 'abstain').length,
+                    absent: motion.votes.filter(v => v === 'absent').length
+                };
+                
+                let resultText = motion.result.toUpperCase();
+                if (voteCount.yes === this.councilMembers.length) resultText = 'UNANIMOUS';
+                
+                const membersHTML = this.councilMembers.map((member, index) => {
+                    const vote = motion.votes[index] || 'absent';
+                    const indicatorClass = `vote-${vote}-indicator`;
+                    return `
+                        <div class="member-vote" data-member="${member.toLowerCase()}" data-vote="${vote}">
+                            <span class="member-name">${member}</span>
+                            <span class="vote-indicator ${indicatorClass}"></span>
+                        </div>
+                    `;
+                }).join('');
+                
+                let motionMetaHTML = '';
+                if (motion.introducedBy || motion.secondedBy) {
+                    let metaText = '';
+                    if (motion.introducedBy) {
+                        metaText += `Introduced by: ${motion.introducedBy}`;
+                    }
+                    if (motion.secondedBy) {
+                        if (metaText) metaText += ' • ';
+                        metaText += `Seconded by: ${motion.secondedBy}`;
+                    }
+                    motionMetaHTML = `<div class="motion-meta">${metaText}</div>`;
+                }
+                
+                // Generate unique ID for this motion
+                const motionId = `motion-${meeting.date.replace(/[^a-zA-Z0-9]/g, '-')}-${motionIndex}`;
+                
+                return `
+                    <div class="motion-item ${motion.result}" id="${motionId}" data-motion-members="${this.councilMembers.map((member, index) => `${member.toLowerCase()}:${motion.votes[index] || 'absent'}`).join(',')}">
+                        <div class="motion-title">${motion.title}</div>
+                        ${motionMetaHTML}
+                        <div class="motion-description">${motion.description}</div>
+                        <div class="voting-results">
+                            <div class="vote-summary">
+                                <div class="vote-count vote-yes">Yes: ${voteCount.yes}</div>
+                                <div class="vote-count vote-no">No: ${voteCount.no}</div>
+                                ${voteCount.abstain > 0 ? `<div class="vote-count vote-abstain">Abstain: ${voteCount.abstain}</div>` : ''}
+                                ${voteCount.absent > 0 ? `<div class="vote-count vote-abstain">Absent: ${voteCount.absent}</div>` : ''}
+                            </div>
+                            <div class="motion-result result-${motion.result}">${resultText}</div>
+                        </div>
+                        <div class="council-members">
+                            ${membersHTML}
+                        </div>
+                    </div>
+                `;
+            }
+
+            populateFilters() {
+                const memberFilter = document.getElementById('memberFilter');
+                memberFilter.innerHTML = '<option value="">All Members</option>';
+                this.councilMembers.forEach(member => {
+                    const option = document.createElement('option');
+                    option.value = member.toLowerCase();
+                    option.textContent = member;
+                    memberFilter.appendChild(option);
+                });
+                
+                document.getElementById('searchFilter').style.display = 'block';
+            }
+
+            setupEventListeners() {
+                const searchInput = document.getElementById('searchInput');
+                const statusFilter = document.getElementById('statusFilter');
+                const memberFilter = document.getElementById('memberFilter');
+                const dateFilter = document.getElementById('dateFilter');
+
+                const filterFn = () => this.filterMeetings();
+                searchInput.addEventListener('input', filterFn);
+                statusFilter.addEventListener('change', filterFn);
+                memberFilter.addEventListener('change', filterFn);
+                dateFilter.addEventListener('change', filterFn);
+
+                this.addHoverEffects();
+            }
+
+            filterMeetings() {
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                const statusValue = document.getElementById('statusFilter').value;
+                const memberValue = document.getElementById('memberFilter').value;
+                const dateValue = document.getElementById('dateFilter').value;
+                
+                const meetings = document.querySelectorAll('.meeting-section');
+                let visibleCount = 0;
+
+                meetings.forEach(meeting => {
+                    const meetingDate = meeting.querySelector('.meeting-date').textContent;
+                    const motions = meeting.querySelectorAll('.motion-item');
+                    let meetingHasVisibleMotions = false;
+
+                    const dateMatch = !dateValue || meetingDate.includes(dateValue);
+                    
+                    if (!dateMatch) {
+                        meeting.style.display = 'none';
+                        return;
+                    }
+
+                    motions.forEach(motion => {
+                        const title = motion.querySelector('.motion-title').textContent.toLowerCase();
+                        const description = motion.querySelector('.motion-description').textContent.toLowerCase();
+                        const metaElement = motion.querySelector('.motion-meta');
+                        const metaText = metaElement ? metaElement.textContent.toLowerCase() : '';
+                        
+                        let motionStatus = '';
+                        if (motion.classList.contains('passed')) motionStatus = 'passed';
+                        else if (motion.classList.contains('failed')) motionStatus = 'failed';
+                        else if (motion.classList.contains('tabled')) motionStatus = 'tabled';
+
+                        let memberMatch = true;
+                        if (memberValue) {
+                            const motionMembers = motion.getAttribute('data-motion-members');
+                            memberMatch = motionMembers && motionMembers.includes(memberValue + ':');
+                        }
+
+                        const searchMatch = !searchTerm || 
+                            title.includes(searchTerm) || 
+                            description.includes(searchTerm) || 
+                            metaText.includes(searchTerm);
+                        
+                        const statusMatch = !statusValue || motionStatus === statusValue;
+
+                        if (searchMatch && statusMatch && memberMatch) {
+                            motion.style.display = 'block';
+                            meetingHasVisibleMotions = true;
+                        } else {
+                            motion.style.display = 'none';
+                        }
+                    });
+
+                    if (meetingHasVisibleMotions || meeting.querySelector('.status-upcoming') || meeting.querySelector('.status-missing')) {
+                        meeting.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        meeting.style.display = 'none';
+                    }
+                });
+            }
+
+            addHoverEffects() {
+                setTimeout(() => {
+                    document.querySelectorAll('.motion-item').forEach(item => {
+                        item.addEventListener('mouseenter', function() {
+                            this.style.transform = 'translateX(5px) scale(1.01)';
+                        });
+                        
+                        item.addEventListener('mouseleave', function() {
+                            this.style.transform = 'translateX(0) scale(1)';
+                        });
+                    });
+                }, 500);
+            }
+
+            hideLoading() {
+                document.getElementById('loadingIndicator').style.display = 'none';
+            }
+
+            showError(message) {
+                const container = document.querySelector('.container');
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error';
+                errorDiv.innerHTML = `<h3>Error</h3><p>${message}</p>`;
+                
+                const loadingEl = document.getElementById('loadingIndicator');
+                container.insertBefore(errorDiv, loadingEl.nextSibling);
+                loadingEl.style.display = 'none';
+            }
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', () => {
+            new DunwoodyVotingTracker();
+        });
+
+        // Animate stats on page load
+        window.addEventListener('load', () => {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                const finalValue = parseInt(stat.textContent);
+                if (finalValue === 0) return;
+                
+                let currentValue = 0;
+                const increment = finalValue / 50;
+                
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        stat.textContent = finalValue;
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(currentValue);
+                    }
+                }, 20);
+            });
+        });
+    </script>
+</body>
+</html>
