@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of February 26, 2024 meeting minutes, second read text amendments to Chapter 2 (Board of Ethics) and Chapter 4 (Alcohol License Review Board), and funding authorization for storm repairs at two locations.",
+            "description": "Approval of consent agenda including: • February 26, 2024 meeting minutes • Second read text amendment to Chapter 2 (Board of Ethics) • Second read text amendment to Chapter 4 (Alcohol License Review Board) • Funding authorization for 1302 Center Drive emergency storm repairs • Funding authorization for 2707 Wood Hollow Drive storm repairs",
             "introducedBy": "Seconder",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -50,6 +50,24 @@
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "MMSP 24-01: Major Master Sign Plan for Kingswood Church",
+            "description": "First read of major master sign plan for 4896 N Peachtree Road (Kingswood Church) requesting two new signs and exemption from sign code.",
+            "address": "4896 N Peachtree Road",
+            "applicant": "Kingswood Church",
+            "recommendation": "Planning Commission unanimously recommended approval",
+            "action": "Moved to consent agenda for next meeting"
+        },
+        {
+            "title": "MMSP 24-02: Major Master Sign Plan for Emory Healthcare",
+            "description": "First read of major master sign plan for 4553 N Shallowford Road (Emory Healthcare) proposing to keep one existing wall sign, add two new wall signs and eight new wayfinding signs.",
+            "address": "4553 N Shallowford Road",
+            "applicant": "Emory Healthcare",
+            "recommendation": "Staff recommends approval with lighting condition",
+            "lightingCondition": "Timer on wall sign light facing Pernoshal Court to be turned off 10:30 PM and on at 6:00 AM"
         }
     ]
 }

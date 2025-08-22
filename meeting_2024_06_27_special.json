@@ -1,0 +1,34 @@
+{
+    "date": "June 27, 2024",
+    "status": "completed",
+    "meeting_type": "Special Called Meeting",
+    "meeting_time": "8:00 AM",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the special called meeting after second public hearing on 2024 millage rate of 3.040 mills.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2024 Millage Rate",
+            "description": "Second of three required public hearings for proposed 2024 millage rate of 3.040 mills. One speaker opposed (Bob Hickey requesting rollback to 2.873 mills), none in favor.",
+            "presenter": "Delisha Robinson",
+            "proposedRate": "3.040 mills",
+            "recommendation": "Staff recommends adoption at July 8th meeting"
+        }
+    ]
+}

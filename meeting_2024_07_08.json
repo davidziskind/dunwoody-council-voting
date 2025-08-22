@@ -29,7 +29,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of June 10, 26, and 27, 2024 meeting minutes.",
+            "description": "Approval of consent agenda including: • June 10, 2024 meeting minutes • June 26, 2024 special called meeting minutes • June 27, 2024 special called meeting minutes",
             "introducedBy": "Lautenbacher",
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -58,6 +58,33 @@
             "secondedBy": "Lautenbacher",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2024 Millage Rate",
+            "description": "Third and final public hearing for proposed 2024 millage rate of 3.040 mills. Multiple speakers in favor, some opposed requesting increases.",
+            "presenter": "Delisha Robinson",
+            "proposedRate": "3.040 mills",
+            "outcome": "Adopted"
+        },
+        {
+            "title": "Community Residences and Recovery Communities Ordinance (First Read)",
+            "description": "First read of ordinance to define Community Residences and Recovery Communities and create use regulations. Public opposition expressed concerns about distance requirements.",
+            "presenter": "Paul Leonhardt",
+            "action": "Continued to next meeting for staff recommendations on distance requirements"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Ramatu Kamara",
+            "description": "Mayor Deutsch administered oath of office to Officer Ramatu Kamara.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Special Recognition of Bill McCahan",
+            "description": "Certificate of Appreciation presented to Bill McCahan for his service to the city.",
+            "presenter": "Mayor Deutsch and Council Member Harris"
         }
     ]
 }

@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of SPLOST funding authorization for traffic camera repairs and September 9, 2024 meeting minutes.",
+            "description": "Approval of consent agenda including: • SPLOST funding authorization for traffic camera repairs • September 9, 2024 meeting minutes",
             "introducedBy": "Heneghan",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -26,6 +26,45 @@
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Safety Action Plan Funding Presentation",
+            "description": "Georgia Department of Transportation presented check from Road Safety Action Plan Program grant for pedestrian hybrid beacons and rapid flashing beacons.",
+            "presenter": "David Ayers and GDOT officials"
+        },
+        {
+            "title": "Spruill Center for the Arts Annual Presentation",
+            "description": "Annual report showing 1,100 members, over 1,000 classes/workshops, 7,000+ students enrolled, plus 1,000+ summer campers.",
+            "presenter": "Alan Mothner (CEO)"
+        },
+        {
+            "title": "Stage Door Theatre Annual Presentation",
+            "description": "Overview of four main programs: mainstage season, spotlight series, performing arts academy, and community engagement programs impacting nearly 4,000 people.",
+            "presenter": "Justin Ball (Artistic Director)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Text Amendment for Pole Banner Regulations (First Read)",
+            "description": "First read of text amendment to Chapter 26 updating pole banner dimensions, height requirements, and permit process.",
+            "presenter": "Allegra DeNooyer"
+        },
+        {
+            "title": "Mount Vernon at Tilly Mill Intersection Project Contract Amendment",
+            "description": "Ten-year project plan for Mount Vernon and Tilly Mill Road scheduled for 2026, including shared use paths and sidewalks.",
+            "presenter": "Michelle Hirose"
+        },
+        {
+            "title": "Brook Run Park Playground Resurfacing",
+            "description": "Update on rubber surfacing repairs needed for playground areas with most wear.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Comprehensive Plan and UDO Public Input Update",
+            "description": "Update on public engagement with 1,076 survey responses and recent public comment events.",
+            "presenter": "Richard McLeod"
         }
     ]
 }

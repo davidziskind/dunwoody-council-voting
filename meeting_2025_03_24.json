@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of March 10, 2024 meeting minutes, contract amendment with Lowe Engineers for stormwater project management, and contracts with tree service companies for tree trimming and removal services.",
+            "description": "Approval of consent agenda including: • March 10, 2024 meeting minutes • Contract amendment with Lowe Engineers for stormwater project management • Contracts with tree service companies for tree trimming and removal services",
             "introducedBy": "Price",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -43,5 +43,39 @@
             "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
             "result": "passed"
         }
+    ],
+    "specialEvents": [
+        {
+            "title": "Dunwoody High School Youth Council Presentation",
+            "description": "Presentation added to agenda by Mayor Deutsch without objection.",
+            "presenter": "Dunwoody High School Youth Council"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Managed Lanes Transit and Bus Rapid Transit Update",
+            "description": "Mayor Deutsch provided update on advocacy for bus rapid transit along managed lanes and GDOT bringing van-pooling back to Perimeter Center Improvement District.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "councilComments": [
+        {
+            "member": "Seconder",
+            "content": "Appreciation for March 12-13 planning retreat and Mayor Deutsch's leadership on city governance."
+        },
+        {
+            "member": "Lautenbacher",
+            "content": "Invitation to Connect with Council event Saturday 2:00-4:00 PM at Good Vibes ice cream in Dunwoody Village."
+        },
+        {
+            "member": "Deutsch",
+            "content": "Thanks to Chamber for State of the City invitation, announced additional community presentations planned, looking forward to 25th anniversary Lemonade Days."
+        }
+    ],
+    "notes": [
+        "March 10 meeting minutes had error noted by Joe Hirsch",
+        "Council held strategic planning retreat March 12-13",
+        "State of the City presentations planned for multiple venues",
+        "25th anniversary of Lemonade Days approaching"
     ]
 }

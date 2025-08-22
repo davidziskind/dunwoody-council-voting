@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of November 25, 2024 meeting minutes, stormwater repairs funding, athletic agreements, ESRI renewal, police applications migration, and Dunwoody Nature Center agreement extension.",
+            "description": "Approval of consent agenda including: • November 25, 2024 meeting minutes • Additional funding authorization for 1480 Old Spring House Lane stormwater repairs • Funding authorization for stormwater repairs at 1398 Womack Road • 2025 athletic agreements for Rush Union, MABL, and school user groups • ESRI renewal for GIS mapping application suite • Migration of police applications to Central Square Cloud • Dunwoody Nature Center matching funding agreement extension",
             "introducedBy": "Harris",
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -83,5 +83,32 @@
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         }
+    ],
+    "publicHearings": [
+        {
+            "title": "RZ 24-02: Mount Vernon Road and Jett Ferry Road Rezoning (First Read)",
+            "description": "First read of rezoning request for 2480, 2526 Mount Vernon Road & 2495 Jett Ferry Road from NS (Neighborhood Shopping) to C-1 (Local Commercial). Planning Commission unanimously recommended approval.",
+            "presenter": "Madalyn Smith",
+            "applicant": "Multiple property owners",
+            "recommendation": "Staff recommends approval",
+            "publicSupport": "Multiple speakers in favor, one opposed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Chamblee Dunwoody Bridge Enhancement Design Update",
+            "description": "Update on bridge enhancement design integrating Dunwoody's logo, expanding sidewalk to 14 feet, and adding lighting.",
+            "presenter": "Winston Mitchell (Kimley Horn)"
+        },
+        {
+            "title": "2025 Georgia General Assembly Legislative Session",
+            "description": "Preview of legislative issues with breakfast meeting planned with three legislators in January.",
+            "presenter": "Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "Mayor Deutsch participated via Zoom from her office for part of the meeting",
+        "Significant public comment support for Mount Vernon/Jett Ferry rezoning",
+        "Last meeting of 2024"
     ]
 }

@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of July 22, 2024 meeting minutes, contract award to KCI Technologies for Chamblee Dunwoody-Village Crossroads project, ADA Transition Plan update, and Department of Energy grant award received.",
+            "description": "Approval of consent agenda including: • July 22, 2024 meeting minutes • Contract award to KCI Technologies for Chamblee Dunwoody-Village Crossroads project • ADA Transition Plan update • Department of Energy grant award received",
             "introducedBy": "Lambert",
             "secondedBy": "Seconder",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -42,6 +42,28 @@
             "secondedBy": "Lautenbacher",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment for Streetscape Design Standards (First Read)",
+            "description": "First read of text amendment to Chapter 16 to provide streetscape design standards for certain areas (primarily Jett Ferry area). Mixed public support.",
+            "presenter": "Allegra DeNooyer",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Dunwoody Preservation Trust Lemonade Days Festival Unsung Hero Award",
+            "description": "Presentation of first Unsung Hero awards to Sgt. Sillah and Lt. Dove for ensuring event safety.",
+            "presenter": "Hope Follmer and Barry Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Internal Auditor Update",
+            "description": "Update from internal auditor Michael Johnston on quarterly audits and work with Audit Committee to identify high-risk areas.",
+            "presenter": "Michael Johnston (via City Manager's report)"
         }
     ]
 }

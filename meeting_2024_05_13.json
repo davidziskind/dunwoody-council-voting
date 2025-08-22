@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of April 29, 2024 meeting minutes and intergovernmental agreement with City of Peachtree Corners for Winters Chapel Path Phase 2 Project.",
+            "description": "Approval of consent agenda including: • April 29, 2024 meeting minutes • Intergovernmental agreement with City of Peachtree Corners for Winters Chapel Path Phase 2 Project",
             "introducedBy": "Price",
             "secondedBy": "Seconder",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -74,6 +74,18 @@
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Citizens' Police Academy Class XIV Graduation",
+            "description": "Recognition of Citizens' Police Academy Class XIV graduates, with Officer Hernandez presenting the program.",
+            "presenter": "Officer Hernandez and Chief Carlson"
+        },
+        {
+            "title": "Administration of Oath of Office - Officer Alvin Slocum",
+            "description": "Mayor Deutsch administered oath of office to Officer Alvin Slocum.",
+            "officiant": "Mayor Deutsch"
         }
     ]
 }

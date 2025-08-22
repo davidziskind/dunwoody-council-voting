@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of May 13, 2024 meeting minutes and contract award for Waterford Park playground equipment.",
+            "description": "Approval of consent agenda including: • May 13, 2024 meeting minutes • Contract award for Waterford Park playground equipment",
             "introducedBy": "Heneghan",
             "secondedBy": "Price",
             "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "absent"],
@@ -35,5 +35,20 @@
             "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "absent"],
             "result": "passed"
         }
+    ],
+    "specialEvents": [
+        {
+            "title": "Officer and Employee of the First Quarter Awards",
+            "description": "Chief Carlson presented awards to Detective Eric Haviland (Officer of the First Quarter) and Sybil Fisher (Employee of the First Quarter).",
+            "presenter": "Chief Carlson"
+        },
+        {
+            "title": "Municipal Court Clerks Week Proclamation",
+            "description": "Recognition of Municipal Court Clerks Week with Court Clerk Norlaundra Huntington and Deputy Clerks Monique Andrews and Chryse Bowers.",
+            "presenter": "Deputy City Clerk Jessica Holmes"
+        }
+    ],
+    "notes": [
+        "Charter quorum voting issue discussed - City Attorney clarified that majority of quorum (3 votes) is sufficient to pass measures per Charter requirements"
     ]
 }

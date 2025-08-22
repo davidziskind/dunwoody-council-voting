@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of January 27, 2025 meeting minutes, funding authorization for stormwater repairs at 4425 E Kings Point Circle, contract amendment No. 3 with Jacobs for Finance and Administrative Services, and MOU with US Postal Inspection Service.",
+            "description": "Approval of consent agenda including: • January 27, 2025 meeting minutes • Funding authorization for stormwater repairs at 4425 E Kings Point Circle • Contract amendment No. 3 with Jacobs for Finance and Administrative Services • MOU with US Postal Inspection Service",
             "introducedBy": "Heneghan",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -26,6 +26,31 @@
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "2024 President's Volunteer Service Awards",
+            "description": "Recognition of recipients of 2024 President's Volunteer Service Awards for volunteers with 100+ hours of service.",
+            "presenter": "Chief Carlson and Officer Theresa Hernandez"
+        },
+        {
+            "title": "Administration of Oath of Office - Officer John Rose",
+            "description": "Mayor Deutsch administered oath of office to Officer John Rose.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Scout Troop 1818 Recognition",
+            "description": "Recognition of Scout Troop 1818 members working on merit badges.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract with Stewart Brothers for 2025 Paving Contract",
+            "description": "Second year of five-year paving plan. Eight bids received with Stewart Brothers as low bidder at $2,491,439.",
+            "presenter": "Michael Smith",
+            "recommendation": "Staff recommends award to Stewart Brothers"
         }
     ]
 }

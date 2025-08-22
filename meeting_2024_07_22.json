@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of July 8, 2024 meeting minutes and resolution appointing a member of the Sustainability Committee.",
+            "description": "Approval of consent agenda including: • July 8, 2024 meeting minutes • Resolution appointing a member to the Sustainability Committee",
             "introducedBy": "Seconder",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -34,6 +34,28 @@
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Comprehensive Plan Kickoff Public Hearing and Code Rewrite",
+            "description": "Public hearing for Comprehensive Plan and Code rewrite project kickoff with TSW consultant. Project timeline and community engagement schedule presented.",
+            "presenter": "Richard McLeod and Allison Stewart-Harris (TSW)",
+            "action": "Information only - project proceeding"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Teen Police Academy Graduates Recognition",
+            "description": "Recognition of Class 2024-004 Teen Police Academy graduates who completed the five-day summer program for ages 14-19.",
+            "presenter": "Sgt. Anwar Sillah"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Economic Development Update - 2nd Quarter",
+            "description": "Second quarter update covering April-June activities, office market trends in Perimeter and Georgetown, and redevelopment potential.",
+            "presenter": "Michael Starling"
         }
     ]
 }

@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of multiple meeting minutes from March 2025, renewal of Microsoft licenses, Fortinet maintenance licenses, and MOU with U.S. Naval Criminal Investigation Service for LInX.",
+            "description": "Approval of consent agenda including: • March 10, 2025 meeting minutes (corrected) • March 12, 2025 strategic planning retreat minutes • March 13, 2025 special called meeting minutes • March 24, 2025 meeting minutes • April 1, 2025 joint meeting minutes • Renewal of Microsoft licenses • Renewal of Fortinet maintenance licenses • MOU with U.S. Naval Criminal Investigation Service for LInX",
             "introducedBy": "Price",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -43,5 +43,45 @@
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Luis Flores",
+            "description": "Mayor Deutsch administered oath of office to Officer Luis Flores.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "25th Anniversary of Lemonade Days Proclamation",
+            "description": "Proclamation recognizing 25th anniversary of Lemonade Days with presentation to 2025 Honorary Queen Dolores Lauderdale.",
+            "presenter": "Hope Follmer and Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract Amendment for Final Design Winters Chapel Path Phase 2",
+            "description": "Contract amendment with Practical Design Partners for final design not to exceed $782,094.11.",
+            "presenter": "Tiffany Siegel"
+        },
+        {
+            "title": "Project Framework Agreement with Georgia Department of Transportation",
+            "description": "Agreement with GDOT for Winters Chapel Path Phase 2 to receive federal funding for design.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Funding Authorization for Path between Eidson Road and Cherry Hill Lane",
+            "description": "Contract with Hasbun Construction, LLC for $216,436 plus 10% contingency to construct 10-foot wide shared-use path.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Additional Services from TSW for Direction Dunwoody Comprehensive Plan",
+            "description": "Update on additional services included in 2025 budget. McLeod confirmed draft Comprehensive Plan has not been approved by Council.",
+            "presenter": "Richard McLeod"
+        }
+    ],
+    "notes": [
+        "Flock Safety drone funding request tabled for further discussion",
+        "Multiple meeting minutes approved including strategic planning retreat",
+        "Food Truck Thursdays starting monthly",
+        "Lemonade Days upcoming next week"
     ]
 }

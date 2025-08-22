@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of February 24, 2025 meeting minutes, funding authorization for 1421 Mockwell Court storm repairs, and resolution for budget amendment for fiscal year 2024.",
+            "description": "Approval of consent agenda including: • February 24, 2025 meeting minutes • Funding authorization for 1421 Mockwell Court storm repairs • Resolution for budget amendment for fiscal year 2024",
             "introducedBy": "Harris",
             "secondedBy": "Price",
             "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -36,6 +36,18 @@
             "result": "passed"
         }
     ],
+    "discussionItems": [
+        {
+            "title": "Contract Amendment with Lowe Engineers for Stormwater Project Management",
+            "description": "Request to continue accelerating ARPA-funded stormwater projects with project manager at 20 hours/week through end of year.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Contracts with Tree Service Companies",
+            "description": "On-call unit price contracts with AKA Tree Service, Beasley Tree Experts and TriScapes for tree trimming and removal services due to increased regular and emergency work.",
+            "presenter": "Michael Smith"
+        }
+    ],
     "publicComments": {
         "fieldTurfSupport": [
             "Emory Lucero",
@@ -56,5 +68,17 @@
             "Joe Hirsch (open records lawsuit)",
             "Zack Humphries (affordable housing)"
         ]
-    }
+    },
+    "specialEvents": [
+        {
+            "title": "Deputy Chief Fladrich White Rose Award Recognition",
+            "description": "Council Member Price congratulated Deputy Chief Fladrich for receiving the White Rose Award from the Atlanta Jewish Community Committee.",
+            "presenter": "Council Member Price"
+        }
+    ],
+    "notes": [
+        "Mayor Deutsch absent - Mayor Pro Tem Lambert presided",
+        "Policy on Green Buildings tabled pending Sustainability Committee review",
+        "Significant public comment on Peachtree Middle School field turf"
+    ]
 }

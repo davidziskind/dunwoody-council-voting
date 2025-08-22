@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of August 12, 2024 meeting minutes, backup and recovery services agreement, holiday lights contract award, and stormwater master model funding authorization.",
+            "description": "Approval of consent agenda including: • August 12, 2024 meeting minutes • Agreement for backup and recovery services solution provider • Holiday lights contract award • Funding authorization for stormwater master model for Marsh Creek Basin",
             "introducedBy": "Lambert",
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -58,6 +58,20 @@
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "2024 Officer and Employee of the 2nd Quarter Recognition",
+            "description": "Recognition of Officer Jakori Edwards (Officer of 2nd Quarter) and J.B. Tate (Employee of 2nd Quarter).",
+            "presenter": "Chief Mike Carlson"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "FY2023 Annual Comprehensive Financial Report",
+            "description": "Presentation of annual financial audit results showing unmodified clean opinion, 9-10 months fund balance, no unusual accounting policies.",
+            "presenter": "Josh Carroll (Mauldin & Jenkins)"
         }
     ]
 }

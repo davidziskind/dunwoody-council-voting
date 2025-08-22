@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of October 28, 2024 meeting minutes, Stage Door Players legal entity change, skate park mural surplus, and materials testing contract.",
+            "description": "Approval of consent agenda including: • October 28, 2024 meeting minutes • Stage Door Players legal entity change • Skate park mural surplus • On-call contract for materials testing, geotechnical and environmental services • Funding authorization for 4525 Sudbury Road stormwater repairs",
             "introducedBy": "Seconder",
             "secondedBy": "Lambert",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -59,5 +59,50 @@
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         }
+    ],
+    "publicHearings": [
+        {
+            "title": "Charter Amendment Article II, Section 2.13(a)(4) - Prohibitions (First Read)",
+            "description": "First read of charter amendment to allow Police Foundation and similar organizations to support officers and families in need. Does not apply to elected officials.",
+            "presenter": "City Manager and City Attorney",
+            "action": "Proceeding to second read"
+        },
+        {
+            "title": "Charter Amendment Article II, Section 2.13(e) - Prohibitions (First Read)",
+            "description": "First read of charter amendment to prohibit elected officials from working for DeKalb County or City of Dunwoody (Harris recused herself).",
+            "presenter": "City Manager and City Attorney",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Citizens' Police Academy Class XV Graduation Recognition",
+            "description": "Recognition of seventeen graduates from thirteen-week Citizens' Police Academy program, with Officer Hernandez recruiting three new volunteers.",
+            "presenter": "Officer Hernandez and Chief Carlson"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Dunwoody Community Garden & Orchard Annual Presentation",
+            "description": "Fifteenth year operation report showing 100 members, successful spring plant sale with 800+ shoppers, greenhouse upgrades, and strong financial position.",
+            "presenter": "Ann Bone (Chair) and Richard Osterholtz (Greenhouse Manager)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Construction Manager at Risk Contract for Brook Run Maintenance Facility",
+            "description": "Recommendation for Moeller-Purcell as Construction Manager at $4,500/month for 2-3 month preconstruction phase, with March/April 2025 start date anticipated.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "2025 Athletic Association Agreements",
+            "description": "Seven athletic association agreements with proposed changes for Rush Union Soccer, Atlanta MABL, and Dunwoody Senior Baseball.",
+            "presenter": "Rachel Waldron"
+        }
+    ],
+    "notes": [
+        "Treetop Quest addressed safety incident concerns - company had been without incident for ten years prior",
+        "Charter amendments explained as not applying to current mayor and council but establishing policy framework",
+        "Council Member Harris recused herself from Charter Amendment discussion due to potential conflict"
     ]
 }

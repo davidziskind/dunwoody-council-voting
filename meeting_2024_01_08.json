@@ -39,7 +39,7 @@
     "specialEvents": [
         {
             "title": "Administration of Oath of Office - Elected Officials",
-            "description": "Judge Stacey K. Hydrick administered oath of office to Mayor-Elect Lynn Deutsch, Council Member-Elect Stacey Harris, Council Member-Elect Joe Seconder, and Council Member-Elect John Heneghan.",
+            "description": "Judge Stacey Hydrick administered oath of office to Mayor-Elect Lynn Deutsch, Council Member-Elect Stacey Harris, Council Member-Elect Joe Seconder, and Council Member-Elect John Heneghan.",
             "officiant": "The Honorable Judge Stacey K. Hydrick"
         },
         {
@@ -47,38 +47,5 @@
             "description": "Mayor Deutsch administered oath of office to Officer DeMario Tinsley.",
             "officiant": "Mayor Deutsch"
         }
-    ],
-    "discussionItems": [
-        {
-            "title": "City Manager's Monthly Report",
-            "description": "City Manager Eric Linton presented his monthly report. Council requested CIP projects be added to next report. Mayor requested shade structures contract be on next agenda under Business Items.",
-            "presenter": "Eric Linton",
-            "action": "No Action"
-        },
-        {
-            "title": "Five-Year Contract for License Plate Readers with Flock Safety",
-            "description": "Deputy Chief Carlson presented the contract for a five-year contract for license plate readers with Flock Safety. The renewal locks in current rates. (Discussion only - no action taken)",
-            "presenter": "Deputy Chief Carlson",
-            "action": "No Action"
-        }
-    ],
-    "publicComments": {
-        "speakers": [
-            {
-                "name": "Joe Bell",
-                "topic": "Adams Parc subdivision stormwater basin erosion issue",
-                "summary": "Property owner alerting Council for third time about severe erosion on his property due to stormwater basin issue. Has five-year battle with Adams Parc HOA. Meeting with Heneghan on January 12."
-            },
-            {
-                "name": "James Hufham", 
-                "topic": "Homelessness and vagrancy in Dunwoody",
-                "summary": "Representing homeless woman sitting on park bench at Gate #1 of High Street project since September 2022. Requesting help getting her into humane shelter."
-            },
-            {
-                "name": "Judi Carlson",
-                "topic": "Malachi's Storehouse appreciation",
-                "summary": "Director of Malachi's Storehouse thanked City Council and staff for enormous support given over several years with ARPA money."
-            }
-        ]
-    }
+    ]
 }

@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of August 26, 2024 meeting minutes, second quarter 2024 budget amendment, sanitary sewer easement agreement, and multiple stormwater repair funding authorizations.",
+            "description": "Approval of consent agenda including: • August 26, 2024 meeting minutes • Second quarter 2024 budget amendment • Amendment to agreement with DeKalb - Lake Ridge, LLC for sanitary sewer easement • Funding authorization for stormwater repairs at multiple locations (1480 Old Spring House Lane, 4752 Village North Court, 5209 Fleur De Lis Court, 2160 Dunwoody Glen)",
             "introducedBy": "Heneghan",
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -42,6 +42,25 @@
             "secondedBy": "Heneghan",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Medal of Meritorious Service Presentation",
+            "description": "Chief Carlson presented Medal of Meritorious Award to Sgt. Harold (Trey) Nelson for saving an 18-month-old from choking using LifeVac Device funded by Dunwoody Police Foundation.",
+            "presenter": "Chief Carlson"
+        },
+        {
+            "title": "Recognition of Chief Judge Rick Powell",
+            "description": "Recognition of Chief Judge Rick Powell with certificate for 25 years of service to State of Georgia and 15 years as judge within the city.",
+            "presenter": "Norlaundra Huntington"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Chamblee Dunwoody Bridge Enhancement Design Update",
+            "description": "Update on possible bridge enhancement designs including railings, lighting, columns, paint treatments, and pedestrian improvements. Three levels of enhancements presented.",
+            "presenter": "Michael Smith and Winston Mitchell (Kimley Horn)"
         }
     ]
 }

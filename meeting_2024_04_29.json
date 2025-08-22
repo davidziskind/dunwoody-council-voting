@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval as Amended",
-            "description": "Approval of April 8, 2024 meeting minutes, AECOM contract for North Shallowford Road Path Project concept design, and other consent items (with items 7 and 9 moved to business items).",
+            "description": "Approval of consent agenda as amended including: • April 8, 2024 meeting minutes • Contract with AECOM for North Shallowford Road Path Project concept design • Renewal of property & liability insurance with GIRMA (with items 7 and 9 moved to business items)",
             "introducedBy": "Lambert",
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -74,6 +74,18 @@
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Sustainability Hero Awards",
+            "description": "Presentation of 2023 Sustainability Hero awards to Jason Metzger (individual) and Oak Avenue Landscaping (organization).",
+            "presenter": "Larry Heiman and Michael Pray"
+        },
+        {
+            "title": "Girl Scout Troop 19443 Bronze Award Project",
+            "description": "Presentation by Girl Scout Troop 19443 on their Bronze Award project creating bird sanctuaries from scrap materials.",
+            "presenter": "Girl Scout Troop 19443"
         }
     ]
 }

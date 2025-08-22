@@ -29,7 +29,7 @@
         },
         {
             "title": "Consent Agenda Approval as Amended",
-            "description": "Approval of October 15, 2024 meeting minutes and contract amendment with Triscapes for road and stormwater maintenance.",
+            "description": "Approval of consent agenda as amended including: • October 15, 2024 meeting minutes • Contract amendment with Triscapes for road and stormwater maintenance",
             "introducedBy": "Price",
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
@@ -50,6 +50,58 @@
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "absent", "absent", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Fiscal Year 2025 Budget Adoption",
+            "description": "Public hearing for adoption of FY2025 budget. No public comments for or against.",
+            "presenter": "Richard Platto",
+            "outcome": "Budget adopted"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Third Quarter Economic Development Update",
+            "description": "Activity update, project updates, and brand message development. New brand message: 'cosmopolitan vibes/small town feels'. Hotel market analysis showing 2100 rooms, 70% occupancy, $99 revenue per available room.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Dunwoody Senior Baseball Annual Report",
+            "description": "Annual report showing service to over 2,000 players, 22 employees, 5 field managers. Discussed challenges with field time and need for netting along Barclay.",
+            "presenter": "Jerry Weiner (President)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "On-Call Contract for Materials Testing Services",
+            "description": "Recommendation for unit price contracts with Nova Engineering, Geo-Hydro Engineering, and United Consulting for engineering and testing services.",
+            "presenter": "Todd Meadows"
+        },
+        {
+            "title": "Georgetown Gateway Public Art Project",
+            "description": "Proposal for 'Human Interfusion' sculpture installation on Chamblee Dunwoody Road, cost $55,000 from 1% public art set-aside.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Memorandum of Agreement with Flock Group",
+            "description": "Agreement allowing police vehicle laptops to communicate with Real Time Crime Center.",
+            "presenter": "Chief Carlson"
+        },
+        {
+            "title": "Stage Door Players Legal Entity Change",
+            "description": "Proposal to change legal name from Stage Door Players to Stage Door Theatre.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Brook Run Skate Park Mural Surplus",
+            "description": "Request to surplus 50 large-scale murals and authorize staff to negotiate with artists for reacquisition.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Veterans Memorial Design",
+            "description": "Update on proposed design with overwhelming veteran support and discussion of bringing back bricks program.",
+            "presenter": "Rachel Waldron"
         }
     ]
 }

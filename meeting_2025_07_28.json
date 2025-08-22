@@ -30,8 +30,8 @@
         {
             "title": "Perimeter Character Area Amendment - Move Uses to Yellow Category",
             "description": "Amendment to move senior/assisted living, multi-unit, mixed use, and regional commercial to the yellow category and move small lot residential to yellow with appropriate consideration.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         },
@@ -44,192 +44,24 @@
             "result": "passed"
         },
         {
-            "title": "Perimeter Core Use Area Amendment",
-            "description": "Amendment that in the Perimeter core use area that multi-unit senior assisted living, mixed-use, and regional commercial all be yellow use and to adjust the language that discusses the MARTA TOD.",
-            "introducedBy": "Price",
-            "secondedBy": "Heneghan",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Perimeter Transition Area Amendment",
-            "description": "Amendment to move mixed use and senior assisted living to the yellow appropriate with considerations category.",
-            "introducedBy": "Price",
-            "secondedBy": "Lambert",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Dunwoody Village Character Area Amendment",
-            "description": "Amendment to move senior assisted living and mixed use to the yellow category.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Dunwoody Village Transition Character Area Amendment",
-            "description": "Amendment to move senior assisted living to the yellow category appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Georgetown West Character Area Amendment",
-            "description": "Amendment to move senior assisted living and mixed use to the yellow category appropriate considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Georgetown West Transition Character Area Amendment",
-            "description": "Amendment to shift senior/assisted living to the yellow category appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Georgetown East Character Area Amendment",
-            "description": "Amendment to move senior/assisted living and multi-unit uses to the yellow category appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Georgetown East First Baptist Church Reference Removal",
-            "description": "Amendment to strike the line 'most of the area consists of First Baptist Church of Atlanta and its adjacent adjoining parking lots.'",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Winters Chapel Character Area Amendment",
-            "description": "Amendment to move senior/assisted living, multi-unit, and mixed use to the yellow category, appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Winters Chapel Small Area Plan Addition",
-            "description": "Amendment to add a small area plan with adjacent jurisdictions for Winters Chapel and Peachtree Boulevard.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Winters Chapel Transition Character Area Amendment",
-            "description": "Amendment to shift senior/assisted living to the yellow category, appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Jett Ferry Character Area Amendment",
-            "description": "Amendment to move senior/assisted living, mixed use, and medium density commercial to the yellow category, appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Ashford Character Area Amendment",
-            "description": "Amendment to move senior/assisted living to the yellow category, appropriate with considerations.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Georgetown East First Baptist Reference Strike",
-            "description": "Motion to strike the sentence referencing First Baptist Atlanta and its adjacent adjoining parking lots in the Georgetown East section.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Ashford Character Area Mixed-Use Amendment (Heneghan)",
-            "description": "Amendment to move mixed-use and multi-unit from yellow appropriate with consideration, to red inappropriate in the Ashford character area.",
-            "introducedBy": "Heneghan",
-            "secondedBy": "Mayor Deutsch",
-            "votes": ["no", "no", "yes", "no", "no", "no", "no"],
-            "result": "failed"
-        },
-        {
-            "title": "Peachtree Boulevard Character Area Amendment",
-            "description": "Amendment to move senior/assisted living, multi-unit, and mixed use to the yellow category, appropriate with consideration.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Civic Campuses Character Area Removal",
-            "description": "Motion to remove Civic Campuses section from the document.",
-            "introducedBy": "Price",
-            "secondedBy": "Heneghan",
-            "votes": ["yes", "no", "no", "no", "no", "yes", "no"],
-            "result": "failed"
-        },
-        {
             "title": "Motion to Remove Brook Run Character Area from Document",
             "description": "Amendment to remove the Brook Run character area section from the Comprehensive Plan document.",
-            "introducedBy": "Price",
-            "secondedBy": "Heneghan",
-            "votes": ["yes", "no", "yes", "yes", "no", "yes", "no"],
-            "result": "passed"
-        },
-        {
-            "title": "Water Works Character Area Removal",
-            "description": "Amendment to strike water works from the document as a specific section and keeping text as appropriate in the plan.",
-            "introducedBy": "Price",
-            "secondedBy": "Heneghan",
-            "votes": ["yes", "no", "yes", "no", "no", "yes", "no"],
-            "result": "failed"
-        },
-        {
-            "title": "SLUP Requirement for Additional Review Processes",
-            "description": "Motion that in any situation on land use charts where it requires additional review process, they would require a SLUP.",
-            "introducedBy": "Mayor Deutsch",
-            "secondedBy": "Heneghan",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
-        },
-        {
-            "title": "Civic Campuses Use Category Amendment",
-            "description": "Motion to move from Civic Campuses character area public/institution and senior assisted living from green down to yellow.",
             "introducedBy": "Heneghan",
-            "secondedBy": "Price",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "no"],
-            "result": "passed"
-        },
-        {
-            "title": "Community Work Plan Bikeshare Program Removal",
-            "description": "Amendment to the Community Work Plan section to remove project T.11 Endorse/assist with bikeshare program.",
-            "introducedBy": "Seconder",
-            "secondedBy": "Lambert",
-            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
-            "result": "passed"
+            "secondedBy": "Mayor Deutsch",
+            "votes": ["yes", "no", "no", "yes", "no", "yes", "no"],
+            "result": "failed"
         },
         {
             "title": "Final Motion to Submit Comprehensive Plan as Amended",
             "description": "Motion to submit the Comprehensive Plan as amended to the Atlanta Regional Commission and the Georgia Department of Community Affairs for review.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
             "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
             "result": "passed"
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of consent agenda including: • July 14, 2025 meeting minutes • Construction contract for Old Springhouse Lane Path • Municipal Court Probation Services Contract Renewal",
+            "description": "Approval of consent agenda including: • Approval of July 14, 2025 City Council Meeting Minutes • Approval of a Construction Contract for Old Springhouse Lane Path (Michelle Hirose) • Municipal Court Probation Services Contract Renewal (Norlaundra Huntington)",
             "introducedBy": "Lambert",
             "secondedBy": "Price",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -238,8 +70,8 @@
         {
             "title": "Holiday HQ Proposal",
             "description": "Approval of Holiday HQ proposal with a financial commitment from the city of $25,000 for a collaborative project with Discover Dunwoody and the PCIDs.",
-            "introducedBy": "Price",
-            "secondedBy": "Lautenbacher",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Seconder",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         },
@@ -254,11 +86,11 @@
     ],
     "publicHearings": [
         {
-            "title": "Public Hearing for 2025-2045 Comprehensive Plan",
-            "description": "First public hearing for approval to transmit the draft 2025-2045 Comprehensive Plan to the Atlanta Regional Commission and the Georgia Department of Community Affairs for review. Multiple speakers opposed the plan citing concerns about density, traffic, and multi-unit development. One speaker supported the plan.",
+            "title": "Consent to Transmit Draft 2025-2045 Comprehensive Plan to the ARC and the Georgia Department of Community Affairs for Review",
+            "description": "First public hearing for the Comprehensive Plan for approval to transmit the plan to the Atlanta Regional Commission and the Georgia Department of Community Affairs for review. Multiple speakers opposed the plan citing concerns about density and traffic. One speaker in favor.",
             "presenter": "Allison Stewart-Harris & Richard McLeod",
-            "deadline": "October 31, 2025",
-            "recommendation": "Transmit plan as amended to ARC and GA Department of Community Affairs"
+            "proposedAction": "Transmit draft plan for review",
+            "recommendation": "Staff recommends transmittal with amendments"
         }
     ]
 }

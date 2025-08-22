@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval as Amended",
-            "description": "Approval of September meeting minutes, 2025 meeting schedules, and playground resurfacing repairs at Brook Run Park.",
+            "description": "Approval of consent agenda as amended including: • September 9, 2024 special called work session minutes • September 23, 2024 meeting minutes • 2025 meeting schedules for City Council, Board of Zoning Appeals, and Planning Commission • Playground resurfacing repairs at Brook Run Park",
             "introducedBy": "Price",
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
@@ -58,6 +58,51 @@
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "absent"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "SLUP 24-01: Starbucks Drive-Through (First Read)",
+            "description": "First read of Special Land Use Permit for Starbucks drive-through facility at 140 Perimeter Center West. Planning Commission unanimously recommended approval.",
+            "presenter": "Allegra DeNooyer",
+            "applicant": "Starbucks Coffee Company",
+            "recommendation": "Staff recommends approval with conditions"
+        },
+        {
+            "title": "Fiscal Year 2025 Budget Presentation",
+            "description": "First read of proposed FY2025 budget of $70.6M (5.29% increase). Budget minimizes use of fund balance and maintains over 6 months reserve.",
+            "presenter": "Richard Platto",
+            "budgetAmount": "$70.6M",
+            "increase": "5.29%"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Conner Wood",
+            "description": "Mayor Pro Tem Lambert administered oath of office to Officer Conner Wood.",
+            "officiant": "Mayor Pro Tem Lambert"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Treetop Quest Dunwoody Renewal Agreement",
+            "description": "Presentation of Treetop Quest renewal agreement with staff recommendation for approval.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Contract Amendment with Triscapes",
+            "description": "Contract amendment with Triscapes for road and stormwater maintenance services.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Charter Amendment Article II, Section 2.13(a)(4) - Prohibitions",
+            "description": "Proposed charter amendment to permit certain gifts/donations for law enforcement aid and employee hardship assistance.",
+            "presenter": "City Manager Eric Linton"
+        },
+        {
+            "title": "Charter Amendment Article II, Section 2.13(e) - Prohibitions",
+            "description": "Proposed charter amendment to permit council members to be employed by governmental entities except Dunwoody or DeKalb County.",
+            "presenter": "City Manager Eric Linton"
         }
     ]
 }

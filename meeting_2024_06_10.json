@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of May 28, 2024 meeting minutes and resolution to surplus twelve vehicles and one trailer.",
+            "description": "Approval of consent agenda including: • May 28, 2024 meeting minutes • Resolution to surplus twelve vehicles and one trailer",
             "introducedBy": "Lambert",
             "secondedBy": "Price",
             "votes": ["yes", "absent", "absent", "yes", "yes", "yes", "yes"],
@@ -26,6 +26,21 @@
             "secondedBy": "Price",
             "votes": ["yes", "absent", "absent", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Sebastian Wright",
+            "description": "Mayor Deutsch administered oath of office to Officer Sebastian Wright.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Updating Permitting Fee Schedule to Comply with State Law Changes",
+            "description": "Discussion of proposed updated fee schedule due to HB461 changing how cities may calculate permitting fees. Proposed flat fees of $175 for residential and $350 for commercial permits under $75,000 valuation.",
+            "presenter": "Paul Leonhardt",
+            "effectiveDate": "July 1, 2024"
         }
     ]
 }

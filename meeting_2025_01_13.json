@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of December 09, 2024 meeting minutes and contract with Georgia Environmental Protection Division for Dunwoody Nature Center Wetland Improvements funding.",
+            "description": "Approval of consent agenda including: • December 09, 2024 meeting minutes • Contract with Georgia Environmental Protection Division for Dunwoody Nature Center Wetland Improvements funding",
             "introducedBy": "Seconder",
             "secondedBy": "Heneghan",
             "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
@@ -51,5 +51,38 @@
             "votes": ["yes", "yes", "yes", "yes", "yes", "absent", "yes"],
             "result": "passed"
         }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Multiple Officers",
+            "description": "Mayor Deutsch administered oath of office to Sgt. Austin Chadwick and Officers Sadarius Hutcherson, Edward McGorda, and Trey Wanstreet.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Truist Lighthouse Project Presentation",
+            "description": "Truist Bank donated rowing machine and special backpacks to Dunwoody Police Department's Peer Support Group as part of their Lighthouse Project.",
+            "presenter": "Ali Mahbod and Katherine Hilton (Truist Branch Manager)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Supplemental Project Agreement with GDOT for North Shallowford Road Path Project",
+            "description": "Agreement with Georgia Department of Transportation for North Shallowford Road path project.",
+            "presenter": "Michelle Hirose"
+        },
+        {
+            "title": "HVAC Replacement for Dunwoody City Hall",
+            "description": "Proposal for City Hall HVAC system replacement by Addison Smith Mechanical Contractors for $409,081.",
+            "presenter": "John Gates"
+        },
+        {
+            "title": "Agreement with Georgia Power for Streetlights",
+            "description": "Streetlight agreement for Meadow Lane Road and Crown Pointe Parkway with funding split equally between PCID and City.",
+            "presenter": "Tiffany Siegel"
+        }
+    ],
+    "notes": [
+        "City Manager thanked Public Works, Public Safety, and Communications for winter storm and tornado response",
+        "Council Member Price absent from meeting"
     ]
 }

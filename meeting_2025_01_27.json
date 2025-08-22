@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of January 13, 2025 meeting minutes, City Hall HVAC roof top unit system replacement, supplemental project agreement with GDOT for North Shallowford Road Path Project, Georgia Power streetlight agreement, and resolution appointing members to Sustainability Committee.",
+            "description": "Approval of consent agenda including: • January 13, 2025 meeting minutes • City Hall HVAC roof top unit system replacement • Supplemental project agreement with GDOT for North Shallowford Road Path Project • Georgia Power streetlight agreement for Meadow Lane Road and Crown Pointe Parkway • Resolution appointing members to Sustainability Committee",
             "introducedBy": "Harris",
             "secondedBy": "Lautenbacher",
             "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -59,5 +59,56 @@
             "votes": ["absent", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
         }
+    ],
+    "specialEvents": [
+        {
+            "title": "GOHS/MATEN 2024 Officer of the Year Award Recognition",
+            "description": "Recognition of Sergeant Trey Nelson for receiving the Metro Atlanta Traffic Enforcement Network Officer of the Year Award.",
+            "presenter": "Chief Carlson"
+        },
+        {
+            "title": "International Holocaust Remembrance Day Observance",
+            "description": "Council Member Seconder provided statement commemorating the 80th anniversary of Auschwitz liberation and International Holocaust Remembrance Day.",
+            "presenter": "Council Member Seconder"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Direction Dunwoody Status Update - Comprehensive Plan and UDO",
+            "description": "Halfway point update on Comprehensive Plan process including pop-ups, workshops with 60+ participants, and steering committee meetings.",
+            "presenter": "Richard McLeod and Anna Bagget (TSW)"
+        },
+        {
+            "title": "Economic Development Update - 4th Quarter 2024",
+            "description": "Report on retail market trends showing 4.7 million square feet of retail space basically full, Perimeter as premier retail market, focus on food/beverage/entertainment.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Create Dunwoody Annual Update",
+            "description": "Annual update highlighting 2024 events and 2025 plans, presented by new Executive Director Rosemary Watts.",
+            "presenter": "Terri Polk (Chair) and Rosemary Watts (Executive Director)"
+        },
+        {
+            "title": "Nandina Lane Pilot Project Update",
+            "description": "Update on two-phase pilot project for Nandina Lane reconfiguration to improve intersection safety, with staff recommendation to proceed with Phase 2.",
+            "presenter": "Jonathan DiGioia"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract Amendment No. 3 with Jacobs for Finance and Administrative Services",
+            "description": "Contract amendment for $719,000 to fund five Finance Department positions, senior advisor, and available floaters.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "MOU with US Postal Inspection Service",
+            "description": "Memorandum of Understanding for collaborative efforts assigning Task Force Officer to assist with mail-related investigations.",
+            "presenter": "Chief Carlson"
+        }
+    ],
+    "notes": [
+        "Mayor Deutsch absent - Mayor Pro Tem Lambert presided",
+        "Anne Hicks appointed to Sustainability Committee",
+        "Council Member Price noted he did not attend February 13th meeting but would vote on minutes"
     ]
 }

@@ -21,7 +21,7 @@
         },
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of March 25, 2024 meeting minutes, technology department position conversions, employee compensation chart amendment and market adjustment, managed networking service agreement, and storm repairs funding.",
+            "description": "Approval of consent agenda including: • March 25, 2024 meeting minutes • Conversion of contracted positions and creation of new city position for Technology Department • Amendment of position allocation and compensation chart and market adjustment for city employees • Agreement for managed networking service provider • Funding authorization for 5695 Trowbridge Drive storm repairs",
             "introducedBy": "Price",
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
@@ -58,6 +58,23 @@
             "secondedBy": "Seconder",
             "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "RZ 23-03: 245 Perimeter Center Parkway Rezoning (First Read)",
+            "description": "First read of rezoning from PDc to PDc to amend zoning conditions to allow mixed-use project including office, hotel, and multifamily residential with retail, restaurant, amenity space, and structured parking.",
+            "address": "245 Perimeter Center Parkway",
+            "applicant": "KDC",
+            "recommendation": "Planning Commission unanimously recommends approval",
+            "details": "Building 4 to have 300,000 sf office space, 22,000 sf retail/restaurant, 175-room hotel, 300 dwelling units, 1,565 parking spaces"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Proclamation for Chief Billy Grogan",
+            "description": "Recognition of Chief Billy Grogan for his years of service to the City of Dunwoody, including serving as interim City Manager.",
+            "presenter": "Mayor Deutsch"
         }
     ]
 }

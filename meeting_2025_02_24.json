@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of February 10, 2025 meeting minutes and contract with Stewart Brothers for 2025 Paving Contract.",
+            "description": "Approval of consent agenda including: • February 10, 2025 meeting minutes • Contract with Stewart Brothers for 2025 Paving Contract",
             "introducedBy": "Lambert",
             "secondedBy": "Seconder",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -42,6 +42,42 @@
             "secondedBy": "Lautenbacher",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Peachtree Middle School Football Field Turf Conversion",
+            "description": "Presentation of informal estimates for field turf conversion. DeKalb County School District committed to paying costs over $1M. Request for Proposals would be released if Council wishes to proceed.",
+            "presenter": "Rachel Waldron",
+            "note": "DeKalb County representative Andrew Ziffer confirmed district commitment to cost overages"
+        },
+        {
+            "title": "Brook Run Maintenance Facility Green Building Certification",
+            "description": "Comparison of LEED vs EarthCraft certification options for maintenance facility. EarthCraft consultant fees estimated at $24,000.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2024",
+            "description": "Budget amendment for fiscal year 2024 cleanup.",
+            "presenter": "Richard Platto"
+        }
+    ],
+    "publicComments": {
+        "fieldTurfSupport": [
+            "Nina Arnold",
+            "Eric Oliver", 
+            "Lindsay Gaines"
+        ],
+        "other": [
+            "Gail Bowler (beautification and lot sale)",
+            "Betsy ? (zip line noise concerns)",
+            "Andrew Ziffer (DeKalb County commitment)"
+        ]
+    },
+    "councilComments": [
+        {
+            "member": "Seconder",
+            "content": "Statement supporting Israel's right to exist and defend themselves, condemning violence and hatred, supporting democracies and freedom worldwide, commenting on Ukraine war casualties."
         }
     ]
 }

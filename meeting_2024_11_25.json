@@ -13,7 +13,7 @@
     "motions": [
         {
             "title": "Consent Agenda Approval",
-            "description": "Approval of November 12, 2024 meeting minutes, board appointments resolutions, and construction manager at risk contract for Brook Run Maintenance Facility.",
+            "description": "Approval of consent agenda including: • November 12, 2024 meeting minutes • Resolution appointing members to Dunwoody Art Commission • Resolution appointing member to Discover Dunwoody Board • Resolution appointing members to Dunwoody Development Authority • Construction manager at risk contract for Brook Run Maintenance Facility",
             "introducedBy": "Lambert",
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
@@ -58,6 +58,48 @@
             "secondedBy": "Harris",
             "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
             "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Multiple Officers",
+            "description": "Mayor Deutsch administered oath of office to Officers Collice Acoff, James Harding, Jason Holcombe, and Jahron Mendoza.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Officer and Employee of the 3rd Quarter Recognition",
+            "description": "Recognition of Officer Will Smith (Officer of 3rd Quarter) and Crime Analyst Kayce Lowe (Employee of 3rd Quarter).",
+            "presenter": "Chief Carlson"
+        },
+        {
+            "title": "Paul Leonhardt Citizenship Recognition",
+            "description": "Recognition of Deputy Community Development Director Paul Leonhardt becoming a U.S. citizen, with Leonhardt leading the Pledge of Allegiance.",
+            "presenter": "Council Member Lambert"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment to Chapter 6 - Animal Sales (First Read)",
+            "description": "First read of text amendment to restrict unlicensed sale of dogs, cats, or domestic rabbits.",
+            "presenter": "Paul Leonhardt",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Project Agreement with Perimeter CID for Ashford Dunwoody Path Phase 2",
+            "description": "Project agreement with Perimeter CID contributing $2,575,000 and City contributing $2,575,000 for total project cost of $5,150,000.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "ESRI (GIS Mapping Application Suite) Renewal",
+            "description": "Annual renewal for GIS mapping application suite at cost of $44,310.",
+            "presenter": "Ginger LePage"
+        },
+        {
+            "title": "Migration of Police Applications to Central Square Cloud",
+            "description": "Cloud migration costing $132,795.59 with estimated 5% annual increases.",
+            "presenter": "Ginger LePage"
         }
     ]
 }
