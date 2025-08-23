@@ -1,0 +1,63 @@
+{
+    "date": "August 14, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of July 24, 2023, City Council Meeting Minutes",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SECOND READ: Text Amendment to Create Regulations for Medical Cannabis Dispensaries",
+            "description": "Second read approval of text amendment to create regulations for medical cannabis dispensaries for dedicated, stand-alone medical dispensaries only.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SECOND READ: RZ 23-01, 4470 Chamblee Dunwoody Road Rezoning",
+            "description": "Second read approval of RZ 23-01, request to rezone 4470 Chamblee Dunwoody Road from O-I to O-D.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SECOND READ: SLUP 23-01, 4470 Chamblee Dunwoody Road Special Land Use Permit",
+            "description": "Second read approval of SLUP 23-01, request for a Special Land Use Permit to increase the maximum allowed height to 4-stories for 4470 Chamblee Dunwoody Road.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for personnel discussion purposes.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

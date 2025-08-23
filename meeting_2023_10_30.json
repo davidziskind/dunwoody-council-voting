@@ -1,0 +1,71 @@
+{
+    "date": "October 30, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Resolution Adopting Fiscal Year 2024 Budget",
+            "description": "Approval of resolution adopting the Fiscal Year 2024 Budget after public hearing.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of October 16, 2023, City Council Meeting Minutes • On-Call Sidewalk and Small Construction Projects Unit Price Contract",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with DeKalb County and AMR for Additional Ambulance Service",
+            "description": "Approval of contract with DeKalb County and AMR for additional ambulance service, providing one additional ambulance designated for Dunwoody for the hours 9:00 am to 9:00 pm, funded with $600,000 of ARPA funds.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Move BerryDunn Report to End of Discussion Items",
+            "description": "Motion to amend the agenda to move item #8, Presentation of BerryDunn Police Department Operations & Management Assessment Final Report, to the end of discussion items on the agenda.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to adjourn to executive session for legal discussion purposes.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Resolution Adopting Fiscal Year 2024 Budget",
+            "description": "Public hearing for adoption of Fiscal Year 2024 Budget. One speaker opposed (Bob Hickey citing inadequate support for Police Department, no pay increases, and structural deficit concerns). Budget keeps structural use of fund balance to approximately $2M with general fund reserve over six months.",
+            "presenter": "Richard Platto",
+            "outcome": "Budget adopted"
+        }
+    ]
+}

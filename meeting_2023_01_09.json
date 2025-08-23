@@ -1,0 +1,104 @@
+{
+    "date": "January 9, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of December 12, 2022, City Council Meeting Minutes • Approval of December 13, 2022, City Council Special Called Meeting Minutes",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for cyber security discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Amend Agenda to Add Cyber Security Business Item",
+            "description": "Motion to amend agenda to add business item for cyber security after executive session.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorization for Contract with Sensato for Cyber Security",
+            "description": "Authorization for Mayor, City Manager, or designee to execute contract with Sensato in amount of $326,100 and authorize additional funding up to $350,000 for additional devices/expansion using Cybersecurity ARPA II budget.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment to Chapter 20 Signs (First Read)",
+            "description": "First read of text amendment to Chapter 20 signs with major proposed changes to combine 2 districts and implement Master Sign Plan process. Planning Commission recommended two additional changes at 12/13/22 meeting.",
+            "presenter": "Allegra DeNooyer",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Mario Umana",
+            "description": "Chief Grogan introduced and Mayor Deutsch administered oath of office to Officer Mario Umana. Mayor expressed gratitude for quick resolution of Perimeter Mall incident and acknowledged National Law Enforcement Day.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "2022 Retreat Recap and City Council Goals Update",
+            "description": "Update on 2022 City Council Retreat and status of Council goals and actions at six-month mark.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "City Manager's Report",
+            "description": "Monthly City Manager's report.",
+            "presenter": "Jay Vinicki (presenting for Eric Linton)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Chamblee Dunwoody Road Village Crossroads Project",
+            "description": "Presentation of Village Crossroads traffic and overhead utility project. ARC awarded city $6M for project, but additional funding needed for major Mount Vernon improvements.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Contract for 2023 Pavement Resurfacing",
+            "description": "Presentation of 2023 pavement resurfacing contract for 15 lane miles. RFP received 5 responses, Blount Construction low bidder at $2,746,210. Staff recommends deferring two optional streets for contingency.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Expiring MARTA Bus Shelter Contracts",
+            "description": "Presentation on two expiring MARTA bus shelter contracts (15-year contract and 6-month extension). MARTA engineers drafted new contracts but city has not reviewed them yet.",
+            "presenter": "Richard McLeod"
+        }
+    ],
+    "notes": [
+        "Mayor noted Perimeter Mall incident resolution and National Law Enforcement Day",
+        "Discussion of tree removal on Tilly Mill Road - Council Member Lambert clarified diseased trees identified by City Arborist",
+        "Executive session resulted in cyber security contract authorization"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "date": "April 10, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of March 27, 2023, City Council Meeting Minutes • Approval of March 22, 2023, City Council Special Called Meeting Minutes • Approval of March 23, 2023, City Council Special Called Meeting Minutes • Funding Authorization for 2146 Brendon Drive Storm Repairs • Funding Authorization Request for 5175 Hathburn Court Storm Repairs • Resolution - Readopting Ethics Principles and Pledges for Purposes of Being Recertified as City of Ethics • Approval of a Contract for Citywide Pavement Assessment Update",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SLUP 22-03: Personal Care Home at 1822 Mount Vernon Road (Second Read) - DENIAL",
+            "description": "Second read denial of Special Land Use Permit to allow a 7-resident personal care home at 1822 Mount Vernon Road. Proposal was for up to 7 senior citizen personal care home with reduced footprint and 38.5% lot coverage. Despite staff recommendation for approval with conditions, Council voted unanimously to deny.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Stage Door Theatre Presentation",
+            "description": "Presentation by Justin Ball of Stage Door Theatre on new mission, model, and direction. Overview of Season 49 impact (6,000 patrons from 100 metro-Atlanta zip codes), new Performing Arts Academy, and challenges including facility needs.",
+            "presenter": "Justin Ball (Producing Artistic Director)"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "City Manager's Report",
+            "description": "Monthly report from City Manager Eric Linton.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Capital Needs and Potential G.O. Bond Call",
+            "description": "Presentation of Capital Needs and Potential G.O. Bond Call for $55M bond issuance. Call for Election to be on May 8 agenda for Council action.",
+            "presenter": "J. Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "Extensive public comments both in favor and opposition to SLUP 22-03",
+        "Mayor Deutsch noted 25th anniversary of Dunwoody tornado and connection to Lemonade Days origins",
+        "SLUP 22-03 unanimously denied despite staff recommendation for approval"
+    ]
+}

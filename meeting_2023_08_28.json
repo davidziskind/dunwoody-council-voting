@@ -1,0 +1,92 @@
+{
+    "date": "August 28, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present (via Zoom)",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of August 14, 2023, City Council Meeting Minutes • Gateway Sign Construction Contract (Michael Smith) • Contract Award for Installation of Holiday Lights at Brook Run Park (Brent Walker) • Contract Award for Installation of Shade Structures for Brook Run Park Baseball Fields (Brent Walker)",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution to Surplus Twelve Vehicles",
+            "description": "Approval of resolution to surplus twelve vehicles that are no longer needed for operations and authorization to move forward with disposal of the vehicles.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SPLOST II (2023) Intergovernmental Agreement and Resolution Authorization",
+            "description": "Approval of two resolutions: first resolution to join in on the call election, and second is an intergovernmental agreement between the county and all cities of DeKalb County, identifying the terms for SPLOST and distribution of proceeds.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "MOU Between City of Dunwoody and DeKalb County School District for Automated Speed Enforcement",
+            "description": "Approval of MOU for automated speed enforcement in school zones contract that was signed in February 2020, further implemented by DeKalb County School District working with Department of Transportation.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Collaborative Contract Amendment",
+            "description": "Approval of contract amendment to shift senior planner Madalyn Smith from 40 hours to 30 hours per week since she will be attending school at Georgia Tech.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Officer/Employee Recognition",
+            "description": "Presentation of Officer/Employee of the 1st and 2nd Quarter for 2023 to Officers C. Dobbins/M. Umana and Employees K. Stone/H. Madden.",
+            "presenter": "Chief Grogan"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Discussion of Ordinance for Video Surveillance Systems at Hotels, Motels and Extended Stay Hotels",
+            "description": "Discussion of ordinance requirements for surveillance systems establishing camera technological standards capabilities and placement of cameras that work 24/7.",
+            "presenter": "Chief Grogan"
+        },
+        {
+            "title": "Discussion of Ordinance for Video Surveillance Systems at Multifamily Rental Dwellings",
+            "description": "Discussion of ordinance requirements for surveillance systems at multifamily rental dwellings.",
+            "presenter": "Chief Grogan"
+        },
+        {
+            "title": "Discussion of Ordinance for Video Surveillance Systems at Convenience Stores and High Risk Retail",
+            "description": "Discussion of ordinance requirements for surveillance systems at convenience stores, service stations and high risk retail establishments.",
+            "presenter": "Chief Grogan"
+        },
+        {
+            "title": "Contract Award for Design Services of Brook Run Park Maintenance Facility",
+            "description": "Presentation of contract approval for design and engineering of Brook Run Park Maintenance Facility to be moved to consent at next meeting.",
+            "presenter": "Brent Walker"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "date": "September 26, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of September 11, 2023, City Council Meeting Minutes • SECOND READ: Review and Consideration of a Text Amendment to Amend Regulations for Entertainment Districts • Funding Authorization for 4706 Equestrian Way Storm Repairs • Funding Authorization for 4964 Buckline Crossing Storm Repairs • Funding Authorization for 5233 Fontainebleau Ct Storm Repairs • Funding Authorization for 5548 Glenrich Drive Storm Repairs • Funding Authorization for 5596 Mill Gate Court Storm Repairs",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Award for Parks and Right of Way Maintenance",
+            "description": "Award of three-year contract with two one-year renewal options to TriScapes, Inc., who submitted the highest ranked proposal for parks and right of way maintenance.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Project Agreement with Georgia Department of Transportation",
+            "description": "Approval of entering into the project agreement with the Georgia Department of Transportation for preliminary engineering on the Chamblee Dunwoody-Village Crossroads project to receive Federal funds.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ]
+}

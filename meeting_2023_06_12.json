@@ -1,0 +1,120 @@
+{
+    "date": "June 12, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda with removal of item #14 (Funding Authorization for Nature Center Eco Classroom Storm Improvements) including: • Approval of May 22, 2023, City Council Meeting Minutes • Resolution Requesting that DeKalb County Voter Registration & Elections Conduct the City of Dunwoody General Election on November 7, 2023 • Resolution Appointing Members to Serve on the Dunwoody Alcohol License Review Board • Resolution Appointing Members to Serve on the Dunwoody Board of Zoning Appeals • Resolution Appointing Members to Serve on the Sustainability Committee • SECOND READ Review and Consideration of Text Amendments to the Code for Chapter 27 Article V, to reflect changes to the state Zoning Procedures Law • SECOND READ Review and Consideration of Text Amendments to the Code for Chapter 8, Article IV, to reflect changes to the water efficiency regulations • Vietnam War Memorial Donation • Drive Lane Paving for Two Bridges Park",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Nature Center Eco Classroom Storm Improvements",
+            "description": "Approval of funding authorization for Dunwoody Nature Center eco classroom storm improvements in amount of $790,000 plus 5% contingency, for total of $830,000.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SLUP 23-02: Special Land Use Permit for 5342 Tilly Mill Road (Second Read)",
+            "description": "Second read approval of Special Land Use Permit for 5342 Tilly Mill Road to allow an existing neighborhood recreation club and for construction of new sport courts with new condition #3 added.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "recused", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment for Commercial Vehicle Parking Regulations (Second Read)",
+            "description": "Second read approval of text amendments to Chapter 27, Article III, Division 3, to update commercial vehicle parking regulations for home occupations.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment for Nonconforming Uses Requirements (Second Read)",
+            "description": "Second read approval of text amendments to Chapter 27, Article VI, Division 4, to update the requirements for nonconforming uses, removing overly broad exemptions.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Park Naming for Roberts Drive Park Property",
+            "description": "Motion to name the Roberts Drive park Wildcat Park.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Lambert",
+            "votes": ["no", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorization to Enter Agreement with Central Square",
+            "description": "Approval of authorization to enter into agreement with Central Square for Community Development Application contingent upon purchasing manager checking company references.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amending City Position Allocation and Compensation Chart",
+            "description": "Approval of amendment to city position allocation and compensation chart.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2023 Millage Rate",
+            "description": "Second of three required public hearings for proposed 2023 millage rate of 3.040 mills, same as 2022. One speaker opposed (Bob Hickey requesting rollback to 2.70 mills), one speaker opposed (Sandy, citing 54.6% tax increase). Third public hearing to be held July 10, 2023.",
+            "presenter": "J. Jay Vinicki",
+            "proposedRate": "3.040 mills",
+            "recommendation": "Staff recommends adoption at July 10th meeting"
+        },
+        {
+            "title": "RZ 23-01 & SLUP 23-01: 4470 Chamblee Dunwoody Road Rezoning (First Read)",
+            "description": "First read of request to rezone 4470 Chamblee Dunwoody Road from O-I to O-D with Special Land Use Permit to increase maximum allowed height to 4-stories for four-story self-storage facility. Planning Commission recommended approval.",
+            "presenter": "Madalyn Smith",
+            "applicant": "Represented by Attorney Kathy Zickert",
+            "recommendation": "Staff recommends approval with conditions"
+        },
+        {
+            "title": "RZ 23-02 & SLUP 23-03: Modification to Remove Condition #25 (First Read)",
+            "description": "First read of modification of zoning and SLUP conditions for cases RZ 20-03 & SLUP 20-02 to remove condition of approval #25. Planning Commission unanimously recommended approval.",
+            "presenter": "Madalyn Smith",
+            "applicant": "Represented by Attorney Justin Geovani",
+            "recommendation": "Staff recommends striking condition on timeline"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Concept Design for Peeler Road Path",
+            "description": "Presentation of concept design for first phase of Peeler Road path between Winters Chapel Road and Windwood Hollow Park with next steps for staff to meet with neighbors.",
+            "presenter": "Michael Smith"
+        }
+    ],
+    "notes": [
+        "Council Member Harris recused herself from SLUP 23-02 discussion and voting due to employment at Marcus Jewish Community Center of Atlanta"
+    ]
+}

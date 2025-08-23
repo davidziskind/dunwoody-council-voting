@@ -1,0 +1,102 @@
+{
+    "date": "March 27, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present (via Zoom)"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda with item #6 moved to Business Items including: • Approval of March 13, 2023, City Council Meeting Minutes • Approval of Contract with DeKalb Community Service Board to Provide a Behavioral Licenses Clinician",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution for New Opioid Settlement",
+            "description": "Authorization for City Manager to have settlement authority with respect to all national opioid settlements and be designated the city's point of contact with signature authority on all related documents, subject to legal approval.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Update to DeKalb County Multi-Jurisdictional Hazard Mitigation Plan",
+            "description": "Approval of update to DeKalb County Multi-Jurisdictional Hazard Mitigation Plan.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Park Master Plan for 4809/4819 Vermack Rd",
+            "description": "Approval of Park Master Plan for 4809/4819 Vermack Road with addition of note #6 requiring Public Works Department to improve existing path between Village Mill and Heritage of Dunwoody Subdivisions within next 2 years.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "no", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract to Develop a Local Road Safety Action Plan",
+            "description": "Approval of contract to develop a local road safety action plan.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Police Officers",
+            "description": "Chief Grogan introduced and Mayor Deutsch administered oath of office to Officers Jonah Amos, Justin Davis, and Adam Gallop.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Dunwoody High School Youth City Council Presentation",
+            "description": "Presentation by DHS Youth City Council program with thanks to Mayor, Council, and Jennifer Boettcher for support.",
+            "presenter": "Mike Berry (School Sponsor)"
+        },
+        {
+            "title": "Caleb Mahle Recognition",
+            "description": "Mayor Deutsch recognized and congratulated Caleb Mahle on becoming Dunwoody High School's Valedictorian.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract for Citywide Pavement Assessment Update",
+            "description": "Update on road pavement assessment with recommendation to award contract to KCI Technologies to improve roads within the City of Dunwoody.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Reapportionment",
+            "description": "Recommendation to keep same districts with future council focus on what districts should be.",
+            "presenter": "Mayor Deutsch"
+        },
+        {
+            "title": "Ethics Principles and Pledges Resolution",
+            "description": "Recommendation to place readopting ethics principles and pledges resolution on consent at next meeting.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "notes": [
+        "National Kidney Month proclamation postponed until honoree available",
+        "Council Member Seconder participated via Zoom",
+        "Council Member Heneghan absent from meeting"
+    ]
+}

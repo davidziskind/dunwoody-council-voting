@@ -1,0 +1,64 @@
+{
+    "date": "November 27, 2023",
+    "status": "completed",
+    "meeting_time": "2:25 PM",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Motion to Remove Item #3 from Agenda and Approve Consent Agenda Items #2 and #4",
+            "description": "Motion to remove item #3 (Construction Agreement with Georgia Department of Transportation) from the agenda and approve consent agenda items #2 and #4.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Adoption of the Road Safety Action Plan",
+            "description": "Adoption of the Road Safety Action Plan as presented by TOOLE Design.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment to Collaborative Contract for Senior Planner Position",
+            "description": "Approval of a contract amendment with Collaborative for the senior planner to move between part-time work and full-time work depending on Georgia Tech's schedule until December 2024.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Final ARP (American Rescue Plan) Grant Funding",
+            "description": "Approval of final ARP (American Rescue Plan) grant funding allocation.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Lowe Engineers",
+            "description": "Approval of a contract amendment with Lowe Engineers in the amount of $203,550.00 to provide two new full-time positions in the Parks and Recreation Department.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

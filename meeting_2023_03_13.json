@@ -1,0 +1,114 @@
+{
+    "date": "March 13, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Extension of Public Comments Time",
+            "description": "Motion to extend public comments time for both sides by 4 minutes during SLUP 22-03 public hearing.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of February 27, 2023, City Council Meeting Minutes (Heneghan did not vote - not present at meeting) • Approval of March 6, 2023, City Council Special Called Meeting Minutes (Heneghan did not vote - not present at meeting) • Resolution for Budget Amendment for Fiscal Year 2022 • Additional Funding Authorization for 2419 Redcliff Way Storm Repairs • Additional Funding Authorization for 5583 Glenrich Drive Storm Repairs",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Appointing Mike Herman to Dunwoody Development Authority",
+            "description": "Approval of resolution appointing Mike Herman as member of Dunwoody Development Authority (moved from consent agenda at Seconder's request).",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Update to DeKalb County Multi-Jurisdictional Mitigation Plan",
+            "description": "Approval of DeKalb County Multi-Jurisdictional Mitigation Plan (moved to discussion on March 27th agenda per Mayor's request).",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with CGS, LLC for Landscaping on Winters Chapel Path Phase 1",
+            "description": "Approval of contract with CGS, LLC for landscaping on Winters Chapel Path Phase I in amount of $129,306.28 plus 10% contingency for total of $142,350.00.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment to Municipal Services Contract for Planning & Zoning Services",
+            "description": "Approval of contract amendment to municipal services contract for planning and zoning services.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for legal and real estate discussions.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "SLUP 22-03: Personal Care Home at 1822 Mount Vernon Road (First Read)",
+            "description": "First read of Special Land Use Permit to allow 7-resident personal care home at 1822 Mount Vernon Road. Applicant withdrew variance request. Proposed lot coverage 43.3%, revised site plan includes stormwater mitigation. Extensive public comments both in favor and opposition. Staff recommends approval with conditions.",
+            "presenter": "Madalyn Smith",
+            "applicant": "Anna and Roman Khoklan, represented by Attorney Anre Washington",
+            "recommendation": "Staff recommends approval with conditions"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "City Manager's Report",
+            "description": "Monthly report from City Manager Eric Linton.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract with DeKalb Community Service Board for Licensed Behavioral Health Clinician",
+            "description": "Presentation of contract with DeKalb Community Service Board to provide licensed behavioral health clinician to Dunwoody Police Department in partnership with Doraville Police Department. City of Dunwoody cost $81,020.12, Doraville $16,653.00.",
+            "presenter": "Deputy Chief Mike Carlson"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Scout Recognition",
+            "description": "Mayor Deutsch recognized Scout Declan Heneghan of Troop 477 working on Communications Badge and Eagle Scout certification.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "notes": [
+        "National Kidney Month proclamation moved to March 27 meeting due to honoree unavailability",
+        "Extensive public hearing on SLUP 22-03 with significant community input",
+        "Council Member Heneghan abstained from voting on February 27 and March 6 minutes due to absence"
+    ]
+}

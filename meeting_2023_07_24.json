@@ -1,0 +1,79 @@
+{
+    "date": "July 24, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "absent",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of July 10, 2023, City Council Meeting Minutes • Approval of Conversion of Contracted Positions to City Positions",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "abstain", "absent", "abstain", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Modify Agenda - Move Budget Amendment to Business Item #6",
+            "description": "Motion to take the approval of the Budget Amendment out of item number 3 and move it into business items as number 6.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to Position Allocation and Compensation Chart",
+            "description": "Approval of amendment to position allocation and compensation chart for new compensation and benefits.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Facility Usage Agreement with Dunwoody High School Softball Booster Club",
+            "description": "Approval of facility usage agreement with Dunwoody High School Softball Booster Club Inc. for the completed softball field.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Amend Agenda Item #5 - Add 'and Alcohol' to Moratorium Title",
+            "description": "Motion to amend agenda item number 5 to read: A Resolution Extending a Moratorium on Drug Rehabilitation Centers and other Facilities for Treatment of Drug and Alcohol Dependency, adding the words 'and alcohol'.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Extending Moratorium on Drug Rehabilitation Centers",
+            "description": "Approval of resolution extending moratorium on drug rehabilitation centers and other facilities for treatment of drug and alcohol dependency through February 27, 2024, with study in first 90 days.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Amending Budget for Fiscal Year 2023",
+            "description": "Approval of resolution amending the budget for fiscal year 2023 for adjustments to the compensation chart.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "absent", "yes", "yes"],
+            "result": "passed"
+        }
+    ]
+}

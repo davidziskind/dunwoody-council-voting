@@ -1,0 +1,121 @@
+{
+    "date": "May 8, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of April 24, 2023, City Council Special Called Meeting Minutes • Approval of April 24, 2023, City Council Meeting Minutes • Renewal of Property & Liability Insurance with GIRMA • North Shallowford Road Properties Budget Allocation • Funding Authorization for Nature Center Stream and Wetland Improvement Engineering Services • Funding Authorization for 1511 Devonshire Way Storm Repairs • Funding Authorization for 5226 Wyntercreek Court Storm Repairs • Approval of a Contract Extension with Autaco Development",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Name Vermack Road Park as Homecoming Park",
+            "description": "Motion to name Vermack Road Park as Homecoming Park (narrowed from eight submitted names to two finalists: Humblebee Park and Homecoming Park).",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "no", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "Name Roberts Drive Park as Old Buck Park",
+            "description": "Motion to name Roberts Drive Park as Old Buck Park (narrowed from submissions to two finalists: Old Buck Park and Juniper Park).",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["no", "no", "no", "yes", "no", "yes", "yes"],
+            "result": "failed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "SLUP 23-02: Special Land Use Permit for 5342 Tilly Mill Road (First Read)",
+            "description": "First read of Special Land Use Permit for 5342 Tilly Mill Road to allow existing neighborhood recreation club and construction of new sport courts (JCC pickleball courts expansion). No public comments for or against.",
+            "presenter": "Madalyn Smith",
+            "applicant": "Represented by Attorney Kathy Zickert",
+            "recommendation": "Staff recommends approval with conditions"
+        },
+        {
+            "title": "Text Amendment to Chapter 27 Article V - Zoning Procedures Law (First Read)",
+            "description": "First read of text amendments to reflect changes to state Zoning Procedures Law. No public comments for or against.",
+            "presenter": "Madalyn Smith",
+            "action": "Proceeding to second read"
+        },
+        {
+            "title": "Text Amendment to Chapter 8 Article IV - Water Efficiency Regulations (First Read)",
+            "description": "First read of text amendments to reflect changes to water efficiency regulations. No public comments for or against.",
+            "presenter": "Madalyn Smith",
+            "action": "Proceeding to second read"
+        },
+        {
+            "title": "Text Amendment to Chapter 27 Article III Division 3 - Commercial Vehicle Parking (First Read)",
+            "description": "First read of text amendments to update commercial vehicle parking regulations for home occupations. No public comments for or against.",
+            "presenter": "Madalyn Smith",
+            "action": "Proceeding to second read"
+        },
+        {
+            "title": "Text Amendment to Chapter 27 Article VI Division 4 - Nonconforming Uses (First Read)",
+            "description": "First read of text amendments to update requirements for nonconforming uses. No public comments for or against.",
+            "presenter": "Madalyn Smith",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Bike Month Proclamation",
+            "description": "Mayor Deutsch read the Bike Month proclamation into the record.",
+            "presenter": "Mayor Deutsch"
+        },
+        {
+            "title": "Introduction of Code Enforcement Officers",
+            "description": "Introduction of new Code Compliance officers Robert Adderly and Mihai Parlog.",
+            "presenter": "Richard McLeod"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Citizen Capital Improvement Committee Update",
+            "description": "Update on Citizen Capital Improvements Committee final report and recommendations, presenting trail project recommendations and proposed Dunwoody Trailway Plan.",
+            "presenter": "Council Member Lambert"
+        },
+        {
+            "title": "City Manager's Report",
+            "description": "Monthly report highlighting Two Bridges Park opening success on Saturday.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Award of Wrecker Services Contract to Brown and Brown",
+            "description": "Presentation and recommendation to award wrecker services contract to Brown & Brown Wrecker Service.",
+            "presenter": "Deputy Chief Carlson"
+        },
+        {
+            "title": "Funding Authorization for Vermack Path Phase I",
+            "description": "Request for funding authorization for Autaco Development to construct Phase I of Vermack Path adjacent to Dunwoody High School.",
+            "presenter": "Michael Smith"
+        }
+    ],
+    "notes": [
+        "Council Member Harris recused herself from SLUP 23-02 due to being member and employee of the JCC",
+        "Roberts Drive Park naming deferred - Brent Walker will bring new names back in four weeks",
+        "Council Member Heneghan raised concerns about Berman Commons property inclusion in SLUP 23-02 application"
+    ]
+}

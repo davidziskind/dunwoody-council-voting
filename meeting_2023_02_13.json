@@ -1,0 +1,124 @@
+{
+    "date": "February 13, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of January 23, 2023, City Council Meeting Minutes",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Procurement of Technology Equipment",
+            "description": "Approval of procurement request for all hardware necessary to complete full network refresh for city systems using Cybersecurity ARPA II budget for funding up to $527,708.42.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Changes to Position Allocation and Compensation Chart",
+            "description": "Approval of changes to position allocation and compensation chart to transfer one Detective position to a Patrol Officer position.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 20 Signs (Second Read)",
+            "description": "Second read approval of text amendment to Chapter 20 (Signs) with amendment to strike revisions to section 20-35, paragraph 1.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Extending Moratorium on Cannabis Retail Stores",
+            "description": "Approval of resolution extending moratorium on cannabis retail stores for 180 days with new expiration date of September 14, 2023.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Dunwoody Preservation Trust Presentation",
+            "description": "Presentation by Executive Director Noelle Ross on DPT history, 2022 event highlights, and 2023 plans including unveiling of Dunwoody Diorama at Donaldson-Bannister Farm.",
+            "presenter": "Noelle Ross (Executive Director)"
+        },
+        {
+            "title": "Civility Pledge",
+            "description": "Mayor Deutsch read Civility Pledge into record from Georgia Municipal Association, with resolution to be submitted to GMA.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "City Manager's Report",
+            "description": "Monthly report from City Manager Eric Linton.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Withdrawal of Cases RZ22-02 & SLUP 22-02",
+            "description": "Applicant withdrew rezoning application and Special Land Use Permit application for RZ22-02 and SLUP 22-02 for 41, 47, and 53 Perimeter Center East.",
+            "presenter": "Richard McLeod"
+        },
+        {
+            "title": "Surplus Obsolete Technology Equipment",
+            "description": "Request to surplus obsolete technology equipment.",
+            "presenter": "Ginger LePage"
+        },
+        {
+            "title": "Vermack Park Property Master Plan",
+            "description": "Discussion of Vermack Park Property Master Plan with majority of Council feeling trail should be removed from park plan. Staff asked to confirm sewer and stormwater costs.",
+            "presenter": "Brent Walker with Council Members Price and Seconder"
+        },
+        {
+            "title": "Medical Cannabis Considerations Overview",
+            "description": "Presentation of considerations for regulating medical cannabis dispensaries. Staff recommends permitted use versus special use, minimum distance requirement of 1 mile from other medical cannabis dispensaries, and language preventing consumption on premises.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "Local Road Safety Plan",
+            "description": "Update on development of Local Road Safety Action Plan with $1,200,000 in local funds to fund staff person, drafting of plan, and implementation. Contract recommendation to be presented in March.",
+            "presenter": "Ishri Sankar"
+        },
+        {
+            "title": "Womack Road Retaining Wall",
+            "description": "Presentation of Womack Road retaining wall mosaic proposal with two artists providing three options. Council favored larger 45-foot mosaic option for approximately $60K.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Conversion of Contract Positions to City Positions",
+            "description": "Proposal to convert three contract positions to city positions within Finance Department (accounting team from Jacobs and one permitting employee from The Collaborative) for tighter control and staff retention. Internal Auditor found no wrongdoing by former contract employee.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "notes": [
+        "Finance Director Linda Nabors passed away - Richard Platto appointed as Finance Director",
+        "Amendment to text amendment struck revisions to section 20-35, paragraph 1",
+        "Discussion of Vermack Park trail removal from plan"
+    ]
+}

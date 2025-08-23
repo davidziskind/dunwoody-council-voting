@@ -1,0 +1,111 @@
+{
+    "date": "February 27, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of February 13, 2023, City Council Meeting Minutes • Civility Resolution • Funding Authorization for 4987 Heatherdale Lane Storm Repairs • Surplus Obsolete Technology Equipment • Additional Funding Authorization for 2389 Welton Place Storm Repairs",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Intergovernmental Agreement with DeKalb County for DeKalb Veteran's Memorial Renovation",
+            "description": "Approval of Intergovernmental Agreement with DeKalb County Board of Commissioners for funding renovation of DeKalb Veteran's Memorial with Commissioner Patrick offering $100,000 toward renovation project.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Settlement Agreement with Alan Miller, M.D. - 4553 N. Shallowford Rd Tenancy",
+            "description": "Approval of settlement agreement and release with Alan Miller, M.D. to resolve tenancy issue at 4553 N. Shallowford Road with Dr. Miller agreeing to vacate by March 7.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Settlement Agreement with Jada Ruffin-Moore, M.D. - 4553 N. Shallowford Rd Tenancy",
+            "description": "Approval of settlement agreement and release with Jada Ruffin-Moore, M.D. to resolve tenancy issue at 4553 N. Shallowford Road with Dr. Moore agreeing to vacate by March 4.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Purchase and Sale Agreement Authorization with SHG DUNWOODY, LLC",
+            "description": "Authorization to close Purchase and Sale Agreement with SHG DUNWOODY, LLC as referenced in 4th Amendment dated August 12, 2022, with closing scheduled for March 8.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Right of Way Deed for 4555 North Shallowford Road",
+            "description": "Approval of right of way deed for 4555 North Shallowford Road to preserve section of right-of-way and convert to public right-of-way.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Local Matching Funds for Ashford Dunwoody Interchange Design",
+            "description": "Authorization to provide local matching funds for Ashford Dunwoody interchange design with GDOT providing $1M toward study and city/PCID each contributing $100,000 as local match.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Establishing Moratorium on Drug Rehabilitation Centers",
+            "description": "Approval of resolution establishing 180-day moratorium on drug rehabilitation centers and other facilities for treatment of drug dependency.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Introduction of Jonathan DiGioia as Safe Streets Program Manager",
+            "description": "Richard McLeod introduced new Safe Streets employee Jonathan DiGioia, PE, who will work with city on part-time basis as employee of Aacom.",
+            "presenter": "Richard McLeod"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2022",
+            "description": "Presentation of resolution for budget amendment for Fiscal Year 2022 showing city has 7.5-month fund balance. 2023 revenue adjustments to be presented at future meeting.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Approval of Recycling Event RFPs",
+            "description": "Presentation of recycling event RFPs to demonstrate to DeKalb County that Dunwoody conducts own recycling events. Staff recommends Clean Earth as winning bidder.",
+            "presenter": "Richard McLeod"
+        }
+    ],
+    "notes": [
+        "Officer Jonah Amos oath postponed to next meeting due to unavailability",
+        "Council Member Heneghan absent from meeting",
+        "Multiple property sale-related items addressing tenancy issues at 4553 N. Shallowford Road"
+    ]
+}

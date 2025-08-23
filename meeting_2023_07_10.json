@@ -1,0 +1,93 @@
+{
+    "date": "July 10, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "absent",
+        "Lautenbacher": "present",
+        "Price": "absent",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Motion to Withdraw Agenda Item #5 Without Prejudice",
+            "description": "Motion to withdraw agenda item #5 (Text Amendment for Residential Substance Abuse Treatment Centers) without prejudice as staff item was not ready.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Establishing 2023 Tax Millage Rate",
+            "description": "Adoption of resolution establishing the 2023 tax millage rate of 3.04 mills after third public hearing, same rate as 2022.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of June 12, 2023, City Council Special Called Meeting Minutes • Approval of June 12, 2023, City Council Meeting Minutes • SECOND READ: RZ 23-02, 84 Perimeter Center East: Modification of the Zoning Conditions to Remove Condition #25 • SECOND READ: SLUP 23-03, 84 Perimeter Center East: Modification of the Special Land Use Permit Conditions to Remove Condition #25",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Trees Atlanta Front Yard Tree Planting Program",
+            "description": "Approval of Trees Atlanta Front Yard Tree Planting Program to plant 80 trees, same as successful program from previous year.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Table RZ 23-01 to August 14, 2023",
+            "description": "Motion to table RZ 23-01 (4470 Chamblee Dunwoody Road rezoning) to the city council meeting of August 14, 2023, at 6:00 p.m. at applicant's request.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Table SLUP 23-01 to August 14, 2023",
+            "description": "Motion to table SLUP 23-01 (4470 Chamblee Dunwoody Road Special Land Use Permit) to the city council meeting of August 14, 2023, at 6:00 p.m.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "FY2023 Budget Amendment for General Fund Revenue Adjustments",
+            "description": "Approval of budget amendment for revenue adjustments totaling $1.5 million comprised of six revenue accounts.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "absent", "yes", "absent", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2023 Millage Rate",
+            "description": "Third and final public hearing for proposed 2023 millage rate of 3.040 mills, same as 2022. No public comments for or against. Dunwoody has the lowest aggregate tax rate in DeKalb County.",
+            "presenter": "J. Jay Vinicki",
+            "proposedRate": "3.040 mills",
+            "outcome": "Millage rate adopted"
+        },
+        {
+            "title": "FIRST READ: Text Amendment to Create Regulations for Medical Cannabis Dispensaries",
+            "description": "First read of text amendment to create regulations for medical cannabis dispensaries. No public comments for or against.",
+            "presenter": "Paul Leonhardt"
+        }
+    ]
+}

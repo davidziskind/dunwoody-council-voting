@@ -1,0 +1,43 @@
+{
+    "date": "September 11, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of August 28, 2023, City Council Meeting Minutes • Approval of Contract for Street Sweeping Services to Sweeping Corporation of America • Funding Authorization for The Wildcat Learning Center at Dunwoody Park Site Development Plans Change Order • Amendment to Cityworks Software Licensing and Maintenance Agreement",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "FIRST READ: Text Amendment to Regulate Drive-Through Facilities",
+            "description": "First read of text amendment to regulate drive-through facilities. No public comments for or against.",
+            "presenter": "Madalyn Smith"
+        },
+        {
+            "title": "FIRST READ: Text Amendment to Update List of Exempted Activities in Stream Buffers",
+            "description": "First read of text amendment to update the list of exempted activities in stream buffers. No public comments for or against.",
+            "presenter": "Allegra DeNooyer"
+        }
+    ]
+}

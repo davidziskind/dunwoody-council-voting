@@ -1,0 +1,92 @@
+{
+    "date": "April 24, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of April 10, 2023, City Council Meeting Minutes • Approval of Contract with DeKalb Community Service Board to Provide a Licensed Behavioral Health Clinician to DPD • Resolution Appointing a Member to Serve on the Audit Committee • Resolution Appointing Members to Serve on the Sustainability Committee • Funding Authorization for 2428 Sandell Drive Storm Repairs",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation and real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn from Executive Session",
+            "description": "Motion to adjourn from executive session for real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Sustainability Hero Awards",
+            "description": "Recognition of Michael Cowan as individual Sustainability Hero and Blooms of Dunwoody as business recipient of Sustainability Hero program.",
+            "presenter": "Nathan Sparks"
+        },
+        {
+            "title": "Audit Committee Appointment Recognition",
+            "description": "Recognition of LaRee Holloway as new member of Audit Committee, and Gayatri Chamdra and Larry Heiman as new members of Sustainability Committee.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "2023 Community Survey Results",
+            "description": "Presentation of 2023 Community Survey results with 525 participants showing 96% satisfaction with quality of life and 86% satisfaction with city services.",
+            "presenter": "J. Jay Vinicki and Adam Probolsky (Probolsky Research, remote)"
+        },
+        {
+            "title": "Sustainability Committee Annual Update",
+            "description": "Annual update from Sustainability Committee highlighting 2022 household hazardous waste events and 2023 priorities, requesting two events in 2024 budget.",
+            "presenter": "Jason Metzger"
+        },
+        {
+            "title": "Draft Dunwoody Trail Master Plan",
+            "description": "Presentation of draft Trail Master Plan including Phase 1 Implementation (North Nancy Creek Greenway 1.5 miles, $10.9M), Phase 2 (6.8 miles, $39.3M), and full build-out (68.7 miles total).",
+            "presenter": "Greta DeMayo and Eric Ganther (PATH Foundation) with Richard McLeod"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Renewal of Property & Liability Insurance with GIRMA",
+            "description": "Presentation of property and liability insurance renewal for May 1, 2023-April 30, 2024 period in amount of $632,374 (increase of $61,089 from 2022).",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "North Shallowford Road Properties Budget Allocation",
+            "description": "Presentation of budget allocation: $1.0M for Peachtree Middle School turf, $1.5M for Brook Run Maintenance Facility, $3.0M for future capital maintenance over five years, $1.8M unallocated capital.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Park Naming Campaign for Vermack Road and Roberts Drive Properties",
+            "description": "Presentation of park naming campaign for Vermack Road and Roberts Drive park properties with eight submitted names for consideration.",
+            "presenter": "Brent Walker and Council Member Lautenbacher"
+        }
+    ],
+    "notes": [
+        "Extensive public comments on trail master plan with both support and opposition",
+        "Council Member Heneghan read prepared statement detailing concerns with trail master plan",
+        "Council Member Lambert suggested removing Brook Farm spur and portions through City of Doraville",
+        "Mayor Deutsch suggested focusing first project on Dunwoody Village or Perimeter Center instead of North Nancy Creek",
+        "Multiple neighborhoods represented in opposition including Brook Farm, Redfield, and areas along North Peachtree Road"
+    ]
+}

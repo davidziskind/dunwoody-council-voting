@@ -1,0 +1,55 @@
+{
+    "date": "October 16, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of September 26, 2023, City Council Meeting • Approval of City Council, Planning Commission, and Zoning Board of Appeals 2024 Meeting Schedules • Authorization for Stormwater Inventory and Survey Contract",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SECOND READ: Text Amendment to Update List of Exempted Activities in Stream Buffers",
+            "description": "Second read approval of text amendment to update the list of exempted activities in stream buffers, removing exemption for fences in the floodplain.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "SECOND READ: Text Amendment to Regulate Drive-Through Facilities",
+            "description": "Second read approval of text amendment to regulate drive-through facilities.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Fiscal Year 2024 Budget Presentation",
+            "description": "Presentation of proposed Fiscal Year 2024 operating and capital budget. One speaker opposed (Bob Hickey) requesting increases for Police Department and addressing structural deficit. Budget keeps structural use of fund balance to approximately $2M.",
+            "presenter": "Richard Platto",
+            "outcome": "Public hearing held, budget adoption scheduled for October 30"
+        }
+    ]
+}

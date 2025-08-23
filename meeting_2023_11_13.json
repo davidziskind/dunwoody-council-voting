@@ -1,0 +1,39 @@
+{
+    "date": "November 13, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present (via Zoom)",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of October 30, 2023, City Council Meeting Minutes • Resolution Appointing Members of the Urban Redevelopment Agency • Facility Usage Agreements with Athletic Association Partners • Contract Award for the Installation of a HVAC Control System at City Hall • Funding Authorization for 3900 Spalding Drive Storm Repairs • Funding Authorization for 1638 Kellogg Springs Drive Streambank Stabilization Engineering Services • Funding Authorization for 1341 Mill Gate Drive Storm Repairs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to move into executive session for the purpose of legal and real estate discussion.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ]
+}

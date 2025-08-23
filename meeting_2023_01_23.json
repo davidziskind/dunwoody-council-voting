@@ -1,0 +1,75 @@
+{
+    "date": "January 23, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "absent",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of January 9, 2023, City Council Meeting Minutes • Approval of 5-Year Contract Extension with Axon Enterprise, Inc. for Body Worn Cameras • Approval of 5-Year Contract Extension with Axon Enterprise, Inc. for In-Car Video Cameras • Contract for 2023 Pavement Resurfacing • Funding Authorization for 2419 Redcliff Way Storm Repairs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "absent", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for cyber security, real estate, and litigation discussion.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "absent", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "absent", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Boy Scout Recognition",
+            "description": "Two Boy Scouts from Troop 266 introduced themselves and were welcomed by Mayor Deutsch, noted they are working on badges.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Spruill Center for the Arts Annual Presentation",
+            "description": "Presentation by CEO Alan Mothner on past year accomplishments and 2023 goals, reviewing four key objectives: relevance, systems & operations, people, and financial. Enrollment returned to pre-pandemic levels.",
+            "presenter": "Alan Mothner (CEO)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Edge City 2.0",
+            "description": "Final presentation of Edge City 2.0 by Andrew Korr (Pond & Company) and Andrew Fayn covering strategic implementation actions, urban/city/town/village nodes, economic impacts, and three initiatives: redevelopment facilitation, Perimeter Village concept, and mobility strategy.",
+            "presenter": "Michael Starling, Andrew Korr, and Andrew Fayn"
+        },
+        {
+            "title": "Facility Usage Agreement with Peachtree Club Softball",
+            "description": "Presentation of Peachtree Club Softball Facility Usage Agreement to allow use of Brook Run Park ball fields.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Authorization for 2023 Community Survey Contract",
+            "description": "Contract with Probolsky Research for 2023 Community Survey - RFP released, 3 responses received, recommended award to Probolsky Research for amount not to exceed $20,000.",
+            "presenter": "J. Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "Council Member Harris absent from meeting",
+        "Discussion of dam safety concerns by Council Member Heneghan regarding water treatment facility and neighborhood ponds",
+        "Public comment regarding police department complaints and request for GBI investigation"
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "date": "May 22, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Move Vietnam War Memorial Donation to After Item 1",
+            "description": "Motion to move agenda item 12 (Vietnam War Memorial Donation) to just after agenda item 1.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Walmart #2360 Alcohol License Consent Agreement",
+            "description": "Approval of consent agreement for suspension of Walmart #2360 alcohol license for 10 consecutive days from July 9-18, 2023.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Total Wine & More Alcohol License Consent Agreement",
+            "description": "Approval of consent agreement for Total Wine & More to pay $5,000 fine in lieu of suspension within 14 days.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda with amended May 8, 2023 minutes including: • Approval of May 8, 2023, City Council Meeting Minutes • Consideration of Award of Wrecker Services Contract to Brown and Brown",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "PATH Foundation Master Plan for Trails Approval",
+            "description": "Approval of the PATH Foundation Master Plan for Trails that has been worked on for the past nine months.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Womack Road Ceramic Mural Funding",
+            "description": "Approval to allocate funding for Womack Road ceramic mural from Hotel/Motel Tourism Product Fund in amount not to exceed $60,000.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Vermack Path Phase I",
+            "description": "Authorization of funding up to $420,000 from SPLOST Project SP1-1821 budget for Autaco Development to construct Phase I of Vermack path adjacent to Dunwoody High School.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Georgia Transportation Infrastructure Bank Agreement Amendment",
+            "description": "Approval of third amendment to GTIB agreement for Westside Connector project allocating remaining $190,939 of grant funds for crosswalk improvements at Hammond Drive and Ashford Dunwoody Road.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Intent to Participate with DeKalb County CDBG Program",
+            "description": "Authorization for Mayor Deutsch to consider entering agreement to participate with DeKalb County CDBG program with authority to suggest investing CDBG money into sidewalk section between Homeland and Tilly Mill Road.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Remove Edge City 2.0 Update from Agenda",
+            "description": "Motion to remove the Edge City 2.0 update from the agenda.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Call for Election for General Obligation Debt",
+            "description": "Approval of resolution for call for election for general obligation debt consisting of nine recommended projects (five parks projects and four trail projects) for $60M general obligation bond.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Walmart #2360 Alcoholic Beverage License Suspension/Revocation",
+            "description": "Consideration of suspension or revocation of alcoholic beverage license for Walmart #2360, 4725 Ashford Dunwoody Road. Consent agreement negotiated for 10-day suspension July 9-18, 2023.",
+            "presenter": "Solicitor Bill Riley",
+            "applicant": "Walmart #2360, represented by Attorney Michael Sard",
+            "outcome": "Consent agreement approved"
+        },
+        {
+            "title": "Total Wine & More Alcoholic Beverage License Suspension/Revocation",
+            "description": "Consideration of suspension or revocation of alcoholic beverage license for Total Wine & More, 124 Perimeter Center West. Consent agreement for $5,000 fine in lieu of suspension.",
+            "presenter": "Solicitor Bill Riley",
+            "applicant": "Total Wine & More, represented by Attorney Matt Hess",
+            "outcome": "Consent agreement approved"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Georgia GMIS Spirit of GMIS Award Presentation",
+            "description": "Jonathan Reich, CIO for City of Gainesville, presented Ginger LaPage with the Georgia GMIS 'Spirit of GMIS' award from May conference.",
+            "presenter": "Jonathan Reich"
+        },
+        {
+            "title": "Vietnam War Memorial Donation Presentation",
+            "description": "John Bolton presented Vietnam War Memorial donation from Vietnamese American Community of Georgia honoring Vietnamese and American soldiers who died fighting for freedom during Vietnam war.",
+            "presenter": "John Bolton and TraMy Nguyen"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Drive Lane Paving for Two Bridges Park",
+            "description": "Request for contract award to Autaco Development for repaving drive lane at Two Bridges Park, modifying turn lane on Perimeter Center East and constructing sidewalk section for $94,735 including 10% contingency.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "North Shallowford Road Path Project Design Contract",
+            "description": "Update on North Shallowford Road path project design contract with 5 qualified proposals received, narrowed to 4, in review process.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Contract with American Medical Response for Additional Ambulance Services",
+            "description": "Presentation of contract with AMR for dedicated ALS ambulance operating in Dunwoody from 9 AM-9 PM daily at $129.38/hour ($566,684.40/year) using $600,000 budgeted ARPA II funds.",
+            "presenter": "Chief Billy Grogan"
+        }
+    ]
+}

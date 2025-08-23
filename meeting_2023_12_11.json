@@ -1,0 +1,78 @@
+{
+    "date": "December 11, 2023",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Motion to Amend Agenda to Add Second Officer Swearing In",
+            "description": "Motion to amend the agenda to add a second officer swearing in.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of November 27, 2023, City Council Meeting Minutes • Resolution Appointing Members to Serve on the Audit Committee • Resolution Appointing Members to Serve on Discover Dunwoody • Resolution Appointing Members to Serve on the Dunwoody Art Commission • Resolution Appointing Members to Serve on the Sustainability Committee • Construction Agreement with the Georgia Department of Transportation for the Ashford Dunwoody Eastbound On-Ramp Widening Project • Approval of an Agreement with the Georgia Department of Transportation for the Ashford Dunwoody Interchange Scoping Study",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Discover Dunwoody Proposed FY2024 Budget",
+            "description": "Approval of Discover Dunwoody Proposed FY2024 Budget.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Ogletree Enterprises for Additional Landscaping",
+            "description": "Approval of a contract amendment with Ogletree Enterprises for additional landscaping for the Spalding Drive Intersection Improvement.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Practical Design Partners for Vermack Road Path Project",
+            "description": "Approval of a contract amendment with Practical Design Partners for design changes on the Vermack Road Path Project.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to adjourn to executive session for legal purposes.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Review and Consideration of a Text Amendment to Amend the Sign Code Regulations and Procedures for Animated Signs, Chapter 20",
+            "description": "Text amendment to clarify regulations on animated signs and provide standards for residential districts while continuing to prohibit them in commercial districts.",
+            "presenter": "Paul Leonhardt"
+        }
+    ]
+}
