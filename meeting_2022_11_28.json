@@ -1,0 +1,89 @@
+{
+    "date": "November 28, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Table November 14, 2022 Meeting Minutes Approval",
+            "description": "Motion to table approval of November 14, 2022 City Council meeting minutes until December meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval (Items 5-8)",
+            "description": "Approval of consent agenda items 5-8 including: • Capital Project Closeout and Reallocate Funding • Funding Authorization for 1240 Dunwoody Knoll Drive Storm Repairs • Funding Authorization for 5617 Woodsong Trail Storm Repairs • Funding Authorization for 2389 Welton Place Storm Repairs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Chapter 4 - Alcoholic Beverages (Second Read)",
+            "description": "Second read approval of text amendment to Chapter 4 Alcoholic Beverages to adjust alcohol licensing requirements.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for 124 Perimeter Center West Storm Repairs",
+            "description": "Approval of funding authorization for 124 Perimeter Center West (Phase 1) storm repairs as proactive maintenance in amount of $475,144.56 including 10% contingency.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation and personnel discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Officer and Employee of the Third Quarter Recognition",
+            "description": "Chief Grogan introduced Officer Christopher Irwin and Public Service Representative Lyndora Anderson as Dunwoody Police Department's Officer and Employee of the Third Quarter.",
+            "presenter": "Chief Grogan"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Citizen Capital Committee Report",
+            "description": "Report on Citizen Capital Committee scoring of transportation, parks, and paths/trails projects. Committee felt paths should be paused until PATH Foundation work completed, then reconvene in spring 2023.",
+            "presenter": "Jay Vinicki and Council Member Lambert"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract with Ogletree Enterprises for Landscaping",
+            "description": "Presentation of contract with Ogletree Enterprises for landscaping on Chamblee Dunwoody/Spalding Drive intersection project. Ogletree submitted revised bid of $78,936 after clarifying missed items.",
+            "presenter": "Todd Meadows"
+        }
+    ],
+    "notes": [
+        "Officer Jared Bradley oath postponed to next meeting due to illness",
+        "November 14, 2022 minutes tabled pending corrections",
+        "Committee recommended pausing paths until PATH Foundation completes work"
+    ]
+}

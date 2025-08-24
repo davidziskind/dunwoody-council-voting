@@ -1,0 +1,149 @@
+{
+    "date": "June 13, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Resolution Appointing Dunwoody Municipal Court Judges",
+            "description": "Resolution appointing Hugh R. Powell Chief Judge and Michael M. Hawkins, Melissa Scheidel, Tonya Shy, Kenneth Wickham, and Timothy W. Wolfe Associate Judges of Dunwoody Municipal Court.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda as amended (items 20 and 21 moved to business items) including: • May 23, 2022 City Council meeting minutes • Resolution appointing members to serve on the Alcohol License Review Board • Resolution appointing members to serve on the Board of Ethics • Resolution appointing members to serve on the Urban Redevelopment Agency • SECOND READ: Street name change, Goldkist Road to Campus Way • SECOND READ: Amendment to the Public Art Ordinance • SECOND READ: Text amendment to outdoor lighting regulations • Approval of increase in insurance liability coverage through Georgia Interlocal Risk Management Agency • Georgetown Gateway project enhancements • Contract to upgrade stormwater pipe crossing near 3900 Spalding Drive • Request for approval of standby stormwater repair unit price contract • Approval of Flock Group additional services agreement to lease additional LPRs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Spruill Arts Center and Dunwoody Nature Center Match Funding",
+            "description": "Approval of Spruill Arts Center and Dunwoody Nature Center match funding with each entity having raised $1M capital and city matching funds.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to American Rescue Plan (ARP) Budget",
+            "description": "Approval of amendment to the American Rescue Plan (ARP) budget.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Park at Perimeter Center East Construction Update and Storm Water Repair Change Order",
+            "description": "Approval of storm water repair change order for Park at Perimeter Center East construction project.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to the Definition of Entertainment Districts (Second Read)",
+            "description": "Second read approval of text amendment to the definition of Entertainment Districts.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to the Perimeter Center Overlay Regulations (Second Read)",
+            "description": "Second read approval of text amendment to the Perimeter Center Overlay Regulations.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Table Tree Preservation Regulations Text Amendment",
+            "description": "Motion to table text amendment to the Tree Preservation Regulations (second read).",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Janitorial Contract for City Facilities",
+            "description": "Approval of janitorial contract with CEGLR Group for city facilities, subject to final legal review.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of litigation and real estate discussion.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Municipal Court Judges",
+            "description": "Mayor Deutsch administered the oath of office to Associate Judges Michael M. Hawkins, Melissa Scheidel, Tonya Shy, and Timothy Wolfe.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Future of Work Snapshot",
+            "description": "Presentation showing hybrid work schedules appear to be most common moving forward.",
+            "presenter": "Johann Weber (Perimeter Connects)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Proposed Enhancements to the Reconstructed Chamblee Dunwoody Bridge over I-285",
+            "description": "Refined concept for enhancements to the reconstructed Chamblee Dunwoody bridge over I-285. Council consensus that branding Dunwoody on the bridge was very important.",
+            "presenter": "Michael Smith and Eric Bosman"
+        },
+        {
+            "title": "Tilly Mill Road Path between Mount Vernon Road to Womack Road Concept Design",
+            "description": "Two alternatives for conceptual design presented. Staff recommends East side alternative. Council Member Harris recused herself due to working for Marcus Jewish Community Center.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Lease Agreement with Georgia Power for Streetlights on Chamblee Dunwoody Road",
+            "description": "Lease agreement with installation cost of $523,000 and monthly cost of $1,800.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Request for Approval of On-Call Stormwater Engineering and Design Contract",
+            "description": "Four firms selected: Tetra Tech, Dewberry Engineers, Freese and Nicols, and Pond & Company.",
+            "presenter": "Carl Thomas"
+        },
+        {
+            "title": "Millage Rate Update",
+            "description": "Three public hearings scheduled: June 17 at 8:00 a.m., July 11 at 8:00 a.m., and July 11 at 6:00 p.m. Proposed millage rate advertised at 3.040 mills from 2.740 mills.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "Discussion of Feedback from Town Hall Meetings",
+            "description": "Feedback from Town Hall meetings presented with capital list based on public input. Discussion on potential bond issuance with bond counsel present.",
+            "presenter": "Mayor Deutsch and Jay Vinicki"
+        }
+    ]
+}

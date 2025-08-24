@@ -1,0 +1,34 @@
+{
+    "date": "July 11, 2022",
+    "status": "completed",
+    "meeting_type": "Special Called Meeting",
+    "meeting_time": "8:00 AM",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the special called meeting after second public hearing on 2022 millage rate.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2022 Millage Rate",
+            "description": "Second of three required public hearings for proposed 2022 millage rate increase from 2.74 mills to 3.04 mills. Would be first tax increase since city incorporation. Dunwoody would still have lowest tax rate in area. Increase for typical homeowner would be $33-$69, less than 5% of property tax bill.",
+            "presenter": "J. Jay Vinicki",
+            "proposedRate": "3.040 mills",
+            "publicSupport": "Robert Wittenstein and Ali Mahbod spoke in favor, encouraging increase and suggesting revenue go toward police department. No speakers in opposition."
+        }
+    ]
+}

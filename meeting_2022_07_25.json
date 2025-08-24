@@ -1,0 +1,83 @@
+{
+    "date": "July 25, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • July 11, 2022, City Council special called meeting minutes • July 11, 2022, City Council meeting minutes • Project agreement with Georgia Department of Transportation for North Shallowford Road Path Project • Contract with TSW for final design of gateway signage • Authorize the purchase of replacement firearms for Police Department",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Qualified Agencies for American Rescue Plan Funding",
+            "description": "Approval of qualified list of twelve agencies for American Rescue Plan funding (six that received CARES funding and six with facilities usage agreements with city or operate on city property).",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorize Specialized Unit Pay for Police Department",
+            "description": "Approval of specialized unit pay for the police department.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Presentation of Carnegie Medal to Family of Kim A. McGrady",
+            "description": "Presentation of North America's highest honor for civilian heroism to family of Kim McGrady, who lost his life saving three people caught in riptide in Miramar Beach, Florida on April 8, 2021.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Report of Capital Committee",
+            "description": "Committee consensus was no need for bond referendum in 2022. Committee voted 2-1 to recommend not moving forward with list for bond referendum in 2023. Discussion on continuing work for potential 2024 referendum.",
+            "presenter": "John Heneghan"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Dunwoody Road Sidewalk Construction Bids",
+            "description": "Sol Construction, LLC submitted low bid of $549,111 for sidewalk construction on Dunwoody Road and Chamblee Dunwoody Road at Oakpointe Place. Staff recommends award with 10% contingency.",
+            "presenter": "Todd Meadows"
+        },
+        {
+            "title": "Contract Award of Consulting Services for Study of Police Department",
+            "description": "Review committee recommends award to BerryDunn for flat fee not-to-exceed $117,500. Study estimated to take eight months.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Request Approval for Disposal of Seized Property",
+            "description": "Police department received court order to dispose of seventy-three seized firearms. Seven returned to owners, requesting approval to dispose of sixty-six in accordance with state law.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Request Approval for Disposal and Transfer of Obsolete Equipment",
+            "description": "Request to surplus seventy expired Security Pro rifle plates and thirty-six armored helmets that no longer meet National Institute of Justice ballistics standards for transfer to DeFuniak Springs Police Department.",
+            "presenter": "Richard Platto"
+        }
+    ]
+}

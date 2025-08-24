@@ -1,0 +1,99 @@
+{
+    "date": "April 25, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present (via Zoom)",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • April 11, 2022, City Council meeting minutes • Approval of North Metro SWAT Memorandum of Understanding • Resolution for budget amendment for fiscal year 2021 • Resolution appointing a member of the Planning Commission • Resolution appointing a member of the Urban Redevelopment Agency",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Second Amendment to Purchase and Sale Agreement with Summit Healthcare Group",
+            "description": "Approval of second amendment to Purchase and Sale Agreement with Summit Healthcare Group Dunwoody, LLC to extend closing to on or before May 26, 2022.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Creation of Capital Prioritization Committee",
+            "description": "Approval of creation of Capital Prioritization Committee made up of three members of city council.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Creation of American Rescue Plan and Grants Committee",
+            "description": "Approval of creation of American Rescue Plan and Grants Committee made up of three members of city council.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of real estate and litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Michael Shaw",
+            "description": "Mayor Deutsch administered the Oath of Office to Officer Michael Shaw.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Presentation by Dunwoody High School's Youth City Council",
+            "description": "Presentation during Georgia Cities Week with theme 'Shaping the Future' by Dunwoody Youth City Council with teacher/sponsor Mike Berry.",
+            "presenter": "Jennifer Boettcher and Mike Berry"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Davenport Overview on Financial Advisors and Timelines",
+            "description": "Overview of timeline and general deliverables for bond issue - four-month process start to finish.",
+            "presenter": "Courtney Rogers (Davenport & Company)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Presentation - Options for Regulating Residential Driveways",
+            "description": "Overview on residential driveways, specifically gravel driveways. No city ordinance currently regulates gravel driveways. Staff will draft ordinance for future consideration.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "Contract Approval for Installation of Restroom Facility at Waterford Park",
+            "description": "Contract with CXT Incorporated ($102,739), Blount Construction Company Inc. ($5,502), Zurn Plumbing Services ($18,300) and LMI Systems Inc. ($5,243). Total project cost $144,963 including 10% contingency.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Westside Connector Project Update",
+            "description": "Update on Westside Connector project with similar presentation planned for PCID Board.",
+            "presenter": "Michael Smith"
+        }
+    ]
+}

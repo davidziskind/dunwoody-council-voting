@@ -1,0 +1,61 @@
+{
+    "date": "May 9, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present (via Zoom)",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • April 25, 2022, City Council meeting minutes • Contract approval for installation of restroom facility at Waterford Park subject to final legal review",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "American Rescue Plan – Grant for After School Programs – Summer 2022",
+            "description": "Approval of ARP grant for after school programs with Corners Outreach as only applicant. City to provide vouchers for 175 enrolled students at $784 per student ($137,200 total), with additional funding up to $200,000 total for students above 175.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of personnel, legal, and real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Christian Dobbins",
+            "description": "Mayor Deutsch administered the Oath of Office to Officer Christian Dobbins.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Amendment to the Public Art Ordinance",
+            "description": "Amendment to remove required themes and required easement from Public Art ordinance.",
+            "presenter": "Michael Starling"
+        }
+    ]
+}

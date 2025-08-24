@@ -1,0 +1,85 @@
+{
+    "date": "March 28, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • March 14, 2022 City Council meeting minutes • Contract with NV5 for final design of Mount Vernon Road corridor improvements between Corners Drive and Mount Vernon Place subject to final legal review",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "RZ 21-04: Rezoning for 4553 North Shallowford Road (Second Read)",
+            "description": "Second read approval of rezoning for 4553 North Shallowford Road from current PD District to O-I District and concurrent variance from 27-72, including exhibits and conditions provided by staff.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Construction Contract for Intersection Improvements at Chamblee Dunwoody Road and Womack Road",
+            "description": "Approval of contract to Wilson Construction Management, LLC in amount of $1,971,078 plus 10% contingency for construction of intersection improvements at Chamblee Dunwoody Road and Womack Road, subject to final legal review.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Award for Sidewalk Construction at Brook Run Park",
+            "description": "Award of contract to Blount Construction Company Inc. for construction of additional sidewalk and stairway at Brook Run Park in amount not to exceed $69,105 including 10% contingency, subject to final legal review.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of personnel and litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Conceptual Design for Village Crossroads-Chamblee Dunwoody Road Corridor Improvements",
+            "description": "Four alternatives presented for Chamblee Dunwoody Road from Womack Road to Roberts Drive corridor improvements. Council consensus in support of streetscape and asked staff to determine viability of roundabout at Roberts Drive as separate project.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Approval of Financial Advisors",
+            "description": "Request for contract award to Davenport & Company LLC for financial advisory services. Minimum fee $30,000 per transaction, maximum $80,000, blended rate $300/hour for additional work. Multi-year contract through March 31, 2023, with four additional twelve-month renewal terms.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Resolution Requesting Approval to Surplus Police Vehicles",
+            "description": "Resolution to declare five police vehicles as surplus and authorize City Manager to sell/dispose of vehicles.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Trees Atlanta Front Yard Tree Planting Program",
+            "description": "Agreement with Trees Atlanta for Front Yard Tree Planting Program. City to provide $10,000 toward program with maximum of 40 trees planted on private properties in neighborhoods on first come, first served basis.",
+            "presenter": "Richard McLeod"
+        }
+    ]
+}

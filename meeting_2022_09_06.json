@@ -1,0 +1,82 @@
+{
+    "date": "September 6, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present (via Zoom)",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • August 22, 2022, City Council meeting minutes • Resolution appointing the Dunwoody District 2 Representative to serve on the Discover Dunwoody Board • Resolution for budget amendment for fiscal year 2022 • Contract award for installation of holiday lights at Brook Run Park",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution to Name Perimeter Center East Property",
+            "description": "Resolution naming the park at the Perimeter Center East property 'Two Bridges Park'.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Creating a Citizens Advisory Capital Improvements Committee",
+            "description": "Resolution creating a Citizens Advisory Capital Improvements Committee with members Remy Bullard, Steve Ellet, Sue Ellis, Brian Gee, Max Lehmann, Abby Lesorgen, Joe Martinez, Mereca Smith, and Sarah Smith.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Agreement for Trail Master Plan",
+            "description": "Approval of agreement for the trail master plan.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for 2531 Cherry Hill Lane Storm Repairs",
+            "description": "Funding authorization for storm repairs at 2531 Cherry Hill Lane, estimated cost $78,380 with 20% contingency for total of $94,056.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officers Darryl Moses and Jessica Preston",
+            "description": "Mayor Deutsch administered the Oath of Office to Officers Darryl Moses and Jessica Preston.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Discussion of Approval of EPD Recycling, Waste Reduction, and Diversion Grant Application",
+            "description": "Food Composting grant application as collaborative effort with City of Sandy Springs.",
+            "presenter": "Ashley Overton"
+        },
+        {
+            "title": "Park Master Plans for 5435 Roberts Dr. and 4809/4819 Vermack Rd",
+            "description": "Updated master plans presented by Pond and Company. Vermack to be more passive park with estimated cost $3,887,821.50. Roberts Drive updated plan removes softball field, has multi-use rectangular field with estimated cost $9,147,148.00.",
+            "presenter": "Brent Walker and Matt Wilder (Pond and Company)"
+        }
+    ]
+}

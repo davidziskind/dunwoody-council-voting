@@ -1,0 +1,69 @@
+{
+    "date": "February 28, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • February 14, 2022, City Council meeting minutes • Resolution for budget amendment for fiscal year 2021 • Contract amendment with Blount Construction for 2022 pavement resurfacing • Additional funding for Mount Vernon Place sidewalk project",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Defer RZ 21-03 to March 14 Meeting",
+            "description": "Motion to defer RZ 21-03 (600 Ashwood Parkway rezoning second read) to March 14 meeting to allow applicant time to consider and respond to Council's requests regarding pedestrian connectivity and entrances.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of litigation, real estate, and personnel discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract Award for the Construction of Perimeter Center East Park",
+            "description": "Price quotes for construction with Integrated Construction and Nobility submitting low bid of $2,564,220.33. Eric Johnson with Comprehensive Program Services bid $75,000 for program management. Nova Engineering unit price bid for geotechnical and testing. Total project $2,948,143 including 10% contingency, funded with ARPA funds.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Right of Way Dedication at 5349 Chamblee Dunwoody Road",
+            "description": "Right of way dedication at 5349 Chamblee Dunwoody Road.",
+            "presenter": "Ishri Sankar"
+        },
+        {
+            "title": "Permanent Easement for Georgia Power Company at 5349 Chamblee Dunwoody Road",
+            "description": "Permanent easement for Georgia Power Company at 5349 Chamblee Dunwoody Road.",
+            "presenter": "Ishri Sankar"
+        },
+        {
+            "title": "Contract Amendment with Lowe Engineers for Part-Time Stormwater Capital Project Manager",
+            "description": "Contract amendment with Lowe Engineers for part-time stormwater Capital Project Manager.",
+            "presenter": "Michael Smith"
+        }
+    ]
+}

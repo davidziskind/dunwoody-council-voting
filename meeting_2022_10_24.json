@@ -1,0 +1,124 @@
+{
+    "date": "October 24, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present (via Zoom)",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of October 10, 2022, City Council Special Called Meeting Minutes • Approval of October 10, 2022, City Council Meeting Minutes • Winters Chapel Path Phase 1 Streetlight Agreement with Georgia Power",
+            "introducedBy": "Seconder",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Remove Items from Table",
+            "description": "Motion to take items #6 and #7 (Park Master Plans) from the table.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "no", "yes", "yes", "yes", "no", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "Park Master Plan for 5435 Roberts Drive Approval",
+            "description": "Approval of updated Park Master Plan for 5435 Roberts Drive with Option B selected to increase overall field size for multi-purpose use.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Table Park Master Plan for 4809/4819 Vermack Road",
+            "description": "Motion to table the Park Master Plan for 4809/4819 Vermack Road.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["no", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Grant Application for Cherry Hill-Eidson Road Multi-Use Trail",
+            "description": "Approval of 'Improving Neighborhood Outcomes in Disproportionally Impacted Communities' grant application for multi-use trail connecting Cherry Hill and Eidson Road with total project cost $100k funded by grant.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment for Planning & Zoning Services",
+            "description": "Approval of contract amendment to Municipal Service Contract for Planning & Zoning Services adding temporary part-time position for 2.5 years.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Fiscal Year 2023 Budget Adoption",
+            "description": "Second of two public hearings on proposed FY 2023 budget. No public comments for or against. Budget presented overview of city's financial status.",
+            "presenter": "Jay Vinicki",
+            "outcome": "Public hearing completed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Multiple Officers",
+            "description": "Council Member Heneghan administered oath of office to Officers Elvin Arias, Emma Baukhages, and Prince Greene (Mayor Deutsch participated via Zoom).",
+            "officiant": "Council Member Heneghan"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Dunwoody Village Street Grid Project",
+            "description": "Presentation of Dunwoody Village Street Grid proposed project with next step to return for approval of Development Agreement with Regency.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Technology Policy Adoption",
+            "description": "Presentation of proposed technology policy with Council Member Heneghan noting some requirements as onerous.",
+            "presenter": "Ginger LePage"
+        },
+        {
+            "title": "Facility Usage Agreements with Athletic Association Partners",
+            "description": "Presentation of Facility Usage Agreements with athletic association partners with request for written reports before end of year.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Adjusting Alcohol Licensing Requirements",
+            "description": "Presentation of amendment to alcohol ordinance reducing food/alcohol requirement from 60%/40% to 50%/50% and adding separate category for personal improvement services and entertainment businesses.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "Establish Sinking Fund Reserve for Artificial Turf Fields",
+            "description": "Staff recommendation to establish $60,000 annual amount for sinking fund for artificial turf replacement.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "CARES 2 Budget Amendment",
+            "description": "Presentation of CARES 2 budget amendment.",
+            "presenter": "Richard Platto"
+        }
+    ],
+    "notes": [
+        "Mayor Deutsch participated via Zoom",
+        "Vermack Park Master Plan tabled after resident concerns about path privacy and safety",
+        "Council requested 12-foot trail width for Cherry Hill-Eidson Road project",
+        "Multiple public comments opposing Vermack Park path proposal"
+    ]
+}

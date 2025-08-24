@@ -1,0 +1,119 @@
+{
+    "date": "January 10, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Bastien": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Motion to Move Item #11 from Consent Agenda to Business Items",
+            "description": "Motion to move item #11 (Text Amendment for Party Houses) from consent agenda to item #12 under Business Items.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda as amended including: • December 13, 2021, City Council meeting minutes • Traffic sign and signal maintenance contract with Sunbelt Traffic • SECOND READ: Text amendment to Chapter 27 to amend regulations for food trucks",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment for Party Houses Regulations (Second Read)",
+            "description": "Second read approval of text amendment to Chapter 27 to create regulations for party houses.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Election of Mayor Pro Tempore",
+            "description": "Election of Council Member John Heneghan as Mayor Pro Tempore for the next two years.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Emergency Ordinance for Virtual Meetings",
+            "description": "Approval of emergency ordinance declaring local emergency of Novel Coronavirus Disease 2021/2022 Omicron Variant Global Pandemic to allow City Council and city boards to conduct meetings virtually.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "CARES II Clean Up Amendment",
+            "description": "Approval of CARES II amendment.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Criminal Justice Coordinating Council Grant",
+            "description": "Approval of Criminal Justice Coordinating Council Grant.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Council Members-Elect",
+            "description": "Judge Stacey Hydrick administered oath of office to Council Members-Elect Tom Lambert, Catherine Lautenbacher, and Rob Price.",
+            "officiant": "Judge Stacey Hydrick"
+        },
+        {
+            "title": "Administration of Oath of Office - Public Facilities Authority Members",
+            "description": "Judge Stacey Hydrick administered oath of office to Dunwoody Public Facilities Authority members Tom Lambert, Catherine Lautenbacher, and Rob Price.",
+            "officiant": "Judge Stacey Hydrick"
+        },
+        {
+            "title": "Administration of Oath of Office - Police Officers",
+            "description": "Mayor Deutsch administered oath of office to Officers Darien Brewer and Kyle Luebbehusen.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "Recognition of Outgoing Council Member Ardy Bastien",
+            "description": "Outgoing Council Member Ardy Bastien thanked Mayor Deutsch, City Council, and community for opportunity to serve and congratulated new members.",
+            "presenter": "Ardy Bastien"
+        },
+        {
+            "title": "City of Freedom Proclamation",
+            "description": "Proclamation recognizing Dunwoody as second city in Georgia to receive City of Freedom designation. January 11th is National Human Trafficking Awareness Day.",
+            "presenter": "Council Member Lambert and Mayor Deutsch"
+        },
+        {
+            "title": "Recognition of Bob Dallas",
+            "description": "Mayor Deutsch thanked Bob Dallas for 12+ years serving as member of Planning Commission.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "RZ 21-02: Rezoning for 11 Ravinia Drive (First Read)",
+            "description": "First read of rezoning for 11 Ravinia Drive to amend conditions of current PC-2c District to allow furniture retail showroom and concurrent variance from street frontage requirements. Council requested applicant explore better tree protection, sustainable design, and installation of wayfinding signage and public art. No public comments for or against.",
+            "presenter": "Madalyn Smith and Den Webb (applicant)"
+        }
+    ]
+}

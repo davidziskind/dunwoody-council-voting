@@ -1,0 +1,64 @@
+{
+    "date": "September 19, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • September 6, 2022, City Council meeting minutes • Resolution appointing a member of the Citizen Advisory Capital Improvements Committee • Resolution of approval of EPD Recycling, Waste Reduction, and Diversion Grant Application",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution Establishing a Six-Month Moratorium on Cannabis Retail Stores",
+            "description": "Resolution establishing a 180-day moratorium on any permits or licenses for medical cannabis businesses pending final legal review.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of personnel and litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Resolution to Declare Obsolete Equipment in the IT Department as Surplus",
+            "description": "Resolution to declare obsolete phone equipment in the I.T. Department as surplus for donation to the City of Doraville for the sum of $1.00.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "MARTA Parking Deck Mural Project",
+            "description": "MARTA parking deck mural project with city paying one-third of cost ($50,000), PCID one-third, and MARTA one-third. Council requested rail bridge and 'Dunwoody' be incorporated if possible.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Mission and Vision Statements",
+            "description": "Council Member Lautenbacher read the proposed mission and vision statements into the record.",
+            "presenter": "Catherine Lautenbacher"
+        }
+    ]
+}

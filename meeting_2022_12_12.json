@@ -1,0 +1,117 @@
+{
+    "date": "December 12, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Table RZ 22-02 & SLUP 22-02 to February 13, 2023",
+            "description": "Motion to table RZ 22-02 and SLUP 22-02 (request for rezoning to amend conditions associated with cases RZ 18-02 & SLUP 18-02 and Special Land Use Permit to allow Group Living use) until February 13, 2023 at applicant's request due to team unavailability.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of the November 14, 2022, City Council Meeting Minutes • Approval of the November 28, 2022, City Council Meeting Minutes • Resolution Appointing Member to Serve on Discover Dunwoody Board • Funding Authorization for 4517 Dunwoody Club Drive Storm Repairs • Funding Authorization for 5583 Glenrich Drive Storm Repairs • Funding Authorization for 4954 Vernon Oaks Drive Storm Repairs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Discover Dunwoody 2023 Budget Approval",
+            "description": "Approval of proposed 2023 Discover Dunwoody budget.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Facility Usage Agreement with Dunwoody Senior Baseball",
+            "description": "Approval of Facility Usage Agreement with Dunwoody Senior Baseball.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with Ogletree Enterprises for Landscaping",
+            "description": "Approval of contract with Ogletree Enterprises for landscaping at Spalding Drive and Chamblee Dunwoody Road.",
+            "introducedBy": "Price",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "American Rescue Plan - Not for Profit Funding",
+            "description": "Approval of American Rescue Plan Not for Profit Funding.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Mutual Aid Agreement between Georgia State University and City of Dunwoody",
+            "description": "Approval of Mutual Aid Agreement between Georgia State University and City of Dunwoody.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation and real estate discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Jared Bradley",
+            "description": "Chief Grogan introduced and Mayor Deutsch administered oath of office to Officer Jared Bradley, who had previously worked for Dunwoody Police Department.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "City Manager's Report",
+            "description": "November City Manager's Report presentation.",
+            "presenter": "Eric Linton"
+        },
+        {
+            "title": "Annual Report from Non-Profit Program Partners",
+            "description": "Annual report from non-profit program partners highlighting 2022 accomplishments. Non-profit partners to present in person beginning in 2023.",
+            "presenter": "Brent Walker"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Public Art Project - Womack Road Retaining Wall",
+            "description": "Discussion of RFP released in November for large art project on retaining wall on Womack Road. Council asked Art Commission to focus on portion of wall that conveys sense of arriving someplace special.",
+            "presenter": "Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "RZ 22-02 & SLUP 22-02 deferred to February 13, 2023 at applicant's request",
+        "Multiple public comments on various agenda items including PATH trails and security concerns"
+    ]
+}

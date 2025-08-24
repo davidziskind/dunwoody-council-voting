@@ -1,0 +1,140 @@
+{
+    "date": "February 14, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present (via Zoom)",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Motion to Remove Item #17 from Agenda",
+            "description": "Motion to remove item #17 (Park Master Plans for 5435 Roberts Drive and 4809/4819 Vermack Road) from agenda and bring back at future date.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • January 24, 2022, City Council meeting minutes • January 31, 2022, City Council special called meeting minutes • Resolution appointing a member to serve on the Planning Commission • Approval of additional Human Resources position funded by CARES II",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to Add Condition #12 for RZ 21-02",
+            "description": "Amendment to add condition #12 requiring owner to provide appropriate landscaping approved by staff for gateway sign.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of RZ 21-02: Rezoning for 11 Ravinia Drive as Amended",
+            "description": "Approval of RZ 21-02 rezoning for 11 Ravinia Drive to amend conditions of current PC-2c District to allow furniture retail showroom and concurrent variance, as amended.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Replacement of Taser X2's with Purchase of Taser 7's",
+            "description": "Approval of purchase of 64 Taser 7s from Axon Enterprises, Inc. for total cost of $230,404.73.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Create Dunwoody Alliance",
+            "description": "Approval of formation of Create Dunwoody Alliance with annual funding not to exceed $35,000 funded from CARES II Budget for 2022. Five-year $175,000 investment from Development Authority contingent on equal participation from Discover Dunwoody and City.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Updated Al Fresco Grant",
+            "description": "Approval of updated Al Fresco Grant program keeping small business portion and adding new category for property owners investing in multiple tenants in same retail center. Financial match $1 to $1 for small businesses and $3 to $1 for larger companies.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of CARES 2 Amendment",
+            "description": "Approval of CARES 2 amendment allocating remaining $105,000: $35,000 for arts seed funding, $6,175 for hazard pay, and $63,825 to city supplies and services.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Agreement with Sherrod & Bernard, P.C. for City Attorney Services",
+            "description": "Approval of agreement between City of Dunwoody and Sherrod & Bernard, P.C. for appointment as city attorney and professional legal services.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of legal, real estate, and personnel discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "RZ 21-03: Rezoning for 600 Ashwood Parkway (First Read)",
+            "description": "First read of rezoning for 600 Ashwood Parkway to amend conditions of current C-1c District to allow 8,400 SF retail/restaurant building on 15 acres in Perimeter Center Marketplace. Proposal includes 62 parking spaces, walk-up ATM, and two outdoor patios. No public comments for or against.",
+            "presenter": "Madalyn Smith"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2021",
+            "description": "Fiscal Year 2021 budget amendment.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Additional Funding for Mount Vernon Place Sidewalk Project",
+            "description": "Request for additional funding of $14,148.14 under Autaco's unit price contract to cover actual cost of construction for Mount Vernon Place sidewalk project.",
+            "presenter": "Todd Meadows"
+        },
+        {
+            "title": "Contract Amendment with Blount Construction for 2022 Pavement Resurfacing",
+            "description": "Fifth and final year renewal of Blount Construction's pavement resurfacing contract for $2,752,922 plus 10% contingency. Funded by $2,750,000 SPLOST and $441,005 LMIG funds.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Vermack Road Shared-Use Path Adjacent to Dunwoody High School",
+            "description": "Staff recommended against replacing existing on-street parking with angled parking. Council agreed noting safety concerns and favored 12' path along Vermack.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "I-285 Issues",
+            "description": "Staff seeking guidance on Top End I-285 managed lanes project. Council added requests: direct access to Peachtree Industrial Boulevard, Mount Vernon Road managed lane access at State Route 400, Johnson Ferry Road inclusion, managed lane interchange on I-285, and shared use path connections at North Shallowford Road and North Peachtree Road.",
+            "presenter": "Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "Council Member Seconder joined meeting at 8:32 p.m."
+    ]
+}

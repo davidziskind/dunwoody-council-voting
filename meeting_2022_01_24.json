@@ -1,0 +1,117 @@
+{
+    "date": "January 24, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • January 10, 2022, City Council meeting minutes • Emergency ordinance declaring local emergency of Novel Coronavirus Disease 2021/2022 Omicron Variant Global Pandemic to allow City Council and city boards to conduct public meetings via teleconference",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Move Al Fresco Grant Item to Last Discussion Item",
+            "description": "Motion for agenda item #9 (Al Fresco Grant Request) to be moved to last item under Discussion Items.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Defer RZ 21-02 to February 14 Meeting",
+            "description": "Motion to defer RZ 21-02 (11 Ravinia Drive rezoning second read) to February 14th meeting. Staff requested deferral.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "ESRI 3-Year Renewal",
+            "description": "Approval of ESRI 3-year contract renewal for GIS mapping software in amount not-to-exceed $116,100.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "FortifyData Renewal",
+            "description": "Approval of renewal of contract with FortifyData risk management platform in amount of $18,518.52.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Request to Sell Surplus Technology to City of Doraville",
+            "description": "Approval to surplus remaining technology equipment and sell all surplus technology equipment to City of Doraville for total price of $1.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Approval for Brook Run Park Lighting Project with Georgia Power",
+            "description": "Approval of contract for Phase 2 and Phase 3 of Brook Run Park lighting project with Georgia Power with not to exceed cost of $800,000. Expected cost $784,200 funded by CARES II funds.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Blount Construction for Additional Pavement Marking",
+            "description": "Approval of contract amendment with Blount Construction increasing contract by $86,156 for total contract price of $3,342,936 for additional pavement marking and raised pavement markers.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Not specified",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of legal and real estate discussion.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Discussion of Vermack Road Shared-Use Path Adjacent to Dunwoody High School",
+            "description": "Conceptual design for 12' path on Vermack Road between Womack Road and Vanderlyn Drive to replace existing sidewalk and accommodate bicyclists. Cost just under $500,000. Council asked for cost analysis of angled parking with 5' sidewalk. Angled parking could add 12 spaces but would double project cost.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Discussion of Replacement of Taser X2's with Purchase of Taser 7's",
+            "description": "Police department's Taser X2's nearing end of useful life. Replacement with Taser 7's would automatically turn on body cameras and vehicles when pulled from holster. Cost $230,404.73 funded from SPLOST.",
+            "presenter": "Deputy Chief Carlson"
+        },
+        {
+            "title": "Discussion of Additional Human Resources Position Funded by CARES II",
+            "description": "Request to add additional Human Resources position due to unexpected 24/7 increase during COVID. Position proposed for this year and next year, funded by CARES II. Decision on full-time need by summer 2023.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "Al Fresco Grant Request",
+            "description": "Request from The Shops of Dunwoody for Al Fresco Grant of $113,336 for furniture and fixtures for outdoor dining space. Council recommended restructuring and formalizing grant program before making awards and advertising availability to all businesses.",
+            "presenter": "Michael Starling"
+        }
+    ]
+}

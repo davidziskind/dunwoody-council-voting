@@ -1,0 +1,109 @@
+{
+    "date": "October 10, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present (via Zoom)"
+    },
+    "motions": [
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Fiscal Year 2023 Budget Presentation",
+            "description": "First of two public hearings on proposed FY 2023 budget. One speaker in favor asking about Safe Streets position value, one speaker opposed (Bob Hickey) saying budget should be sent back to staff and objecting to $10M in federal money.",
+            "presenter": "Jay Vinicki",
+            "recommendation": "Budget Committee Chair Lambert noted some changes including pilot ambulance service and Safe Streets program"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "City Manager's Report",
+            "description": "September City Manager's report noting Safe Streets workshop scheduled for December 6 in partnership with neighboring cities, ARC, and PCID.",
+            "presenter": "Eric Linton"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Winters Chapel Path Phase 1 Streetlight Agreement with Georgia Power",
+            "description": "Presentation of streetlight agreement with Georgia Power for Winters Chapel Path Phase 1.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Public Art Project - Womack Road Retaining Wall",
+            "description": "Presentation of art ideas for retaining wall at corner of Chamblee Dunwoody Road and Womack Road. Art Commission looking at potential mosaic project with time sensitivity due to construction.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Amendment to American Rescue Plan Budget",
+            "description": "Discussion of ARP budget amendment (presented in conjunction with budget presentation).",
+            "presenter": "Richard Platto"
+        }
+    ],
+    "notes": [
+        "Council Member Seconder participated via Zoom",
+        "Park Master Plans tabled pending further review",
+        "Budget discussion included questions about 0.669 mill increase in 2024",
+        "Council Member Heneghan requested addition of Peachtree Middle School field to capital projects list"
+    ]
+}
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of September 19, 2022, City Council Meeting Minutes • Dunwoody MARTA Station Mural • Resolution to Declare Obsolete Equipment in the IT Department as Surplus • Resolution Appointing Members to Serve on the Planning Commission",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "2023 Meeting Schedules Approval",
+            "description": "Approval of 2023 City Council, Planning Commission, and Zoning Board of Appeals meeting schedules.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Mission and Vision Statements Approval",
+            "description": "Approval of Mission and Vision Statements.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorize Not for Profit Agencies Contracts for ARP 2 Direct Assistance",
+            "description": "Authorization for contracts with Not for Profit agencies regarding Direct Assistance Funding with American Rescue Plan 2.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Table Park Master Plans for Roberts Drive and Vermack Road",
+            "description": "Motion to table Park Master Plans for 5435 Roberts Drive and 4809/4819 Vermack Road.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation, real estate, and personnel discussions.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {

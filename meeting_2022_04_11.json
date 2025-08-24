@@ -1,0 +1,71 @@
+{
+    "date": "April 11, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present (via Zoom)",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • March 21, 2022, City Council special called meeting minutes • March 22, 2022, City Council special called meeting minutes • March 28, 2022, City Council meeting minutes • Trees Atlanta Front Yard Tree Planting Program, subject to final legal review • Approval of financial advisors, subject to final legal review • Resolution requesting approval to surplus police vehicles",
+            "introducedBy": "Lambert",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Authorization to Recognize $10 Million of American Rescue Plan Funding",
+            "description": "Authorization to recognize $10 million of American Rescue Plan funding as revenue replacement to create the ARP 2 Fund.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of real estate and litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Sustainability Hero Awards",
+            "description": "Recognition of 2021 Sustainability Hero Laura Johnson and 2021 Sustainability Organization Dunwoody Community Garden Orchard (Art Simon, Cindy Magill and other members present).",
+            "presenter": "Nathan Sparks (Sustainability Committee Chair) and Mayor Deutsch"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Approval of North Metro SWAT Memorandum of Understanding",
+            "description": "Request for approval of North Metro SWAT Memorandum of Understanding.",
+            "presenter": "Chief Grogan"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2021",
+            "description": "Budget amendment for Fiscal Year 2021 described as general housekeeping.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Update on Short Term Capital",
+            "description": "Update on short-term capital with Council individually ranking 16 unfunded capital projects, gravitating around 10 projects. $9.5 million available for short-term capital needs. Staff asked to review list and bring recommendation back in 2-4 weeks.",
+            "presenter": "Jay Vinicki"
+        }
+    ]
+}

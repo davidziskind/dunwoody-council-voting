@@ -1,0 +1,130 @@
+{
+    "date": "August 8, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Motion to Table Multiple Agenda Items",
+            "description": "Motion to table agenda items 8, 15, 17, 19, and 20 to a future meeting date.",
+            "introducedBy": "Harris",
+            "secondedBy": "Heneghan",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Service Delivery Strategy for DeKalb County and City of Dunwoody",
+            "description": "Approval of Service Delivery Strategy for DeKalb County and the City of Dunwoody.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • July 25, 2022, City Council meeting minutes • Request approval for the disposal and transfer of obsolete rifle plates and armored helmets",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Award for Consulting Services for Study of Police Department",
+            "description": "Award of contract to BerryDunn for consulting services to conduct a study of the police department for flat fee not-to-exceed $117,500. Project anticipated to take eight months.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Acceptance of Bid for 4553 and 4555 North Shallowford Road Property",
+            "description": "Acceptance of bid from Summit Healthcare Group, LLC for $7,780,000 for property at 4553 and 4555 North Shallowford Road.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Fourth Amendment to Purchase and Sale Agreement",
+            "description": "Approval of Fourth Amendment to Purchase and Sale Agreement with Summit Healthcare Group, LLC and authorize Mayor to execute same subject to final legal review.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract with Sol Construction for Dunwoody Road Sidewalk Project",
+            "description": "Approval of contract with Sol Construction for Dunwoody Road sidewalk project in amount of $549,111 plus 10% contingency for sidewalk construction on Dunwoody Road and Chamblee Dunwoody Road at Oakpointe Place.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of litigation, real estate, and personnel discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Multiple Officers",
+            "description": "Mayor Deutsch administered oath of office to Officers Ernesto Green, Terrance Alexander, Brandon Everett, David Stone, and Taylor Mossman.",
+            "officiant": "Mayor Deutsch"
+        },
+        {
+            "title": "DPD Teen Police Academy Class 2022-002 Graduates",
+            "description": "Recognition of Dunwoody Police Department Teen Police Academy Class 2022-002 graduates.",
+            "presenter": "Sgt. Anwar Silah"
+        },
+        {
+            "title": "Officer and Employee of the 2nd Quarter Awards",
+            "description": "Officer of the 2nd Quarter awarded to Officer Alex Cheung and Employee of the 2nd Quarter to Liz Stell.",
+            "presenter": "Chief Grogan"
+        },
+        {
+            "title": "Proclamation Recognizing Jerry Rhea",
+            "description": "Proclamation recognizing Dunwoody resident Jerry Rhea on his 'Award of Excellence' by the Pro Football Hall of Fame, proclaiming August 8, 2022, as Jerry Rhea Day and presenting him with a key to the city.",
+            "presenter": "Mayor Deutsch"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment to Regulate Materials for Residential Driveways (First Read)",
+            "description": "First read of text amendment to regulate materials for residential driveways. Council requested revisions to prevent spreading gravel across majority of front yards but allow gravel driveways with 35% limit and standards for construction.",
+            "presenter": "Paul Leonhardt"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Trail Master Plan Discussion by Path Foundation",
+            "description": "Information on how PATH Foundation could assist city in creating trail master plan. Cost approximately $100,000 and would take 6-8 months to complete.",
+            "presenter": "Greta deMayo"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Contract with Triscapes for Road and Stormwater Maintenance",
+            "description": "City elected to end contract with current vendor. Staff recommending award to Triscapes Inc. to be brought to August 22 meeting for approval.",
+            "presenter": "Michael Smith"
+        }
+    ]
+}

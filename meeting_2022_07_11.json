@@ -1,0 +1,106 @@
+{
+    "date": "July 11, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "absent",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Resolution Establishing the 2022 Millage Rate",
+            "description": "Adoption of resolution establishing the 2022 millage rate at 3.040 mills after third public hearing.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Public Hearing for Establishing 2022 Millage Rate",
+            "description": "Third and final public hearing for proposed 2022 millage rate of 3.040 mills. Proposed increase from 2.74 mills to 3.040 mills impacts typical Dunwoody homes between $33-$69 per year. Main goal is to have ongoing revenue and expenses move closer together.",
+            "presenter": "J. Jay Vinicki",
+            "proposedRate": "3.040 mills",
+            "outcome": "Millage rate adopted"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Project Agreement with Georgia Department of Transportation for North Shallowford Road Path Project",
+            "description": "City awarded $560,000 by Atlanta Regional Commission for design of North Shallowford Road path project. Federal funds administered by GDOT requiring project agreement approval.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Contract with TSW for Final Design of Gateway Signage",
+            "description": "Contract with TSW for final design of gateway signage. Council asked to include gateway sign on hill by furniture store off Ashford Dunwoody Road and Happy Hollow at Dunwoody Club Drive.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Capital Project List Discussion",
+            "description": "Discussion of Capital Project list. If bond referendum question on ballot this year, Council needed to decide by July 25. Staff directed to have Capital Working Committee refine list to land acquisition and park development only.",
+            "presenter": "J. Jay Vinicki"
+        },
+        {
+            "title": "Authorize Purchase of Replacement Firearms for Police Department",
+            "description": "Request for authorization to purchase replacement firearms for police department. Deputy Chief to confirm if weapons purchased under state contract.",
+            "presenter": "Deputy Chief Carlson"
+        },
+        {
+            "title": "Authorize Specialized Unit Pay for Police Department",
+            "description": "Request for authorization for specialized unit pay for fifteen officers in amount of additional $4,000 per year per officer. Council requested staff review for equity and comparison to surrounding departments.",
+            "presenter": "Deputy Chief Carlson"
+        }
+    ]
+},
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • June 8, 2022, City Council special called meeting minutes • June 13, 2022, City Council special called meeting minutes • June 13, 2022, City Council meeting minutes • June 17, 2022, City Council special called meeting minutes • Lease agreement with Georgia Power for streetlights on Chamblee Dunwoody Road • Request for approval of on-call stormwater engineering and design contract",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Right of Way Agreement with Brookfield Properties for Ashford Dunwoody Commuter Trail Phase I",
+            "description": "Approval of right of way agreement with Brookfield Properties for Ashford Dunwoody Commuter Trail Phase I project. Brookfield providing right of way and easements appraised at $4.2M in exchange for consideration of costs including sign relocation, up to $40,000 for lender releases, and up to $5,000 for closing costs. City's cost approximately $110,000 with PCID paying 75%.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment of City Position Allocation and Compensation Chart",
+            "description": "Approval of amendment to city position allocation and compensation chart, effective June 30, 2022. Fourth increase since March 2021. Budget Committee also recommended increasing housing stipend from $700 to $800.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Agreement Concerning Funding for Arts and Nature Center",
+            "description": "Approval of agreement for funding for Arts and Nature Center. Dunwoody Facilities Authority will hold special called meeting to approve agreement and changes to Spruill Arts Center agreement.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of legal, real estate, and personnel discussion.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "absent"],
+            "result": "passed"

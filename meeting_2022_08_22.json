@@ -1,0 +1,101 @@
+{
+    "date": "August 22, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • August 8, 2022, City Council meeting minutes • Contract with Triscapes for road and stormwater maintenance",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Text Amendment to Regulate Materials for Residential Driveways (Second Read)",
+            "description": "Second read approval of text amendment with Option 2 allowing gravel and 35% street yard coverage with standards.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Harris",
+            "votes": ["no", "yes", "no", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "North Metro SWAT Memorandum of Understanding Adding Chamblee Police Department",
+            "description": "Approval of North Metro SWAT Memorandum of Understanding adding Chamblee Police Department to the agreement.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Edge City 2.0 Project Update",
+            "description": "Update on Edge City 2.0 project (Perimeter area) with three scenarios: A – Live+ Walk, B – Gather, and C - Transit-Oriented.",
+            "presenter": "Michael Starling and Andrew Khor"
+        },
+        {
+            "title": "Retreat 2022 - Update",
+            "description": "Update on the status of items from the 2022 City Council Retreat list.",
+            "presenter": "J. Jay Vinicki"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Dunwoody Entrepreneurship & Innovation Strategy",
+            "description": "Overview of Entrepreneurship/Innovation Strategy with $250,000 CARES II funding. Five goals to develop thriving entrepreneurial ecosystem. Part-time administrator hired shared with Community Development.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Discussion of Options for Easing Alcohol Licensing Requirements for Businesses",
+            "description": "Options for reducing food sales requirement from 60% to 50% and allowing alcohol sales up to 50%. Council asked staff to explore options with police department involvement.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "Bikeway Policy Discussion",
+            "description": "Bikeway policy information for determining what type of cyclists to serve and priority routes. Recommendation to coordinate with The Path Foundation.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Discussion of a Contract Award for Installation of Holiday Lights at Brook Run Park",
+            "description": "Request for award of contract to Chitwood Studios for $80,000 (same as last year) with 10% contingency for total not-to-exceed $88,000. Event runs December 1-31.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Discussion of Park Naming Campaign",
+            "description": "Direction on park naming with Council suggesting geographical, unique, or historical elements rather than naming after people. Perimeter Center East identified as most critical need.",
+            "presenter": "Brent Walker"
+        },
+        {
+            "title": "Revision of City of Dunwoody Mission and Vision Statements",
+            "description": "Proposed Vision Statement: 'Dunwoody is a thriving, vibrant, inclusive community with exceptional opportunities.'",
+            "presenter": "Catherine Lautenbacher"
+        },
+        {
+            "title": "Update on Bond Timelines for 2023",
+            "description": "Update on bond timelines with suggestion for citizen committee with one citizen per council member. Mayor to form Capital Improvement Project Citizen Advisory Committee with Council Member Lambert as chair.",
+            "presenter": "J. Jay Vinicki"
+        },
+        {
+            "title": "Resolution for Budget Amendment for Fiscal Year 2022",
+            "description": "Budget amendment for fiscal year 2022.",
+            "presenter": "Richard Platto"
+        }
+    ]
+}

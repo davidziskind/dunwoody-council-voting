@@ -1,0 +1,145 @@
+{
+    "date": "November 14, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Amendment to Add Council Comments Period",
+            "description": "Motion to amend agenda to add additional period of public comment for Council to comment.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • Approval of October 24, 2022, City Council Meeting Minutes • Approval of Establishing a Sinking Fund Reserve for Artificial Turf Fields • Approval of CARES 2 Budget Amendment",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Table Legislative Agenda",
+            "description": "Motion to table approval of proposed legislative agenda pending additions requested by Mayor.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Project Agreement with PCID for Ashford Dunwoody Path Phase 1",
+            "description": "Approval of project agreement with Perimeter Community Improvement District for Ashford Dunwoody Path Phase 1 construction with PCID paying approximately 50% of project costs.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for Ashford Dunwoody Commuter Trail Phase I Construction",
+            "description": "Approval of funding authorization for construction of Ashford Dunwoody Commuter Trail Phase I.",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Lighting Agreement with Georgia Power for Ashford Dunwoody Path Phase 1",
+            "description": "Approval of lighting agreement with Georgia Power for Ashford Dunwoody Path Phase 1 streetlights.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Facility Usage Agreements with Athletic Associations (Minus DSB)",
+            "description": "Approval of Facility Usage Agreements with athletic association partners but removing Dunwoody Senior Baseball agreement for separate consideration.",
+            "introducedBy": "Price",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Technology Policy Adoption",
+            "description": "Adoption of technology policy with revision to page 18, section 1B to apply to everyone.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Second Round American Rescue Plan Grant Recipients Approval",
+            "description": "Approval of second round of qualified grant recipients for American Rescue Plan funding.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Funding Authorization for 5252 Trowbridge Drive Storm Repairs",
+            "description": "Approval of funding authorization for 5252 Trowbridge Drive storm repairs in amount of $84,248.36 including 10% contingency.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for litigation discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment to Chapter 4 - Alcoholic Beverages (First Read)",
+            "description": "First read of text amendment to Chapter 4 Alcoholic Beverages to adjust alcohol licensing requirements including reduction from 60%/40% to 50%/50% food/alcohol split for eating establishments and creation of new groups for entertainment/spectator sports and personal improvement services.",
+            "presenter": "Paul Leonhardt",
+            "action": "Proceeding to second read"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer AbuBakarr Savage",
+            "description": "Chief Grogan introduced and Mayor Deutsch administered oath of office to Officer AbuBakarr Savage.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Code Enforcement Introduction and Overview",
+            "description": "Introduction and overview of code enforcement process and special projects by Shane Peeples, with explanation that code enforcement is complaint driven and officers assigned to three districts.",
+            "presenter": "Shane Peeples"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Capital Project Closeout and Reallocate Funding",
+            "description": "Presentation of capital project closeouts and reallocation of funding.",
+            "presenter": "Richard Platto"
+        }
+    ],
+    "notes": [
+        "Council Member Lambert read extensive prepared comments into record addressing trails misinformation",
+        "Dunwoody Senior Baseball agreement removed for separate consideration pending field usage discussions",
+        "Council Member Heneghan absent during some votes"
+    ]
+}

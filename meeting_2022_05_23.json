@@ -1,0 +1,176 @@
+{
+    "date": "May 23, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • May 9, 2022, City Council meeting minutes • Resolution appointing City representative to serve on the Perimeter Community Improvement Districts Board of Directors • Funding authorization for 5364 Redfield Road storm repairs • Funding authorization for 4734 Layfield Dr. storm repairs",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Move Items 21 and 23 Up on Agenda",
+            "description": "Motion to move item #21 (ARP Budget Amendment) and item #23 (Millage and Bond Rate Discussion) to next items on agenda.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Move Item 22 After Millage Rate Discussion",
+            "description": "Motion to move item #22 (Spruill Center for the Arts) to follow the millage rate and bond discussion item. (Council Member Heneghan had left meeting)",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Conversion of Contracted Positions to City Positions",
+            "description": "Approval to create four new city positions (Deputy City Clerk, Records Clerk, Accounting Manager, Technology Manager) and convert contracted positions, including amendment to city's position allocation and compensation chart.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to Contract with View Point Health",
+            "description": "Amendment to change signature line on contract to Mayor Deutsch for licensed behavioral health clinician for Dunwoody Police Department.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of Contract with View Point Health as Amended",
+            "description": "Approval of contract with View Point Health as amended to provide licensed behavioral health clinician for Dunwoody Police Department.",
+            "introducedBy": "Price",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of real estate and litigation discussions.",
+            "introducedBy": "Lautenbacher",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Amend Agenda to Add Third Amendment Item",
+            "description": "Motion to amend agenda to add item #24, Third Amendment to Purchase and Sale Agreement with Summit Healthcare Group, LLC.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Third Amendment to Purchase and Sale Agreement",
+            "description": "Approval of Third Amendment to Purchase and Sale Agreement with Summit Healthcare Group, LLC.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "absent", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Officer and Employee of the First Quarter Awards",
+            "description": "Officer of the First Quarter awarded to Officer Joshua Carruth and Employee of the First Quarter to PSR Lori Rivera. Chief Grogan noted ten vacancies in police department.",
+            "presenter": "Chief Grogan"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Street Name Change, Goldkist Road to Campus Way (First Read)",
+            "description": "First read of ordinance for street name change from Goldkist Road to Campus Way. One speaker in favor (Danielle Handy, RocaPoint Partners), none opposed.",
+            "presenter": "Madalyn Smith"
+        },
+        {
+            "title": "Text Amendment to the Perimeter Center Overlay Regulations (First Read)",
+            "description": "First read of text amendment regarding process for major exceptions, quantity of windows, and pedestrian entrances. Council recommended defining 'pedestrian entrance' and clarifying window requirements as minimums.",
+            "presenter": "Madalyn Smith"
+        },
+        {
+            "title": "Text Amendment to the Tree Preservation Regulations (First Read)",
+            "description": "First read of text amendment to tree preservation ordinance. Council recommended several edits including lesser standards for pine trees and homeowners vs. builders, signage requirements, emergency situations, education aspects, and tree quantity clarifications.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "Text Amendment to Outdoor Lighting Regulations (First Read)",
+            "description": "First read of outdoor lighting text amendment adding color temperature regulations and requirements for outdoor lighting.",
+            "presenter": "Paul Leonhardt"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "First Read: Text Amendment to the Definition of Entertainment Districts",
+            "description": "Text amendment to consolidate Campus 244, Ashford Lane, High Street, and Perimeter Mall entertainment districts into single Perimeter Center Entertainment District. Council recommended expanding pedestrian routes on map.",
+            "presenter": "Madalyn Smith"
+        },
+        {
+            "title": "First Read: Amendment to the Public Art Ordinance",
+            "description": "Amendment to public art ordinance presented.",
+            "presenter": "Michael Starling"
+        },
+        {
+            "title": "Amendment to American Rescue Plan (ARP) Budget",
+            "description": "Amendment uses $10M as revenue, freeing up $10M of general fund revenue. Reviewed ARP1 expenses and proposed ARP2 expenses.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "Millage and Bond Rate Discussion",
+            "description": "Overview of city property taxes (only 5% of residential tax bill). Using $4M fund balance this year. Current millage 2.740 mills, charter cap 3.040 mills. Bond referendum variations: $30M, $40M, $50M. Net digest $3.5B, grew 6%.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "Spruill Arts Center and Dunwoody Nature Center Match Funding",
+            "description": "Request for approval at next meeting to spend $2M from fund balance ($1M each). City would supplement halfway through projects after they fund first half million each.",
+            "presenter": "Jay Vinicki"
+        },
+        {
+            "title": "Approval of Increase in Insurance Liability Coverage",
+            "description": "Request for approval of increase in insurance liability coverage through Georgia Interlocal Risk Management Agency.",
+            "presenter": "Richard Platto"
+        },
+        {
+            "title": "Georgetown Gateway Project Enhancements and Construction Updates",
+            "description": "Update on largest and longest construction project to date. Staff recommending removing brick pavers and using $65K toward public art.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Contract to Upgrade Stormwater Pipe Crossing near 3900 Spalding Drive",
+            "description": "Contract with Astra Construction Services, LLC for $511,286 procured through Georgia Department of Administrative Services statewide convenience contract.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Request for Approval of Standby Stormwater Repair Unit Price Contract",
+            "description": "New contract for 2022-2027 MS4 permit cycle with five firms: The Dickerson Group, Federal EC, IPR Southeast LLC, Southeast Pipe, and Southern Premier Contracting.",
+            "presenter": "Carl Thomas"
+        },
+        {
+            "title": "Discussion of Flock Group Additional Services Agreement",
+            "description": "Additional service agreement to lease additional LPRs with gunshot detection. Cost $90,450 first year, $81,000 each year thereafter, funded from ARP2.",
+            "presenter": "Chief Grogan"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "date": "March 14, 2022",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval",
+            "description": "Approval of consent agenda including: • February 28, 2022, City Council meeting minutes • Right of way dedication at 5349 Chamblee Dunwoody Road • Permanent easement for Georgia Power Company at 5349 Chamblee Dunwoody Road • Contract amendment with Lowe Engineers for part-time stormwater capital project manager • Contract award for construction of Perimeter Center East Park • Art easement for 4500 Olde Perimeter Way",
+            "introducedBy": "Lambert",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Amendment to Condition #24 for RZ 21-03 (600 Ashwood Parkway)",
+            "description": "Amendment to condition #24 requiring Building F to have glass doors facing Ashwood Parkway for each tenant that are accessible to general public and open during business hours.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "no", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Approval of RZ 21-03: Rezoning for 600 Ashwood Parkway as Amended",
+            "description": "Approval of rezoning for 600 Ashwood Parkway to amend conditions of current C-1c District to allow retail/restaurant building, as amended.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "no", "yes", "no", "yes", "yes", "no"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Enter Executive Session",
+            "description": "Motion to enter executive session for the purpose of legal discussion.",
+            "introducedBy": "Harris",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Lambert",
+            "secondedBy": "Harris",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Recognition of Officers for Life-Saving Rescue",
+            "description": "Recognition of Sergeant Josh Sanders, Officer Eric Haviland, and Officer Will Smith for rescuing male resident from house fire on March 6th. Officers performed life-saving measures and patient survived. DeKalb County Fire Chief Fullum presented officers with challenge coins.",
+            "presenter": "Chief Grogan and DeKalb County Fire Chief Fullum"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "RZ 21-04: Rezoning for 4553 North Shallowford Road (First Read)",
+            "description": "First read of rezoning from current PD District to O-I District and concurrent variance. Staff recommends approval. Applicant plans to move to construction drawings and permitting this year with goal to start construction December 2025. No public comments for or against.",
+            "presenter": "Madalyn Smith and Alan Seales (applicant)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Construction Contract for Intersection Improvements at Chamblee Dunwoody Road and Womack Road",
+            "description": "Award of contract to Wilson Construction Management, LLC for $1,971,078 plus 10% contingency. Lowest of five bids received.",
+            "presenter": "Todd Meadows"
+        },
+        {
+            "title": "Contract with NV5 for Final Design of Mount Vernon Road Corridor Improvements",
+            "description": "Award of contract to NV5 for $94,500 plus $10,000 contingency for final design between Corners Drive and Mount Vernon Place. Highest ranked of three bids.",
+            "presenter": "Ishri Sankar"
+        },
+        {
+            "title": "Contract Award for Sidewalk Construction at Brook Run Park",
+            "description": "Award of contract to Blount Construction Company for $62,822.65 plus 10% contingency (total $69,105). Project includes additional stairs installation quote.",
+            "presenter": "Brent Walker"
+        }
+    ]
+}
