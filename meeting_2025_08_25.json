@@ -1,0 +1,96 @@
+{
+    "date": "August 25, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "present"
+    },
+    "motions": [
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda as amended (item #7 moved to business items) including: • August 11, 2025, City Council special called meeting minutes • August 11, 2025, City Council meeting minutes • SECOND READ: Text amendment for group living uses regulations • 2025 Holiday Lights Display at Brook Run Park • Funding authorization for stormwater repairs - 2566 Briers North Drive",
+            "introducedBy": "Lambert",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Table Rebidding of Major Municipal Services",
+            "description": "Motion to table rebidding of major municipal services agenda item until September 8 council meeting.",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "no", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Dunwoody Cultural Arts Center HVAC Integrated Controls Addition",
+            "description": "Approval of contract award to Addison Smith Mechanical Contractors for additional HVAC integrated controls at Dunwoody Cultural Arts Center in amount of $49,056.",
+            "introducedBy": "Harris",
+            "secondedBy": "Seconder",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Resolution to Surplus Six Vehicles",
+            "description": "Approval of resolution to surplus six city vehicles.",
+            "introducedBy": "Seconder",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Contract Amendment with Vandermeer Management",
+            "description": "Approval of contract amendment with Vandermeer Management to provide construction management services for Brook Run maintenance facility.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Price",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "yes"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Administration of Oath of Office - Officer Skylar Lewis and Officer Aaron Barone",
+            "description": "Mayor Deutsch administered the Oath of Office to Officer Skylar Lewis and Officer Aaron Barone.",
+            "officiant": "Mayor Deutsch"
+        }
+    ],
+    "presentations": [
+        {
+            "title": "Economic Development Update - 2nd Quarter",
+            "description": "2nd quarter Economic Development update provided.",
+            "presenter": "Michael Starling"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Stream Buffer Variance for 4770 N Peachtree Road",
+            "description": "City of Dunwoody requests variance from Chapter 16, Section 78 to allow replacement of maintenance facility in 75-foot stream buffer. Impervious surface would decrease by 1,310 SF. Staff recommends approval with conditions. One speaker in opposition (Bob Hickey).",
+            "presenter": "Allegra DeNooyer"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "Approval of a Franchise Agreement with Google Fiber",
+            "description": "Franchise agreement with Google Fiber presented. Council asked questions about pole system, franchise fee, right-of-way restoration, work notifications, and high-speed internet locations. Suggestion made for staff oversight.",
+            "presenter": "Michael Smith"
+        },
+        {
+            "title": "Approval of a Final Design Contract with AECOM for North Shallowford Path",
+            "description": "Supplemental agreement for final design of North Shallowford Road path. Staff recommend approval with $1,287,000 increase to project budget.",
+            "presenter": "Michelle Hirose"
+        }
+    ]
+}

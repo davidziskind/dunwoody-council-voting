@@ -1,0 +1,103 @@
+{
+    "date": "August 11, 2025",
+    "status": "completed",
+    "attendance": {
+        "Mayor Deutsch": "present",
+        "Harris": "present",
+        "Heneghan": "present",
+        "Lambert": "present",
+        "Lautenbacher": "present",
+        "Price": "present",
+        "Seconder": "absent"
+    },
+    "motions": [
+        {
+            "title": "Motion to Amend July 28, 2025 Meeting Minutes",
+            "description": "Amendment to July 28, 2025, city council meeting minutes at bottom of page 9 to read 'Council Member Heneghan motioned to move from the Civic Campuses character area public/institution and senior assisted living from green down to yellow.'",
+            "introducedBy": "Heneghan",
+            "secondedBy": "Price",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Consent Agenda Approval as Amended",
+            "description": "Approval of consent agenda as amended including: • July 28, 2025, City Council meeting minutes (as amended) • Dunwoody Cultural Arts Center enclosed wheelchair lift modernization",
+            "introducedBy": "Price",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "FY2025 Mid-Year Budget Amendment",
+            "description": "Approval of FY2025 Mid-Year budget amendment.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lambert",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        },
+        {
+            "title": "Motion to Adjourn",
+            "description": "Motion to adjourn the meeting.",
+            "introducedBy": "Harris",
+            "secondedBy": "Lautenbacher",
+            "votes": ["yes", "yes", "yes", "yes", "yes", "yes", "absent"],
+            "result": "passed"
+        }
+    ],
+    "specialEvents": [
+        {
+            "title": "Moment of Silence for DeKalb Officer David Rose",
+            "description": "Mayor Deutsch requested moment of silence in memory of DeKalb Officer David Rose. Chief Carlson noted Dunwoody Police Department is assisting DeKalb Police Department.",
+            "presenter": "Mayor Deutsch"
+        },
+        {
+            "title": "Officer and Employee of the Second Quarter Awards",
+            "description": "K9 Officer Elvin Arias and K9 Ranger recognized as Officer of the Second Quarter. Public Safety Ambassador Paul Chastain recognized as Employee of the Second Quarter.",
+            "presenter": "Chief Carlson"
+        }
+    ],
+    "publicHearings": [
+        {
+            "title": "Text Amendment for Group Living Uses (First Read)",
+            "description": "First read of text amendment to create zoning regulations for group living uses including assisted living, independent living, community residences, recovery communities. Clarifies regulations to comply with legal requirements. Planning Commission voted unanimously to approve. One speaker in favor (Zack Humphries), none opposed.",
+            "presenter": "Paul Leonhardt"
+        },
+        {
+            "title": "RZ 25-02: 4570 Ashford Dunwoody Road Rezoning (First Read)",
+            "description": "First read of rezoning from O-I to PC-1 for Raising Cane's restaurant. Applicant will submit separate Special Land Use Permit for drive-through. Planning Commission voted unanimously to approve rezoning. Multiple speakers in favor, one opposed (Matthew Munoz from Le Meridien hotel).",
+            "presenter": "Madalyn Smith and Harold Buckley (applicant)"
+        },
+        {
+            "title": "RZ 25-03: 4981 Ashford Dunwoody Road Rezoning (First Read)",
+            "description": "First read of rezoning from O-I to PD for 215-unit age-restricted (55+) rental development by Dominion. Planning Commission recommended approval 4-1. Staff recommends approval with conditions. Multiple speakers for and against, with significant public opposition citing density concerns.",
+            "presenter": "Madalyn Smith, Shaun Reinhardt, and Julie Sellars (applicants)"
+        },
+        {
+            "title": "RZ 25-04: 64 & 66 Perimeter Center E Rezoning (First Read)",
+            "description": "First read of rezoning from O-I to PD for adaptive reuse of office buildings to 441 residential units (condos, age-restricted rentals, townhomes). Planning Commission unanimously recommended approval. Speakers in favor, none opposed.",
+            "presenter": "Paul Leonhardt, Peter Hansen, and Jessica Hill (applicants)"
+        },
+        {
+            "title": "SLUP 25-03: 4515 Chamblee Dunwoody Road Drive-Through (First Read)",
+            "description": "First read of Special Land Use Permit for Take 5 oil change drive-through facility with two variances. Planning Commission voted 5-0 to deny. Staff recommends denial. No speakers for or against.",
+            "presenter": "Allegra DeNooyer, Preston Miller, and Laurel David (applicants)"
+        }
+    ],
+    "discussionItems": [
+        {
+            "title": "2025 Brook Run Park Holiday Lights Display",
+            "description": "Contract with Chitwood Studios for 2025 Holiday Lights display for $88,000 including 10% contingency.",
+            "presenter": "Rachel Waldron"
+        },
+        {
+            "title": "Rebidding Major Municipal Services Contracts",
+            "description": "Presentation on rebidding major Municipal Services contracts.",
+            "presenter": "Jay Vinicki"
+        }
+    ],
+    "notes": [
+        "Meeting had 5-minute break at 9:19 pm, reconvened at 9:25 pm",
+        "Council Member Seconder absent from entire meeting",
+        "Significant public comment on multiple rezoning applications, particularly Dominion project"
+    ]
+}
